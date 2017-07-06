@@ -1,0 +1,9 @@
+VER 3 0100000000000001 " " "INV_SWORD_2H_DRAENORHONOR_C_01.BLP"
+/script RuneFrame:SetScale(1.5) 
+/run RuneFrame:SetPoint("top", 575,  -450) 
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Pillar of Frost
+/use 13
+END

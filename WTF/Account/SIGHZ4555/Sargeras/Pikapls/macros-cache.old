@@ -1,0 +1,89 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !stealth
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip backstab
+/startattack
+/cast backstab
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip hemorrhage
+/startattack
+/cast hemorrhage
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip eviscerate
+/startattack
+/cast eviscerate
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip kidney shot
+/startattack
+/cast kidney shot
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip shiv
+/startattack
+/cast shiv
+/cast throw
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip kick
+/startattack
+/cast kick
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip shadow dance
+/use 13
+/cast Shadow Dance
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip cheap shot
+/cast premeditation
+/cast cheap shot
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip garrote
+/cast premeditation
+/cast garrote
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip ambush
+/cast premeditation
+/cast ambush
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooltip sap
+/cleartarget
+/targetenemyplayer
+/cast sap
+END
+VER 3 010000000000000E " " "SPELL_NATURE_SWIFTNESS"
+/run local f=TargetFrameToT; f:SetMovable(true); f:EnableMouse(true); f:SetUserPlaced(true); f:SetScript("onmousedown", f.StartMoving); f:SetScript("onmouseup", f.StopMovingOrSizing);
+END
+VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip gouge
+/cast gouge
+/stopattack
+END
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Revealing Strike
+/startattack
+/cast Revealing strike
+END
+VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Sinister Strike
+/startattack
+/cast Sinister Strike
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Killing Spree
+/startattack
+/cast Killing Spree
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Adrenaline Rush
+/use 13
+/cast Adrenaline Rush
+END

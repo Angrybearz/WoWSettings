@@ -1,0 +1,6 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Vanish
+/stopattack
+/cast Blood Fury
+/cast Vanish
+END

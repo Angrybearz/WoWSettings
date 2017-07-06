@@ -1,0 +1,77 @@
+VER 3 0100000000000006 " " "INV_Misc_QuestionMark"
+/cast chimera shot
+END
+VER 3 0100000000000003 " " "INV_Misc_QuestionMark"
+#showtooltip Freezing Trap
+/castsequence reset=14 Trap Launcher, Freezing Trap
+END
+VER 3 0100000000000005 " " "INV_Misc_QuestionMark"
+#showtooltip web
+/click PetActionButton4
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Explosive Trap
+/castsequence reset=14 Trap Launcher, Explosive Trap
+END
+VER 3 0100000000000004 " " "INV_Misc_QuestionMark"
+#showtooltip Ice Trap(Frost)
+/cast Trap Launcher
+/cast Ice Trap(Frost)
+END
+VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip Kill shot
+/cast !auto shot
+/cast Kill Shot
+END
+VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip Cobra Shot
+/cast !auto shot
+/cast Cobra Shot
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+#showtooptip Steady Shot
+/cast !auto shot
+/cast Steady Shot
+END
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Rapid Fire
+/cast rapid fire
+/cast berserking
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Explosive Shot
+/cast !auto shot
+/cast Explosive shot
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip Bestial Wrath
+/cast Bestial Wratht
+/cast Berserking
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Shot
+/cast !auto shot
+/cast Arcane Shot
+END
+VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
+/tar devilsaur
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip A Murder of Crows
+/use Primal Combatant's Badge of Conquest
+/cast A Murder of Crows
+END
+VER 3 0100000000000002 "FD" "INV_Misc_QuestionMark"
+/stopattack
+/cast feign death
+END
+VER 3 0100000000000001 "Mark/pet" "INV_Misc_QuestionMark"
+/cast Hunter's Mark
+/petattack
+END
+VER 3 0100000000000008 "VuhDoDCShieldData" "130"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0100000000000009 "VuhDoDCShieldNames" "130"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ang[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bea
+END

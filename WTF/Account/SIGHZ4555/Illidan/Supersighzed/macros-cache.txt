@@ -1,0 +1,42 @@
+VER 3 0100000000000002 " " "INV_Misc_QuestionMark"
+#showtooltip Lichborne
+/cast !Lichborne
+/cast [target=player] Death Coil
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+#show
+/petattack
+/cast Leap
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Obliterate
+/cast Blood Tap
+/cast Scourge Strike
+/cast Obliterate
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Summon Gargoyle
+/cast Blood Fury(Racial)
+/cast [target=player] Unholy Frenzy
+/use 13
+/cast Summon Gargoyle
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+#show
+/petattack
+/cast gnaw
+END
+VER 3 0100000000000001 " " "INV_Misc_QuestionMark"
+#showtooltip Raise Dead
+/cast Raise Dead
+/cast Death Pact
+END
+VER 3 0100000000000006 "I WIN" "RACIAL_ORC_BERSERKERSTRENGTH"
+#showtooltip
+/cast Blood Fury(Racial)
+/cast [target=player] Unholy Frenzy
+/cast Pillar of frost
+/use 13
+END

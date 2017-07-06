@@ -1,0 +1,4723 @@
+
+_detalhes_database = {
+	["announce_interrupts"] = {
+		["enabled"] = false,
+		["whisper"] = "",
+		["channel"] = "SAY",
+		["custom"] = "",
+		["next"] = "",
+	},
+	["announce_prepots"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+		["reverse"] = false,
+	},
+	["active_profile"] = "Sighz-Wyrmrest Accord",
+	["last_day"] = "05",
+	["ignore_nicktag"] = false,
+	["combat_counter"] = 350,
+	["tabela_historico"] = {
+		["tabelas"] = {
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 283,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Storm's Reach Cliffwalker"] = true,
+								["Storm's Reach Greatstag"] = true,
+								["Bearcules"] = true,
+								["Storm's Reach Warbear"] = true,
+							},
+							["targets"] = {
+								["Storm's Reach Cliffwalker"] = 904865,
+								["Storm's Reach Greatstag"] = 898171,
+								["Storm's Reach Warbear"] = 1205170,
+							},
+							["delay"] = 0,
+							["pets"] = {
+								"Spirit Wolf <Dewjr>", -- [1]
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "SHAMAN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 2432134.003219,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 21563,
+										["g_amt"] = 0,
+										["n_max"] = 20949,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 49643,
+											["Storm's Reach Greatstag"] = 8023,
+											["Storm's Reach Warbear"] = 71324,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 107427,
+										["n_min"] = 7929,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 128990,
+										["c_max"] = 21563,
+										["c_min"] = 21563,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 8,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[32175] = {
+										["c_amt"] = 1,
+										["b_amt"] = 1,
+										["c_dmg"] = 279185,
+										["g_amt"] = 0,
+										["n_max"] = 133858,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 413043,
+											["Storm's Reach Warbear"] = 125424,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 259282,
+										["n_min"] = 125424,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 538467,
+										["c_max"] = 279185,
+										["id"] = 32175,
+										["r_dmg"] = 0,
+										["c_min"] = 279185,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 125424,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[193796] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 68467,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 68467,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 68467,
+										["n_min"] = 68467,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 68467,
+										["c_max"] = 0,
+										["id"] = 193796,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[32176] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 144232,
+										["g_amt"] = 0,
+										["n_max"] = 84999,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 212949,
+											["Storm's Reach Warbear"] = 84999,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 153716,
+										["n_min"] = 68717,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 297948,
+										["c_max"] = 144232,
+										["id"] = 32176,
+										["r_dmg"] = 0,
+										["c_min"] = 144232,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[188089] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 521072,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 521072,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 521072,
+										["c_max"] = 521072,
+										["id"] = 188089,
+										["r_dmg"] = 0,
+										["c_min"] = 521072,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[25504] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 22818,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 66500,
+											["Storm's Reach Warbear"] = 90718,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 157218,
+										["n_min"] = 16141,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 157218,
+										["c_max"] = 0,
+										["id"] = 25504,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[215802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 40645,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 40645,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 40645,
+										["n_min"] = 40645,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 40645,
+										["c_max"] = 0,
+										["id"] = 215802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[210854] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 22457,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 22457,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 22457,
+										["c_max"] = 22457,
+										["id"] = 210854,
+										["r_dmg"] = 0,
+										["c_min"] = 22457,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[195256] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 36916,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 69305,
+											["Storm's Reach Greatstag"] = 74508,
+											["Storm's Reach Warbear"] = 9690,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 153503,
+										["n_min"] = 1449,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 153503,
+										["c_max"] = 0,
+										["id"] = 195256,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 12,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[193786] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 265313,
+										["g_amt"] = 0,
+										["n_max"] = 190175,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 265313,
+											["Storm's Reach Warbear"] = 190175,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 190175,
+										["n_min"] = 190175,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 455488,
+										["c_max"] = 265313,
+										["id"] = 193786,
+										["r_dmg"] = 0,
+										["c_min"] = 265313,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[196834] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 39367,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 39367,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 39367,
+										["n_min"] = 39367,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 39367,
+										["c_max"] = 0,
+										["id"] = 196834,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[10444] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8512,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 8512,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8512,
+										["n_min"] = 8512,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 8512,
+										["c_max"] = 0,
+										["id"] = 10444,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["end_time"] = 1498716418,
+							["damage_taken"] = 1565053.003219,
+							["total"] = 3008206.003219,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["last_dps"] = 161237.390964139,
+							["friendlyfire_total"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1498716416,
+							["on_hold"] = false,
+							["start_time"] = 1498716399,
+							["serial"] = "Player-1171-07AE3581",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["damage_from"] = {
+								["Storm's Reach Warbear"] = true,
+							},
+							["targets"] = {
+								["Storm's Reach Cliffwalker"] = 52780,
+								["Storm's Reach Greatstag"] = 411524,
+								["Storm's Reach Warbear"] = 111768,
+							},
+							["pets"] = {
+							},
+							["damage_taken"] = 43452.007509,
+							["friendlyfire_total"] = 0,
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 576072.007509,
+							["last_event"] = 1498716416,
+							["dps_started"] = false,
+							["total"] = 576072.007509,
+							["delay"] = 0,
+							["ownerName"] = "Dewjr",
+							["nome"] = "Spirit Wolf <Dewjr>",
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 67994,
+										["g_amt"] = 0,
+										["n_max"] = 17594,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 52780,
+											["Storm's Reach Greatstag"] = 70374,
+											["Storm's Reach Warbear"] = 111768,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 166928,
+										["n_min"] = 14875,
+										["g_dmg"] = 0,
+										["counter"] = 12,
+										["total"] = 234922,
+										["c_max"] = 35187,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 32807,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 10,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[224126] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 138302,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 138302,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 138302,
+										["n_min"] = 138302,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 138302,
+										["c_max"] = 0,
+										["id"] = 224126,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[224125] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 92202,
+										["targets"] = {
+											["Storm's Reach Greatstag"] = 202848,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 202848,
+										["n_min"] = 36882,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 202848,
+										["c_max"] = 0,
+										["id"] = 224125,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["friendlyfire"] = {
+							},
+							["end_time"] = 1498716418,
+							["last_dps"] = 0,
+							["custom"] = 0,
+							["tipo"] = 1,
+							["on_hold"] = false,
+							["start_time"] = 1498716399,
+							["serial"] = "Creature-0-3022-1220-3714-100820-0000D498EE",
+							["classe"] = "PET",
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 283,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 283,
+					["_ActorTable"] = {
+						{
+							["received"] = 10568.008304,
+							["resource"] = 0.008304,
+							["targets"] = {
+								["Dewjr"] = 10508,
+							},
+							["pets"] = {
+								"Spirit Wolf <Dewjr>", -- [1]
+							},
+							["powertype"] = 0,
+							["classe"] = "SHAMAN",
+							["total"] = 10568.008304,
+							["nome"] = "Dewjr",
+							["spells"] = {
+								["_ActorTable"] = {
+									[193786] = {
+										["id"] = 193786,
+										["total"] = 52,
+										["targets"] = {
+											["Dewjr"] = 52,
+										},
+										["counter"] = 2,
+									},
+									[187890] = {
+										["id"] = 187890,
+										["total"] = 85,
+										["targets"] = {
+											["Dewjr"] = 85,
+										},
+										["counter"] = 17,
+									},
+									[215270] = {
+										["id"] = 215270,
+										["total"] = 3771,
+										["targets"] = {
+											["Dewjr"] = 3771,
+										},
+										["counter"] = 1,
+									},
+									[101033] = {
+										["id"] = 101033,
+										["total"] = 6600,
+										["targets"] = {
+											["Dewjr"] = 6600,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
+							["last_event"] = 1499322218,
+							["serial"] = "Player-1171-07AE3581",
+							["spec"] = 263,
+						}, -- [1]
+						{
+							["flag_original"] = 8465,
+							["resource"] = 0.003824,
+							["targets"] = {
+								["Dewjr"] = 60,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "PET",
+							["total"] = 60.003824,
+							["ownerName"] = "Dewjr",
+							["nome"] = "Spirit Wolf <Dewjr>",
+							["spells"] = {
+								["_ActorTable"] = {
+									[190185] = {
+										["id"] = 190185,
+										["total"] = 60,
+										["targets"] = {
+											["Dewjr"] = 60,
+										},
+										["counter"] = 12,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["last_event"] = 1498716412,
+							["received"] = 0.003824,
+							["serial"] = "Creature-0-3022-1220-3714-100820-0000D498EE",
+							["tipo"] = 3,
+						}, -- [2]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 283,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[188089] = {
+										["uptime"] = 5,
+										["activedamt"] = 0,
+										["id"] = 188089,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[147732] = {
+										["uptime"] = 3,
+										["activedamt"] = 0,
+										["id"] = 147732,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[209527] = {
+										["uptime"] = 19,
+										["activedamt"] = 1,
+										["id"] = 209527,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[33697] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 33697,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[205648] = {
+										["uptime"] = 3,
+										["activedamt"] = 2,
+										["id"] = 205648,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198240] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 198240,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196834] = {
+										["uptime"] = 6,
+										["activedamt"] = 2,
+										["id"] = 196834,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[201846] = {
+										["uptime"] = 6,
+										["activedamt"] = 2,
+										["id"] = 201846,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 19,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195222] = {
+										["uptime"] = 14,
+										["activedamt"] = 1,
+										["id"] = 195222,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202004] = {
+										["uptime"] = 15,
+										["activedamt"] = 2,
+										["id"] = 202004,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198293] = {
+										["uptime"] = 10,
+										["activedamt"] = 1,
+										["id"] = 198293,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["uptime"] = 19,
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2645] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 2645,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194084] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 194084,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 8,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[196884] = 1,
+								[17364] = 3,
+								[193786] = 2,
+								[188089] = 1,
+								[193796] = 1,
+								[196834] = 1,
+								[196881] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1498716418,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1171-07AE3581",
+							["buff_uptime"] = 133,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 283,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dewjr"] = true,
+				},
+				["last_events_tables"] = {
+					{
+						{
+							{
+								true, -- [1]
+								181346, -- [2]
+								19221, -- [3]
+								1498716406.138, -- [4]
+								1529745, -- [5]
+								"Storm's Reach Warbear", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [1]
+							{
+								true, -- [1]
+								1, -- [2]
+								42396, -- [3]
+								1498716406.511, -- [4]
+								1529745, -- [5]
+								"Storm's Reach Warbear", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [2]
+							{
+								true, -- [1]
+								181346, -- [2]
+								2601, -- [3]
+								1498716408.193, -- [4]
+								1484748, -- [5]
+								"Storm's Reach Warbear", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [3]
+							{
+								true, -- [1]
+								181346, -- [2]
+								2600, -- [3]
+								1498716410.183, -- [4]
+								1482148, -- [5]
+								"Storm's Reach Warbear", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [4]
+							{
+								true, -- [1]
+								181346, -- [2]
+								2601, -- [3]
+								1498716412.189, -- [4]
+								1479547, -- [5]
+								"Storm's Reach Warbear", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [5]
+							{
+								true, -- [1]
+								1, -- [2]
+								41428, -- [3]
+								1498716413.037, -- [4]
+								1479547, -- [5]
+								"Storm's Reach Cliffwalker", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [6]
+							{
+								true, -- [1]
+								1822, -- [2]
+								169428, -- [3]
+								1498716418.934, -- [4]
+								1268691, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [7]
+							{
+								true, -- [1]
+								1, -- [2]
+								24107, -- [3]
+								1498716419.075, -- [4]
+								1268691, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [8]
+							{
+								true, -- [1]
+								1, -- [2]
+								57946, -- [3]
+								1498716419.187, -- [4]
+								1244584, -- [5]
+								"Storm's Reach Greatstag", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [9]
+							{
+								true, -- [1]
+								1, -- [2]
+								24119, -- [3]
+								1498716419.866, -- [4]
+								1186638, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [10]
+							{
+								true, -- [1]
+								5221, -- [2]
+								145233, -- [3]
+								1498716419.866, -- [4]
+								1041405, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [11]
+							{
+								true, -- [1]
+								214593, -- [2]
+								102944, -- [3]
+								1498716420.177, -- [4]
+								914342, -- [5]
+								"Storm's Reach Greatstag", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [12]
+							{
+								true, -- [1]
+								1, -- [2]
+								25664, -- [3]
+								1498716420.585, -- [4]
+								914342, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [13]
+							{
+								true, -- [1]
+								155722, -- [2]
+								211785, -- [3]
+								1498716421.04, -- [4]
+								676893, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [14]
+							{
+								true, -- [1]
+								1, -- [2]
+								36089, -- [3]
+								1498716421.375, -- [4]
+								676893, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [15]
+							{
+								true, -- [1]
+								1, -- [2]
+								23862, -- [3]
+								1498716422.185, -- [4]
+								640804, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [16]
+							{
+								true, -- [1]
+								210723, -- [2]
+								5702, -- [3]
+								1498716422.317, -- [4]
+								635102, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [17]
+							{
+								true, -- [1]
+								210723, -- [2]
+								6558, -- [3]
+								1498716422.572, -- [4]
+								604682, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [18]
+							{
+								true, -- [1]
+								210723, -- [2]
+								6557, -- [3]
+								1498716422.79, -- [4]
+								598125, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [19]
+							{
+								true, -- [1]
+								155722, -- [2]
+								162369, -- [3]
+								1498716422.916, -- [4]
+								435756, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [20]
+							{
+								true, -- [1]
+								210723, -- [2]
+								9836, -- [3]
+								1498716422.916, -- [4]
+								425920, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [21]
+							{
+								true, -- [1]
+								1, -- [2]
+								25458, -- [3]
+								1498716422.916, -- [4]
+								425920, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [22]
+							{
+								true, -- [1]
+								210723, -- [2]
+								6557, -- [3]
+								1498716423.179, -- [4]
+								393905, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								-1, -- [10]
+							}, -- [23]
+							{
+								true, -- [1]
+								22568, -- [2]
+								409992, -- [3]
+								1498716423.179, -- [4]
+								1, -- [5]
+								"Bearcules", -- [6]
+								nil, -- [7]
+								1, -- [8]
+								false, -- [9]
+								16087, -- [10]
+							}, -- [24]
+							{
+								3, -- [1]
+								0, -- [2]
+								0, -- [3]
+								0, -- [4]
+								0, -- [5]
+								"Dewjr", -- [6]
+							}, -- [25]
+						}, -- [1]
+						1498716423.179, -- [2]
+						"Dewjr", -- [3]
+						"SHAMAN", -- [4]
+						1616040, -- [5]
+						"0m 18s", -- [6]
+						["dead"] = true,
+						["dead_at"] = 18.6569999998901,
+					}, -- [1]
+				},
+				["enemy"] = "Storm's Reach Warbear",
+				["combat_counter"] = 349,
+				["playing_solo"] = true,
+				["totals"] = {
+					3008205.87792, -- [1]
+					0, -- [2]
+					{
+						2, -- [1]
+						[0] = 10565.985262,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Dewjr"] = 3008206.003219,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 965401.166,
+				["combat_id"] = 283,
+				["TimeData"] = {
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "23:06:58",
+				["data_inicio"] = "23:06:39",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					2432134, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 10508,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 1,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 965382.509,
+				["contra"] = "Storm's Reach Warbear",
+				["instance_type"] = "none",
+			}, -- [1]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 282,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Storm's Reach Cliffwalker"] = true,
+								["Storm's Reach Warbear"] = true,
+							},
+							["targets"] = {
+								["Storm's Reach Cliffwalker"] = 999648,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "SHAMAN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 999648.00563,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["end_time"] = 1498716383,
+							["damage_taken"] = 101097.00563,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 61661,
+										["g_amt"] = 0,
+										["n_max"] = 15671,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 84860,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23199,
+										["n_min"] = 7528,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 84860,
+										["c_max"] = 31149,
+										["c_min"] = 30512,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[196834] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 38554,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 38554,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 38554,
+										["n_min"] = 38554,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 38554,
+										["c_max"] = 0,
+										["id"] = 196834,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[60103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 138025,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 138025,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 138025,
+										["n_min"] = 138025,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 138025,
+										["c_max"] = 0,
+										["id"] = 60103,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[10444] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 8336,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 50013,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 50013,
+										["n_min"] = 8335,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 50013,
+										["c_max"] = 0,
+										["id"] = 10444,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[25504] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14980,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 29954,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 29954,
+										["n_min"] = 14974,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 29954,
+										["c_max"] = 0,
+										["id"] = 25504,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[193786] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 286536,
+										["g_amt"] = 0,
+										["n_max"] = 143268,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 429804,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 143268,
+										["n_min"] = 143268,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 429804,
+										["c_max"] = 286536,
+										["id"] = 193786,
+										["r_dmg"] = 0,
+										["c_min"] = 286536,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[210854] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 20703,
+										["g_amt"] = 0,
+										["n_max"] = 11055,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 73083,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 52380,
+										["n_min"] = 10103,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 73083,
+										["c_max"] = 20703,
+										["id"] = 210854,
+										["r_dmg"] = 0,
+										["c_min"] = 20703,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 5,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[193796] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 125037,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 125037,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 125037,
+										["c_max"] = 125037,
+										["id"] = 193796,
+										["r_dmg"] = 0,
+										["c_min"] = 125037,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[195256] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17759,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 30318,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30318,
+										["n_min"] = 25,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 30318,
+										["c_max"] = 0,
+										["id"] = 195256,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["last_dps"] = 163394.574309784,
+							["friendlyfire"] = {
+							},
+							["colocacao"] = 1,
+							["last_event"] = 1498716383,
+							["on_hold"] = false,
+							["start_time"] = 1498716377,
+							["serial"] = "Player-1171-07AE3581",
+							["total"] = 999648.00563,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 282,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 282,
+					["_ActorTable"] = {
+						{
+							["received"] = 62.007599,
+							["resource"] = 0.007599,
+							["targets"] = {
+								["Dewjr"] = 62,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "SHAMAN",
+							["total"] = 62.007599,
+							["nome"] = "Dewjr",
+							["spells"] = {
+								["_ActorTable"] = {
+									[193786] = {
+										["id"] = 193786,
+										["total"] = 52,
+										["targets"] = {
+											["Dewjr"] = 52,
+										},
+										["counter"] = 2,
+									},
+									[187890] = {
+										["id"] = 187890,
+										["total"] = 30,
+										["targets"] = {
+											["Dewjr"] = 30,
+										},
+										["counter"] = 6,
+									},
+									[188070] = {
+										["id"] = 188070,
+										["total"] = -20,
+										["targets"] = {
+											["Dewjr"] = -20,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
+							["last_event"] = 1498716391,
+							["serial"] = "Player-1171-07AE3581",
+							["spec"] = 263,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 282,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[147732] = {
+										["uptime"] = 5,
+										["activedamt"] = 0,
+										["id"] = 147732,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[205648] = {
+										["counter"] = 0,
+										["uptime"] = 0,
+										["targets"] = {
+										},
+										["id"] = 205648,
+										["activedamt"] = 1,
+										["actived"] = true,
+										["actived_at"] = 1498716383,
+									},
+									[196834] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 196834,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[201846] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 201846,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195222] = {
+										["uptime"] = 2,
+										["activedamt"] = 1,
+										["id"] = 195222,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202004] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 202004,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[209527] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 209527,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194084] = {
+										["uptime"] = 6,
+										["activedamt"] = 1,
+										["id"] = 194084,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198293] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 198293,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 5,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193786] = 2,
+								[60103] = 1,
+								[196834] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1498716383,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1171-07AE3581",
+							["buff_uptime"] = 38,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 282,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dewjr"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Storm's Reach Cliffwalker",
+				["combat_counter"] = 348,
+				["playing_solo"] = true,
+				["totals"] = {
+					999647.991794, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 62,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Dewjr"] = 999648.00563,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 965367.08,
+				["combat_id"] = 282,
+				["instance_type"] = "none",
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "23:06:24",
+				["data_inicio"] = "23:06:18",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					999648, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 62,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 965360.962,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [2]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 281,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Storm's Reach Warbear"] = true,
+							},
+							["targets"] = {
+								["Storm's Reach Warbear"] = 1090170,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "SHAMAN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1090170.005907,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 1090170.005907,
+							["damage_taken"] = 121853.005907,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 46083,
+										["g_amt"] = 0,
+										["n_max"] = 15054,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 69121,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 23038,
+										["n_min"] = 7984,
+										["g_dmg"] = 0,
+										["counter"] = 4,
+										["total"] = 69121,
+										["c_max"] = 31086,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["c_min"] = 14997,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									}, -- [1]
+									[32175] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 126904,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 251861,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 251861,
+										["n_min"] = 124957,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 251861,
+										["c_max"] = 0,
+										["id"] = 32175,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[32176] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 231634,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 231634,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 231634,
+										["c_max"] = 116688,
+										["id"] = 32176,
+										["r_dmg"] = 0,
+										["c_min"] = 114946,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[193786] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 265312,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 265312,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 265312,
+										["c_max"] = 265312,
+										["id"] = 193786,
+										["r_dmg"] = 0,
+										["c_min"] = 265312,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[215802] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 37113,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 37113,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 37113,
+										["n_min"] = 37113,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 37113,
+										["c_max"] = 0,
+										["id"] = 215802,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[210854] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 41073,
+										["g_amt"] = 0,
+										["n_max"] = 10526,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 113332,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 72259,
+										["n_min"] = 10136,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 113332,
+										["c_max"] = 21186,
+										["id"] = 210854,
+										["r_dmg"] = 0,
+										["c_min"] = 19887,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[10444] = {
+										["c_amt"] = 3,
+										["b_amt"] = 0,
+										["c_dmg"] = 46308,
+										["g_amt"] = 0,
+										["n_max"] = 8336,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 93235,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 46927,
+										["n_min"] = 7718,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 93235,
+										["c_max"] = 15436,
+										["id"] = 10444,
+										["r_dmg"] = 0,
+										["c_min"] = 15436,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 6,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[25504] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 14454,
+										["targets"] = {
+											["Storm's Reach Warbear"] = 28562,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 28562,
+										["n_min"] = 14108,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 28562,
+										["c_max"] = 0,
+										["id"] = 25504,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["last_dps"] = 214305.092573142,
+							["end_time"] = 1498716376,
+							["colocacao"] = 1,
+							["last_event"] = 1498716375,
+							["on_hold"] = false,
+							["start_time"] = 1498716371,
+							["serial"] = "Player-1171-07AE3581",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 281,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 281,
+					["_ActorTable"] = {
+						{
+							["received"] = 51.007126,
+							["resource"] = 0.007126,
+							["targets"] = {
+								["Dewjr"] = 51,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "SHAMAN",
+							["total"] = 51.007126,
+							["nome"] = "Dewjr",
+							["spells"] = {
+								["_ActorTable"] = {
+									[187890] = {
+										["id"] = 187890,
+										["total"] = 25,
+										["targets"] = {
+											["Dewjr"] = 25,
+										},
+										["counter"] = 5,
+									},
+									[193786] = {
+										["id"] = 193786,
+										["total"] = 26,
+										["targets"] = {
+											["Dewjr"] = 26,
+										},
+										["counter"] = 1,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
+							["last_event"] = 1498716375,
+							["serial"] = "Player-1171-07AE3581",
+							["spec"] = 263,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 281,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[147732] = {
+										["uptime"] = 4,
+										["activedamt"] = 0,
+										["id"] = 147732,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[209527] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 209527,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[205648] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 205648,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198240] = {
+										["uptime"] = 0,
+										["activedamt"] = 0,
+										["id"] = 198240,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196834] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 196834,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[201846] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 201846,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194084] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 194084,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202004] = {
+										["uptime"] = 2,
+										["activedamt"] = 2,
+										["id"] = 202004,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198293] = {
+										["uptime"] = 3,
+										["activedamt"] = 1,
+										["id"] = 198293,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[2645] = {
+										["uptime"] = 0,
+										["activedamt"] = 1,
+										["id"] = 2645,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 4,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193786] = 1,
+								[17364] = 2,
+								[196881] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1498716376,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1171-07AE3581",
+							["buff_uptime"] = 32,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 281,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dewjr"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Storm's Reach Warbear",
+				["combat_counter"] = 347,
+				["playing_solo"] = true,
+				["totals"] = {
+					1090169.998507, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 51,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Dewjr"] = 1090170.005907,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 965359.784,
+				["combat_id"] = 281,
+				["TimeData"] = {
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "23:06:17",
+				["data_inicio"] = "23:06:12",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1090170, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 51,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 965354.697,
+				["contra"] = "Storm's Reach Warbear",
+				["instance_type"] = "none",
+			}, -- [3]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 280,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Storm's Reach Worg"] = true,
+							},
+							["targets"] = {
+								["Storm's Reach Worg"] = 1581931,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "SHAMAN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1581931.002975,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 4,
+										["b_amt"] = 0,
+										["c_dmg"] = 91885,
+										["g_amt"] = 0,
+										["n_max"] = 15662,
+										["targets"] = {
+											["Storm's Reach Worg"] = 153403,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 61518,
+										["n_min"] = 7466,
+										["g_dmg"] = 0,
+										["counter"] = 10,
+										["total"] = 153403,
+										["c_max"] = 32058,
+										["c_min"] = 14906,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 5,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[32175] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 139409,
+										["targets"] = {
+											["Storm's Reach Worg"] = 139409,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 139409,
+										["n_min"] = 139409,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 139409,
+										["c_max"] = 0,
+										["id"] = 32175,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[25504] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 16179,
+										["targets"] = {
+											["Storm's Reach Worg"] = 31331,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 31331,
+										["n_min"] = 15152,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 31331,
+										["c_max"] = 0,
+										["id"] = 25504,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[32176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 70415,
+										["targets"] = {
+											["Storm's Reach Worg"] = 70415,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 70415,
+										["n_min"] = 70415,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 70415,
+										["c_max"] = 0,
+										["id"] = 32176,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[196834] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 38554,
+										["targets"] = {
+											["Storm's Reach Worg"] = 38554,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 38554,
+										["n_min"] = 38554,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 38554,
+										["c_max"] = 0,
+										["id"] = 196834,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[210801] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 26681,
+										["g_amt"] = 0,
+										["n_max"] = 6671,
+										["targets"] = {
+											["Storm's Reach Worg"] = 73373,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 46692,
+										["n_min"] = 6670,
+										["g_dmg"] = 0,
+										["counter"] = 9,
+										["total"] = 73373,
+										["c_max"] = 13341,
+										["id"] = 210801,
+										["r_dmg"] = 0,
+										["c_min"] = 13340,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 7,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[193786] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 551847,
+										["g_amt"] = 0,
+										["n_max"] = 143267,
+										["targets"] = {
+											["Storm's Reach Worg"] = 695114,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 143267,
+										["n_min"] = 143267,
+										["g_dmg"] = 0,
+										["counter"] = 3,
+										["total"] = 695114,
+										["c_max"] = 286535,
+										["id"] = 193786,
+										["r_dmg"] = 0,
+										["c_min"] = 265312,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[187874] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 53969,
+										["targets"] = {
+											["Storm's Reach Worg"] = 53969,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 53969,
+										["n_min"] = 53969,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 53969,
+										["c_max"] = 0,
+										["id"] = 187874,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[195256] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17747,
+										["targets"] = {
+											["Storm's Reach Worg"] = 93769,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 93769,
+										["n_min"] = 2042,
+										["g_dmg"] = 0,
+										["counter"] = 14,
+										["total"] = 93769,
+										["c_max"] = 0,
+										["id"] = 195256,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 14,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[60103] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 145069,
+										["targets"] = {
+											["Storm's Reach Worg"] = 145069,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 145069,
+										["n_min"] = 145069,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 145069,
+										["c_max"] = 0,
+										["id"] = 60103,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[193796] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 62518,
+										["targets"] = {
+											["Storm's Reach Worg"] = 62518,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 62518,
+										["n_min"] = 62518,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 62518,
+										["c_max"] = 0,
+										["id"] = 193796,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[10444] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 16671,
+										["g_amt"] = 0,
+										["n_max"] = 8336,
+										["targets"] = {
+											["Storm's Reach Worg"] = 25007,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 8336,
+										["n_min"] = 8336,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 25007,
+										["c_max"] = 16671,
+										["id"] = 10444,
+										["r_dmg"] = 0,
+										["c_min"] = 16671,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 1,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["dps_started"] = false,
+							["end_time"] = 1498716369,
+							["damage_taken"] = 259202.002975,
+							["total"] = 1581931.002975,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["last_dps"] = 128821.742912981,
+							["friendlyfire_total"] = 0,
+							["colocacao"] = 1,
+							["last_event"] = 1498716368,
+							["on_hold"] = false,
+							["start_time"] = 1498716356,
+							["serial"] = "Player-1171-07AE3581",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 280,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 280,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["resource"] = 0.0054,
+							["targets"] = {
+								["Dewjr"] = 107,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "SHAMAN",
+							["total"] = 107.0054,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["tipo"] = 3,
+							["received"] = 107.0054,
+							["last_event"] = 1498716367,
+							["serial"] = "Player-1171-07AE3581",
+							["spells"] = {
+								["_ActorTable"] = {
+									[187890] = {
+										["id"] = 187890,
+										["total"] = 55,
+										["targets"] = {
+											["Dewjr"] = 55,
+										},
+										["counter"] = 11,
+									},
+									[193786] = {
+										["id"] = 193786,
+										["total"] = 52,
+										["targets"] = {
+											["Dewjr"] = 52,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 280,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[147732] = {
+										["uptime"] = 1,
+										["activedamt"] = 0,
+										["id"] = 147732,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[209527] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 209527,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[205648] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 205648,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198300] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 198300,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196834] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 196834,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[201846] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 201846,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195222] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 195222,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194084] = {
+										["uptime"] = 3,
+										["activedamt"] = 1,
+										["id"] = 194084,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202004] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 202004,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[225787] = {
+										["uptime"] = 13,
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[198293] = {
+										["uptime"] = 1,
+										["activedamt"] = 1,
+										["id"] = 198293,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 1,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[60103] = 1,
+								[193786] = 2,
+								[17364] = 1,
+								[193796] = 1,
+								[196834] = 1,
+								[187874] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1498716369,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1171-07AE3581",
+							["buff_uptime"] = 68,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 280,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dewjr"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Storm's Reach Worg",
+				["combat_counter"] = 346,
+				["playing_solo"] = true,
+				["totals"] = {
+					1581930.982415, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 106.995389,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = false,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Dewjr"] = 1581931.002975,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 965352.884,
+				["combat_id"] = 280,
+				["TimeData"] = {
+				},
+				["hasSaved"] = true,
+				["frags"] = {
+				},
+				["data_fim"] = "23:06:10",
+				["data_inicio"] = "23:05:57",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1581931, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 107,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 965339.789,
+				["contra"] = "Storm's Reach Worg",
+				["instance_type"] = "none",
+			}, -- [4]
+			{
+				{
+					["tipo"] = 2,
+					["combatId"] = 279,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1297,
+							["damage_from"] = {
+								["Storm's Reach Cliffwalker"] = true,
+							},
+							["targets"] = {
+								["Storm's Reach Cliffwalker"] = 1028115,
+							},
+							["delay"] = 0,
+							["pets"] = {
+							},
+							["custom"] = 0,
+							["tipo"] = 1,
+							["classe"] = "SHAMAN",
+							["raid_targets"] = {
+							},
+							["total_without_pet"] = 1028115.00144,
+							["friendlyfire_total"] = 0,
+							["dps_started"] = false,
+							["total"] = 1028115.00144,
+							["damage_taken"] = 79745.00144,
+							["spells"] = {
+								["_ActorTable"] = {
+									{
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 45564,
+										["g_amt"] = 0,
+										["n_max"] = 15941,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 76100,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 30536,
+										["n_min"] = 14595,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 76100,
+										["c_max"] = 29722,
+										["c_min"] = 15842,
+										["id"] = 1,
+										["r_dmg"] = 0,
+										["r_amt"] = 0,
+										["a_dmg"] = 0,
+										["m_crit"] = 0,
+										["b_dmg"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["a_amt"] = 0,
+										["n_amt"] = 2,
+										["spellschool"] = 1,
+										["MISS"] = 1,
+									}, -- [1]
+									[10444] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 33342,
+										["g_amt"] = 0,
+										["n_max"] = 8336,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 66684,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 33342,
+										["n_min"] = 8335,
+										["g_dmg"] = 0,
+										["counter"] = 6,
+										["total"] = 66684,
+										["c_max"] = 16671,
+										["id"] = 10444,
+										["r_dmg"] = 0,
+										["c_min"] = 16671,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 4,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[193796] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 125037,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 125037,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 125037,
+										["c_max"] = 125037,
+										["id"] = 193796,
+										["r_dmg"] = 0,
+										["c_min"] = 125037,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 4,
+									},
+									[193786] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 143267,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 275923,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 275923,
+										["n_min"] = 132656,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 275923,
+										["c_max"] = 0,
+										["id"] = 193786,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[195256] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 17131,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 69177,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 69177,
+										["n_min"] = 1310,
+										["g_dmg"] = 0,
+										["counter"] = 8,
+										["total"] = 69177,
+										["c_max"] = 0,
+										["id"] = 195256,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 8,
+										["a_dmg"] = 0,
+										["spellschool"] = 8,
+									},
+									[32176] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 63687,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 89535,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 89535,
+										["n_min"] = 25848,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 89535,
+										["c_max"] = 0,
+										["id"] = 32176,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+									[210854] = {
+										["c_amt"] = 2,
+										["b_amt"] = 0,
+										["c_dmg"] = 43099,
+										["g_amt"] = 0,
+										["n_max"] = 10938,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 75459,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 32360,
+										["n_min"] = 10525,
+										["g_dmg"] = 0,
+										["counter"] = 5,
+										["total"] = 75459,
+										["c_max"] = 22250,
+										["id"] = 210854,
+										["r_dmg"] = 0,
+										["c_min"] = 20849,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 3,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[196834] = {
+										["c_amt"] = 1,
+										["b_amt"] = 0,
+										["c_dmg"] = 77108,
+										["g_amt"] = 0,
+										["n_max"] = 0,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 77108,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 0,
+										["n_min"] = 0,
+										["g_dmg"] = 0,
+										["counter"] = 1,
+										["total"] = 77108,
+										["c_max"] = 77108,
+										["id"] = 196834,
+										["r_dmg"] = 0,
+										["c_min"] = 77108,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 0,
+										["a_dmg"] = 0,
+										["spellschool"] = 16,
+									},
+									[32175] = {
+										["c_amt"] = 0,
+										["b_amt"] = 0,
+										["c_dmg"] = 0,
+										["g_amt"] = 0,
+										["n_max"] = 121470,
+										["targets"] = {
+											["Storm's Reach Cliffwalker"] = 173092,
+										},
+										["m_dmg"] = 0,
+										["n_dmg"] = 173092,
+										["n_min"] = 51622,
+										["g_dmg"] = 0,
+										["counter"] = 2,
+										["total"] = 173092,
+										["c_max"] = 0,
+										["id"] = 32175,
+										["r_dmg"] = 0,
+										["c_min"] = 0,
+										["r_amt"] = 0,
+										["m_crit"] = 0,
+										["a_amt"] = 0,
+										["m_amt"] = 0,
+										["successful_casted"] = 0,
+										["b_dmg"] = 0,
+										["n_amt"] = 2,
+										["a_dmg"] = 0,
+										["spellschool"] = 1,
+									},
+								},
+								["tipo"] = 2,
+							},
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["last_dps"] = 136174.172375319,
+							["end_time"] = 1498716337,
+							["colocacao"] = 1,
+							["last_event"] = 1498716335,
+							["on_hold"] = false,
+							["start_time"] = 1498716329,
+							["serial"] = "Player-1171-07AE3581",
+							["friendlyfire"] = {
+							},
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["tipo"] = 3,
+					["combatId"] = 279,
+					["_ActorTable"] = {
+					},
+				}, -- [2]
+				{
+					["tipo"] = 7,
+					["combatId"] = 279,
+					["_ActorTable"] = {
+						{
+							["received"] = 72.003038,
+							["resource"] = 0.003038,
+							["targets"] = {
+								["Dewjr"] = 72,
+							},
+							["pets"] = {
+							},
+							["powertype"] = 0,
+							["classe"] = "SHAMAN",
+							["total"] = 72.003038,
+							["nome"] = "Dewjr",
+							["spells"] = {
+								["_ActorTable"] = {
+									[187890] = {
+										["id"] = 187890,
+										["total"] = 20,
+										["targets"] = {
+											["Dewjr"] = 20,
+										},
+										["counter"] = 4,
+									},
+									[193786] = {
+										["id"] = 193786,
+										["total"] = 52,
+										["targets"] = {
+											["Dewjr"] = 52,
+										},
+										["counter"] = 2,
+									},
+								},
+								["tipo"] = 7,
+							},
+							["grupo"] = true,
+							["tipo"] = 3,
+							["flag_original"] = 1297,
+							["last_event"] = 1498716356,
+							["serial"] = "Player-1171-07AE3581",
+							["spec"] = 263,
+						}, -- [1]
+					},
+				}, -- [3]
+				{
+					["tipo"] = 9,
+					["combatId"] = 279,
+					["_ActorTable"] = {
+						{
+							["flag_original"] = 1047,
+							["debuff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[147732] = {
+										["uptime"] = 4,
+										["activedamt"] = 0,
+										["id"] = 147732,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["pets"] = {
+							},
+							["classe"] = "SHAMAN",
+							["buff_uptime_spells"] = {
+								["_ActorTable"] = {
+									[225787] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 225787,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[209527] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 209527,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[202004] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 202004,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[227723] = {
+										["uptime"] = 8,
+										["activedamt"] = 1,
+										["id"] = 227723,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[195222] = {
+										["uptime"] = 7,
+										["activedamt"] = 1,
+										["id"] = 195222,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[196834] = {
+										["uptime"] = 4,
+										["activedamt"] = 1,
+										["id"] = 196834,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+									[194084] = {
+										["uptime"] = 5,
+										["activedamt"] = 1,
+										["id"] = 194084,
+										["targets"] = {
+										},
+										["actived"] = false,
+										["counter"] = 0,
+									},
+								},
+								["tipo"] = 9,
+							},
+							["debuff_uptime"] = 4,
+							["nome"] = "Dewjr",
+							["spec"] = 263,
+							["grupo"] = true,
+							["spell_cast"] = {
+								[193786] = 2,
+								[17364] = 1,
+								[193796] = 1,
+								[196834] = 1,
+							},
+							["tipo"] = 4,
+							["last_event"] = 1498716337,
+							["buff_uptime_targets"] = {
+							},
+							["debuff_uptime_targets"] = {
+							},
+							["serial"] = "Player-1171-07AE3581",
+							["buff_uptime"] = 48,
+						}, -- [1]
+					},
+				}, -- [4]
+				{
+					["tipo"] = 2,
+					["combatId"] = 279,
+					["_ActorTable"] = {
+					},
+				}, -- [5]
+				["raid_roster"] = {
+					["Dewjr"] = true,
+				},
+				["last_events_tables"] = {
+				},
+				["enemy"] = "Storm's Reach Cliffwalker",
+				["combat_counter"] = 344,
+				["playing_solo"] = true,
+				["totals"] = {
+					1028114.973873, -- [1]
+					-0.008896, -- [2]
+					{
+						-81.007695, -- [1]
+						[0] = 152.99613,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+					["voidzone_damage"] = 0,
+					["frags_total"] = 0,
+				},
+				["player_last_events"] = {
+				},
+				["frags_need_refresh"] = true,
+				["__call"] = {
+				},
+				["PhaseData"] = {
+					{
+						1, -- [1]
+						1, -- [2]
+					}, -- [1]
+					["damage"] = {
+						{
+							["Dewjr"] = 2073042.005386,
+						}, -- [1]
+					},
+					["heal_section"] = {
+					},
+					["heal"] = {
+						{
+						}, -- [1]
+					},
+					["damage_section"] = {
+					},
+				},
+				["end_time"] = 965320.376,
+				["instance_type"] = "none",
+				["combat_id"] = 279,
+				["resincked"] = true,
+				["hasSaved"] = true,
+				["frags"] = {
+					["Storm's Reach Warbear"] = 1,
+				},
+				["data_fim"] = "23:05:37",
+				["data_inicio"] = "23:05:30",
+				["CombatSkillCache"] = {
+				},
+				["totals_grupo"] = {
+					1028115, -- [1]
+					0, -- [2]
+					{
+						0, -- [1]
+						[0] = 72,
+						[6] = 0,
+						[3] = 0,
+					}, -- [3]
+					{
+						["buff_uptime"] = 0,
+						["ress"] = 0,
+						["dead"] = 0,
+						["cc_break"] = 0,
+						["interrupt"] = 0,
+						["debuff_uptime"] = 0,
+						["dispell"] = 0,
+						["cooldowns_defensive"] = 0,
+					}, -- [4]
+				},
+				["start_time"] = 965312.826,
+				["TimeData"] = {
+				},
+				["pvp"] = true,
+			}, -- [5]
+		},
+	},
+	["plugin_database"] = {
+		["DETAILS_PLUGIN_TINY_THREAT"] = {
+			["updatespeed"] = 1,
+			["showamount"] = false,
+			["animate"] = false,
+			["useplayercolor"] = false,
+			["useclasscolors"] = false,
+			["author"] = "Details! Team",
+			["playercolor"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+			},
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_TIME_ATTACK"] = {
+			["enabled"] = true,
+			["realm_last_shown"] = 40,
+			["saved_as_anonymous"] = true,
+			["recently_as_anonymous"] = true,
+			["dps"] = 0,
+			["disable_sharing"] = false,
+			["history"] = {
+			},
+			["time"] = 40,
+			["history_lastindex"] = 0,
+			["realm_lastamt"] = 0,
+			["realm_history"] = {
+			},
+			["author"] = "Details! Team",
+		},
+		["DETAILS_PLUGIN_DAMAGE_RANK"] = {
+			["lasttry"] = {
+			},
+			["annouce"] = true,
+			["dpshistory"] = {
+			},
+			["author"] = "Details! Team",
+			["dps"] = 0,
+			["level"] = 1,
+			["enabled"] = true,
+		},
+		["DETAILS_PLUGIN_VANGUARD"] = {
+			["enabled"] = true,
+			["tank_block_texture"] = "Details Serenity",
+			["tank_block_color"] = {
+				0.24705882, -- [1]
+				0.0039215, -- [2]
+				0, -- [3]
+				0.8, -- [4]
+			},
+			["show_inc_bars"] = false,
+			["author"] = "Details! Team",
+			["first_run"] = false,
+			["tank_block_size"] = 150,
+		},
+		["DETAILS_PLUGIN_ENCOUNTER_DETAILS"] = {
+			["enabled"] = true,
+			["encounter_timers_bw"] = {
+			},
+			["max_emote_segments"] = 3,
+			["author"] = "Details! Team",
+			["window_scale"] = 1,
+			["hide_on_combat"] = false,
+			["show_icon"] = 5,
+			["opened"] = 0,
+			["encounter_timers_dbm"] = {
+			},
+		},
+		["DETAILS_PLUGIN_DPS_TUNING"] = {
+			["enabled"] = true,
+			["author"] = "Details! Team",
+			["SpellBarsShowType"] = 1,
+		},
+		["DETAILS_PLUGIN_RAIDCHECK"] = {
+			["enabled"] = true,
+			["food_tier1"] = true,
+			["mythic_1_4"] = true,
+			["food_tier2"] = true,
+			["author"] = "Details! Team",
+			["use_report_panel"] = true,
+			["pre_pot_healers"] = false,
+			["pre_pot_tanks"] = false,
+			["food_tier3"] = true,
+		},
+		["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["is_first_run"] = false,
+			["arrow_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				0.5, -- [4]
+			},
+			["main_frame_size"] = {
+				300, -- [1]
+				499.999969482422, -- [2]
+			},
+			["minimap"] = {
+				["minimapPos"] = 160,
+				["radius"] = 160,
+				["hide"] = true,
+			},
+			["arrow_anchor_x"] = 0,
+			["row_texture"] = "Details Serenity",
+			["scale"] = 1,
+			["row_height"] = 20,
+			["enabled"] = false,
+			["arrow_size"] = 10,
+			["point"] = "CENTER",
+			["row_spacement"] = 21,
+			["main_frame_color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.2, -- [4]
+			},
+			["author"] = "Details! Team",
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
+			["y"] = -3.8146972656250e-005,
+			["x"] = -3.05175781250e-005,
+			["font_face"] = "Friz Quadrata TT",
+			["per_second"] = {
+				["enabled"] = false,
+				["point"] = "CENTER",
+				["scale"] = 1,
+				["font_shadow"] = true,
+				["y"] = -3.05175781250e-005,
+				["x"] = -3.05175781250e-005,
+				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
+			},
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
+			["main_frame_strata"] = "LOW",
+			["main_frame_locked"] = false,
+			["arrow_anchor_y"] = 0,
+		},
+	},
+	["nick_tag_cache"] = {
+		["nextreset"] = 1499555578,
+		["last_version"] = 8,
+	},
+	["character_data"] = {
+		["logons"] = 27,
+	},
+	["savedbuffs"] = {
+	},
+	["last_instance_time"] = 1476769052,
+	["tabela_instancias"] = {
+	},
+	["combat_id"] = 283,
+	["savedStyles"] = {
+	},
+	["last_version"] = "v7.1.0.3114",
+	["cached_talents"] = {
+		["Player-1171-07AE3581"] = {
+			19264, -- [1]
+			19259, -- [2]
+			21970, -- [3]
+			22152, -- [4]
+			19269, -- [5]
+			21968, -- [6]
+			19275, -- [7]
+		},
+	},
+	["announce_deaths"] = {
+		["enabled"] = false,
+		["last_hits"] = 1,
+		["only_first"] = 5,
+		["where"] = 1,
+	},
+	["tabela_overall"] = {
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1297,
+					["damage_from"] = {
+					},
+					["targets"] = {
+						["Storm's Reach Greatstag"] = 0,
+						["Storm's Reach Worg"] = 0,
+						["Storm's Reach Cliffwalker"] = 0,
+						["Storm's Reach Warbear"] = 0,
+					},
+					["pets"] = {
+					},
+					["on_hold"] = false,
+					["last_event"] = 0,
+					["classe"] = "SHAMAN",
+					["raid_targets"] = {
+					},
+					["total_without_pet"] = 0.002557,
+					["friendlyfire"] = {
+					},
+					["dps_started"] = false,
+					["end_time"] = 1499321783,
+					["friendlyfire_total"] = 0,
+					["spec"] = 263,
+					["nome"] = "Dewjr",
+					["spells"] = {
+						["tipo"] = 2,
+						["_ActorTable"] = {
+							{
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Greatstag"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 1,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							}, -- [1]
+							[32175] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 32175,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[193796] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Greatstag"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 193796,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[187874] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Worg"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 187874,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[32176] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 32176,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[188089] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 188089,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[210801] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Worg"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 210801,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[196834] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Greatstag"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 196834,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[10444] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Greatstag"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 10444,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[215802] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 215802,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[210854] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Greatstag"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 210854,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[195256] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Greatstag"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 195256,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[60103] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 60103,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[193786] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Greatstag"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 193786,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+							[25504] = {
+								["c_amt"] = 0,
+								["b_amt"] = 0,
+								["c_dmg"] = 0,
+								["g_amt"] = 0,
+								["n_max"] = 0,
+								["targets"] = {
+									["Storm's Reach Cliffwalker"] = 0,
+									["Storm's Reach Worg"] = 0,
+									["Storm's Reach Warbear"] = 0,
+								},
+								["m_dmg"] = 0,
+								["n_dmg"] = 0,
+								["n_min"] = 0,
+								["g_dmg"] = 0,
+								["counter"] = 0,
+								["total"] = 0,
+								["c_max"] = 0,
+								["id"] = 25504,
+								["r_dmg"] = 0,
+								["a_dmg"] = 0,
+								["m_crit"] = 0,
+								["a_amt"] = 0,
+								["m_amt"] = 0,
+								["successful_casted"] = 0,
+								["b_dmg"] = 0,
+								["n_amt"] = 0,
+								["r_amt"] = 0,
+								["c_min"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["total"] = 0.002557,
+					["serial"] = "Player-1171-07AE3581",
+					["custom"] = 0,
+					["tipo"] = 1,
+					["damage_taken"] = 0.002557,
+					["start_time"] = 1499321780,
+					["delay"] = 0,
+					["last_dps"] = 0,
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+			["tipo"] = 3,
+			["_ActorTable"] = {
+			},
+		}, -- [2]
+		{
+			["tipo"] = 7,
+			["_ActorTable"] = {
+				{
+					["received"] = 0.002976,
+					["resource"] = 0.034443,
+					["targets"] = {
+						["Dewjr"] = 0,
+					},
+					["pets"] = {
+					},
+					["powertype"] = 0,
+					["classe"] = "SHAMAN",
+					["total"] = 0.002976,
+					["nome"] = "Dewjr",
+					["spells"] = {
+						["tipo"] = 7,
+						["_ActorTable"] = {
+							[193786] = {
+								["id"] = 193786,
+								["total"] = 0,
+								["targets"] = {
+									["Dewjr"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[187890] = {
+								["id"] = 187890,
+								["total"] = 0,
+								["targets"] = {
+									["Dewjr"] = 0,
+								},
+								["counter"] = 0,
+							},
+							[188070] = {
+								["id"] = 188070,
+								["total"] = 0,
+								["targets"] = {
+									["Dewjr"] = 0,
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["grupo"] = true,
+					["tipo"] = 3,
+					["flag_original"] = 1297,
+					["spec"] = 263,
+					["serial"] = "Player-1171-07AE3581",
+					["last_event"] = 0,
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+			["tipo"] = 9,
+			["_ActorTable"] = {
+				{
+					["flag_original"] = 1047,
+					["debuff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[188089] = {
+								["id"] = 188089,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[147732] = {
+								["id"] = 147732,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["buff_uptime"] = 0,
+					["classe"] = "SHAMAN",
+					["buff_uptime_spells"] = {
+						["tipo"] = 9,
+						["_ActorTable"] = {
+							[209527] = {
+								["id"] = 209527,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[33697] = {
+								["id"] = 33697,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[205648] = {
+								["id"] = 205648,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[198240] = {
+								["id"] = 198240,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[196834] = {
+								["id"] = 196834,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[201846] = {
+								["id"] = 201846,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[227723] = {
+								["id"] = 227723,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[198300] = {
+								["id"] = 198300,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[195222] = {
+								["id"] = 195222,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[202004] = {
+								["id"] = 202004,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[194084] = {
+								["id"] = 194084,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[2645] = {
+								["id"] = 2645,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[225787] = {
+								["id"] = 225787,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+							[198293] = {
+								["id"] = 198293,
+								["targets"] = {
+								},
+								["counter"] = 0,
+							},
+						},
+					},
+					["debuff_uptime"] = 0,
+					["buff_uptime_targets"] = {
+					},
+					["spec"] = 263,
+					["grupo"] = true,
+					["spell_cast"] = {
+						[196884] = 0,
+						[193796] = 0,
+						[196834] = 0,
+						[17364] = 0,
+						[187874] = 0,
+						[193786] = 0,
+						[60103] = 0,
+						[196881] = 0,
+						[188089] = 0,
+					},
+					["debuff_uptime_targets"] = {
+					},
+					["last_event"] = 0,
+					["tipo"] = 4,
+					["nome"] = "Dewjr",
+					["serial"] = "Player-1171-07AE3581",
+					["pets"] = {
+					},
+				}, -- [1]
+			},
+		}, -- [4]
+		{
+			["tipo"] = 2,
+			["_ActorTable"] = {
+			},
+		}, -- [5]
+		["raid_roster"] = {
+		},
+		["last_events_tables"] = {
+		},
+		["combat_counter"] = 319,
+		["totals"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+			["voidzone_damage"] = 0,
+			["frags_total"] = 0,
+		},
+		["player_last_events"] = {
+		},
+		["frags_need_refresh"] = false,
+		["__call"] = {
+		},
+		["data_inicio"] = 0,
+		["end_time"] = 14030.108,
+		["hasSaved"] = true,
+		["frags"] = {
+		},
+		["data_fim"] = 0,
+		["overall_refreshed"] = true,
+		["CombatSkillCache"] = {
+		},
+		["totals_grupo"] = {
+			0, -- [1]
+			0, -- [2]
+			{
+				0, -- [1]
+				[0] = 0,
+				[6] = 0,
+				[3] = 0,
+			}, -- [3]
+			{
+				["buff_uptime"] = 0,
+				["ress"] = 0,
+				["dead"] = 0,
+				["cc_break"] = 0,
+				["interrupt"] = 0,
+				["debuff_uptime"] = 0,
+				["dispell"] = 0,
+				["cooldowns_defensive"] = 0,
+			}, -- [4]
+		},
+		["start_time"] = 14030.108,
+		["TimeData"] = {
+		},
+		["PhaseData"] = {
+			{
+				1, -- [1]
+				1, -- [2]
+			}, -- [1]
+			["damage"] = {
+			},
+			["heal_section"] = {
+			},
+			["heal"] = {
+			},
+			["damage_section"] = {
+			},
+		},
+	},
+	["last_realversion"] = 115,
+	["local_instances_config"] = {
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+				[3] = 2,
+			},
+			["mode"] = 2,
+			["attribute"] = 1,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -363.26294708252,
+					["x"] = 556.872741699219,
+					["w"] = 205.237838745117,
+					["h"] = 131.807342529297,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [1]
+		{
+			["segment"] = 0,
+			["sub_attribute"] = 1,
+			["horizontalSnap"] = true,
+			["sub_atributo_last"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["is_open"] = true,
+			["isLocked"] = false,
+			["snap"] = {
+				1, -- [1]
+			},
+			["mode"] = 2,
+			["attribute"] = 2,
+			["pos"] = {
+				["normal"] = {
+					["y"] = -363.26294708252,
+					["x"] = 761.235168457031,
+					["w"] = 203.48713684082,
+					["h"] = 131.807342529297,
+				},
+				["solo"] = {
+					["y"] = 2,
+					["x"] = 1,
+					["w"] = 300,
+					["h"] = 200,
+				},
+			},
+		}, -- [2]
+	},
+	["SoloTablesSaved"] = {
+		["LastSelected"] = "DETAILS_PLUGIN_DAMAGE_RANK",
+		["Mode"] = 1,
+	},
+	["announce_cooldowns"] = {
+		["enabled"] = false,
+		["ignored_cooldowns"] = {
+		},
+		["custom"] = "",
+		["channel"] = "RAID",
+	},
+	["announce_firsthit"] = {
+		["enabled"] = true,
+		["channel"] = "SELF",
+	},
+	["last_instance_id"] = 552,
+	["cached_specs"] = {
+		["Player-1171-07AE3581"] = 264,
+		["Player-1171-07BFE4E0"] = 577,
+		["Player-1171-07E31E08"] = 73,
+	},
+}

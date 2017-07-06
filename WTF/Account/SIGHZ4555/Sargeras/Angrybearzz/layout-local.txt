@@ -1,0 +1,8 @@
+Version: 1
+Frame: FocusFrame
+FrameLevel: 9
+Anchor: CENTER
+X: 32
+Y: -215
+W: 232
+H: 100

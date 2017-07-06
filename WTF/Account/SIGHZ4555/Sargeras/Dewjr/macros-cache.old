@@ -1,0 +1,39 @@
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Unleash Life
+/cast Unleash Life
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Earth Shield
+/cast Earth Shield
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] riptide
+/cast riptide
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Chain Heal
+/cast Chain Heal
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] healing surge
+/cast Healing Surge
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 13
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Cleanse Spirit
+/cast Cleanse Spirit
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists] Healing Wave
+/cast Healing Wave
+END

@@ -1,0 +1,3278 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Safetylance"] = {
+			["GUID"] = "Player-76-086F4A48",
+			["LastEventHealth"] = {
+				"738 (100%)", -- [1]
+				"738 (100%)", -- [2]
+				"738 (100%)", -- [3]
+				"738 (100%)", -- [4]
+				"738 (100%)", -- [5]
+				"738 (100%)", -- [6]
+				"738 (100%)", -- [7]
+				"738 (100%)", -- [8]
+				"738 (100%)", -- [9]
+				"738 (100%)", -- [10]
+				"738 (100%)", -- [11]
+				"738 (100%)", -- [12]
+				"756 (100%)", -- [13]
+				"756 (100%)", -- [14]
+				"756 (100%)", -- [15]
+				"756 (100%)", -- [16]
+				"756 (100%)", -- [17]
+				"756 (100%)", -- [18]
+				"756 (100%)", -- [19]
+				"756 (100%)", -- [20]
+				"756 (100%)", -- [21]
+				"756 (100%)", -- [22]
+				"756 (100%)", -- [23]
+				"756 (100%)", -- [24]
+				"756 (100%)", -- [25]
+				"756 (100%)", -- [26]
+				"756 (100%)", -- [27]
+				"756 (100%)", -- [28]
+				"612 (100%)", -- [29]
+				"612 (100%)", -- [30]
+				"612 (100%)", -- [31]
+				"612 (100%)", -- [32]
+				"612 (100%)", -- [33]
+				"612 (100%)", -- [34]
+				"612 (100%)", -- [35]
+				"612 (100%)", -- [36]
+				"612 (100%)", -- [37]
+				"612 (100%)", -- [38]
+				"612 (100%)", -- [39]
+				"738 (100%)", -- [40]
+				"738 (100%)", -- [41]
+				"738 (100%)", -- [42]
+				"738 (100%)", -- [43]
+				"738 (100%)", -- [44]
+				"738 (100%)", -- [45]
+				"738 (100%)", -- [46]
+				"738 (100%)", -- [47]
+				"738 (100%)", -- [48]
+				"738 (100%)", -- [49]
+				"738 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Blackrock Invader",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"DAMAGE", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"DAMAGE", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					37, -- [1]
+				},
+				["TimeHeal"] = {
+					0, -- [1]
+				},
+				["Overhealing"] = {
+					1103, -- [1]
+				},
+				["ActiveTime"] = {
+					199.42, -- [1]
+				},
+				["TimeDamage"] = {
+					199.42, -- [1]
+				},
+				["Healing"] = {
+					37, -- [1]
+				},
+				["DamageTaken"] = {
+					37, -- [1]
+				},
+				["Damage"] = {
+					4901, -- [1]
+				},
+			},
+			["enClass"] = "MAGE",
+			["unit"] = "Safetylance",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 17,
+			["LastEventNum"] = {
+				2.03252032520325, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				2.03252032520325, -- [4]
+				2.03252032520325, -- [5]
+				nil, -- [6]
+				2.03252032520325, -- [7]
+				2.03252032520325, -- [8]
+				nil, -- [9]
+				nil, -- [10]
+				2.1680216802168, -- [11]
+				2.03252032520325, -- [12]
+				nil, -- [13]
+				2.11640211640212, -- [14]
+				2.11640211640212, -- [15]
+				nil, -- [16]
+				nil, -- [17]
+				2.11640211640212, -- [18]
+				1.98412698412698, -- [19]
+				nil, -- [20]
+				nil, -- [21]
+				nil, -- [22]
+				2.11640211640212, -- [23]
+				2.11640211640212, -- [24]
+				nil, -- [25]
+				nil, -- [26]
+				1.98412698412698, -- [27]
+				1.98412698412698, -- [28]
+				nil, -- [29]
+				nil, -- [30]
+				1.96078431372549, -- [31]
+				1.96078431372549, -- [32]
+				[46] = 2.03252032520325,
+				[35] = 1.96078431372549,
+				[39] = 1.96078431372549,
+				[43] = 2.03252032520325,
+				[47] = 2.03252032520325,
+				[36] = 1.96078431372549,
+				[38] = 1.96078431372549,
+				[42] = 2.03252032520325,
+				[50] = 2.03252032520325,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 5,
+			["TimeLast"] = {
+				["TimeHeal"] = 16410.887,
+				["OVERALL"] = 17899.901,
+				["DamageTaken"] = 16410.887,
+				["HealingTaken"] = 16410.887,
+				["Overhealing"] = 17899.901,
+				["TimeDamage"] = 17899.901,
+				["Healing"] = 16410.887,
+				["ActiveTime"] = 17899.901,
+				["Damage"] = 17899.901,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 17900.432,
+			["NextEventNum"] = 29,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [1]
+				"Safetylance Frostfire Bolt Kobold Tunneler Hit -68 (Frostfire)", -- [2]
+				"Safetylance Fire Blast Kobold Tunneler Hit -59 (Fire)", -- [3]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [4]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [5]
+				"Safetylance Frostfire Bolt Stonetusk Boar Crit -132 (Frostfire)", -- [6]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [7]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [8]
+				"Safetylance Frostfire Bolt Stonetusk Boar Hit -58 (Frostfire)", -- [9]
+				"Safetylance Frostfire Bolt Stonetusk Boar Hit -69 (Frostfire)", -- [10]
+				"Safetylance Swift Hand of Justice Safetylance Hit +16 (16 overheal)", -- [11]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [12]
+				"Safetylance Frostfire Bolt Stonetusk Boar Crit -145 (Frostfire)", -- [13]
+				"Safetylance Swift Hand of Justice Safetylance Hit +16 (16 overheal)", -- [14]
+				"Safetylance Swift Hand of Justice Safetylance Hit +16 (16 overheal)", -- [15]
+				"Safetylance Frostfire Bolt Stonetusk Boar Hit -69 (Frostfire)", -- [16]
+				"Safetylance Frostfire Bolt Stonetusk Boar Crit -148 (Frostfire)", -- [17]
+				"Safetylance Swift Hand of Justice Safetylance Hit +16 (16 overheal)", -- [18]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [19]
+				"Safetylance Frostfire Bolt Young Forest Bear Hit -63 (Frostfire)", -- [20]
+				"Safetylance Frostfire Bolt Young Forest Bear Hit -69 (Frostfire)", -- [21]
+				"Safetylance Frostfire Bolt Young Forest Bear Hit -65 (Frostfire)", -- [22]
+				"Safetylance Swift Hand of Justice Safetylance Hit +16 (16 overheal)", -- [23]
+				"Safetylance Swift Hand of Justice Safetylance Hit +16 (16 overheal)", -- [24]
+				"Safetylance Frostfire Bolt Young Forest Bear Crit -137 (Frostfire)", -- [25]
+				"Safetylance Frostfire Bolt Young Forest Bear Hit -65 (Frostfire)", -- [26]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [27]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [28]
+				"Safetylance Frostfire Bolt Blackrock Invader Hit -52 (Frostfire)", -- [29]
+				"Safetylance Fire Blast Blackrock Invader Crit -95 (Fire)", -- [30]
+				"Safetylance Swift Hand of Justice Safetylance Hit +12 (12 overheal)", -- [31]
+				"Safetylance Swift Hand of Justice Safetylance Hit +12 (12 overheal)", -- [32]
+				"Safetylance Frostfire Bolt Kurtok the Slayer Hit -56 (Frostfire)", -- [33]
+				"Safetylance Fire Blast Kurtok the Slayer Hit -55 (Fire)", -- [34]
+				"Safetylance Swift Hand of Justice Safetylance Hit +12 (12 overheal)", -- [35]
+				"Safetylance Swift Hand of Justice Safetylance Hit +12 (12 overheal)", -- [36]
+				"Safetylance Frostfire Bolt Blackrock Invader Hit -60 (Frostfire)", -- [37]
+				"Safetylance Swift Hand of Justice Safetylance Hit +12 (12 overheal)", -- [38]
+				"Safetylance Swift Hand of Justice Safetylance Hit +12 (12 overheal)", -- [39]
+				"Safetylance Frostfire Bolt Kobold Tunneler Hit -66 (Frostfire)", -- [40]
+				"Safetylance Fire Blast Kobold Tunneler Hit -53 (Fire)", -- [41]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [42]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [43]
+				"Safetylance Frostfire Bolt Kobold Tunneler Hit -60 (Frostfire)", -- [44]
+				"Safetylance Fire Blast Kobold Tunneler Hit -59 (Fire)", -- [45]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [46]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [47]
+				"Safetylance Frostfire Bolt Kobold Tunneler Hit -63 (Frostfire)", -- [48]
+				"Safetylance Frost Nova Kobold Tunneler Hit -12 (Frost)", -- [49]
+				"Safetylance Swift Hand of Justice Safetylance Hit +15 (15 overheal)", -- [50]
+			},
+			["Name"] = "Safetylance",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				false, -- [9]
+				false, -- [10]
+				true, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				true, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				true, -- [32]
+				false, -- [33]
+				false, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+				false, -- [41]
+				true, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				17632, -- [1]
+				17644.997, -- [2]
+				17646.166, -- [3]
+				17646.166, -- [4]
+				17646.166, -- [5]
+				17691.824, -- [6]
+				17691.824, -- [7]
+				17691.824, -- [8]
+				17699.276, -- [9]
+				17700.884, -- [10]
+				17700.884, -- [11]
+				17700.884, -- [12]
+				17708.519, -- [13]
+				17708.519, -- [14]
+				17708.519, -- [15]
+				17716.526, -- [16]
+				17718.283, -- [17]
+				17718.283, -- [18]
+				17718.283, -- [19]
+				17873.941, -- [20]
+				17875.652, -- [21]
+				17877.209, -- [22]
+				17877.209, -- [23]
+				17877.209, -- [24]
+				17898.767, -- [25]
+				17900.432, -- [26]
+				17900.432, -- [27]
+				17900.432, -- [28]
+				16546.134, -- [29]
+				16547.026, -- [30]
+				16547.026, -- [31]
+				16547.026, -- [32]
+				16646.832, -- [33]
+				16647.844, -- [34]
+				16647.844, -- [35]
+				16647.844, -- [36]
+				16665.44, -- [37]
+				16665.44, -- [38]
+				16665.44, -- [39]
+				17611.927, -- [40]
+				17612.797, -- [41]
+				17612.797, -- [42]
+				17612.797, -- [43]
+				17625.543, -- [44]
+				17626.416, -- [45]
+				17626.416, -- [46]
+				17626.416, -- [47]
+				17630.639, -- [48]
+				17631.903, -- [49]
+				17632, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 13,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 25,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 25,
+						},
+					},
+					["TimeSpent"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.13,
+								},
+							},
+							["amount"] = 4.63,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Worg"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Overhealing"] = 25,
+					["ElementDone"] = {
+						["Frost"] = 10,
+						["Frostfire"] = 54,
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 54,
+								},
+								["Frost Nova"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 64,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Worg"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 4.63,
+					["TimeDamaging"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.13,
+								},
+							},
+							["amount"] = 4.63,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Worg"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 54,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 54,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 54,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 10,
+									["count"] = 1,
+									["amount"] = 10,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 10,
+						},
+					},
+					["ActiveTime"] = 4.63,
+					["Damage"] = 64,
+				},
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 217,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 217,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 217,
+								},
+							},
+							["amount"] = 217,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 31,
+					["TimeSpent"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 5.26,
+								},
+							},
+							["amount"] = 5.26,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.26,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 148,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 148,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 69,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 217,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.26,
+					["TimeDamaging"] = {
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 5.26,
+								},
+							},
+							["amount"] = 5.26,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 127,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 127,
+						["Fire"] = 0,
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 127,
+								},
+							},
+							["amount"] = 127,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 31,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 31,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 31,
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 5.11,
+								},
+							},
+							["amount"] = 5.11,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.11,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 127,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 127,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.11,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 5.11,
+								},
+							},
+							["amount"] = 5.11,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 75,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 63,
+						["Frost"] = 12,
+						["Fire"] = 0,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Kurtok the Slayer"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 63,
+								},
+								["Frost Nova"] = {
+									["count"] = 12,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 75,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 15,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 30,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 30,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 30,
+					["TimeSpent"] = {
+						["Kurtok the Slayer"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.26,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.76,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 4.76,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 63,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 63,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 63,
+						},
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 12,
+									["count"] = 1,
+									["amount"] = 12,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 12,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 4.76,
+					["TimeDamaging"] = {
+						["Kurtok the Slayer"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.26,
+								},
+								["Fire Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4.76,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 197,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 197,
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 197,
+								},
+							},
+							["amount"] = 197,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 32,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 32,
+					["TimeSpent"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 6.77,
+								},
+							},
+							["amount"] = 6.77,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 6.77,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 197,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 197,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 6.77,
+					["TimeDamaging"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 6.77,
+								},
+							},
+							["amount"] = 6.77,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 197,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Frostfire"] = 197,
+						["Melee"] = 0,
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 197,
+								},
+							},
+							["amount"] = 197,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 32,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 32,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 32,
+					["TimeSpent"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 6.77,
+								},
+							},
+							["amount"] = 6.77,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 6.77,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 197,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 197,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 6.77,
+					["TimeDamaging"] = {
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 6.77,
+								},
+							},
+							["amount"] = 6.77,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Frostfire Bolt"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 2,
+									["count"] = 93,
+									["amount"] = 1103,
+								},
+							},
+							["count"] = 93,
+							["amount"] = 1103,
+						},
+					},
+					["TimeSpent"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 14,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.26,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 18.17,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 31.02,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.28,
+								},
+							},
+							["amount"] = 32.3,
+						},
+						["Kurtok the Slayer"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 4.51,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 30.74,
+								},
+							},
+							["amount"] = 30.74,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 17.37,
+								},
+							},
+							["amount"] = 17.37,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 11.94,
+								},
+							},
+							["amount"] = 11.94,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Blackrock Worg"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 43.6,
+								},
+								["Frost Nova"] = {
+									["count"] = 4.9,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 7.89,
+								},
+							},
+							["amount"] = 59.89,
+						},
+					},
+					["DamageTaken"] = 37,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+					},
+					["Overhealing"] = 1103,
+					["ActiveTime"] = 199.42,
+					["ElementTaken"] = {
+						["Melee"] = 37,
+					},
+					["Damage"] = 4901,
+					["TimeHeal"] = 0,
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["HealedWho"] = {
+						["Safetylance"] = {
+							["Details"] = {
+								["Swift Hand of Justice"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["Healing"] = 37,
+					["Heals"] = {
+						["Swift Hand of Justice"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 11,
+									["min"] = 7,
+									["count"] = 4,
+									["amount"] = 37,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 37,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementDone"] = {
+						["Fire"] = 529,
+						["Frostfire"] = 4205,
+						["Melee"] = 29,
+						["Frost"] = 138,
+					},
+					["HealingTaken"] = 37,
+					["DamagedWho"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 1009,
+								},
+								["Frost Nova"] = {
+									["count"] = 52,
+								},
+								["Melee"] = {
+									["count"] = 29,
+								},
+								["Fire Blast"] = {
+									["count"] = 303,
+								},
+							},
+							["amount"] = 1393,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 257,
+								},
+								["Frost Nova"] = {
+									["count"] = 12,
+								},
+								["Fire Blast"] = {
+									["count"] = 171,
+								},
+							},
+							["amount"] = 440,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 808,
+								},
+								["Frost Nova"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 818,
+						},
+						["Kurtok the Slayer"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 56,
+								},
+								["Fire Blast"] = {
+									["count"] = 55,
+								},
+							},
+							["amount"] = 111,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 640,
+								},
+							},
+							["amount"] = 640,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 621,
+								},
+							},
+							["amount"] = 621,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 399,
+								},
+							},
+							["amount"] = 399,
+						},
+						["Blackrock Worg"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 415,
+								},
+							},
+							["amount"] = 415,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 64,
+								},
+							},
+							["amount"] = 64,
+						},
+					},
+					["TimeDamage"] = 199.42,
+					["TimeDamaging"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 43.6,
+								},
+								["Frost Nova"] = {
+									["count"] = 4.9,
+								},
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 7.89,
+								},
+							},
+							["amount"] = 59.89,
+						},
+						["Kobold Tunneler"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 14,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.26,
+								},
+								["Fire Blast"] = {
+									["count"] = 2.91,
+								},
+							},
+							["amount"] = 18.17,
+						},
+						["Goblin Assassin"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 31.02,
+								},
+								["Frost Nova"] = {
+									["count"] = 1.28,
+								},
+							},
+							["amount"] = 32.3,
+						},
+						["Kurtok the Slayer"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 3.5,
+								},
+								["Fire Blast"] = {
+									["count"] = 1.01,
+								},
+							},
+							["amount"] = 4.51,
+						},
+						["Blackrock Spy"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 30.74,
+								},
+							},
+							["amount"] = 30.74,
+						},
+						["Stonetusk Boar"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 17.37,
+								},
+							},
+							["amount"] = 17.37,
+						},
+						["Young Forest Bear"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 11.94,
+								},
+							},
+							["amount"] = 11.94,
+						},
+						["Blackrock Worg"] = {
+							["Details"] = {
+								["Frostfire Bolt"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 21,
+						},
+						["Training Dummy"] = {
+							["Details"] = {
+								["Frost Nova"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Frost Nova"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 21,
+									["min"] = 21,
+									["count"] = 3,
+									["amount"] = 63,
+								},
+								["Hit"] = {
+									["max"] = 12,
+									["min"] = 10,
+									["count"] = 7,
+									["amount"] = 75,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 138,
+						},
+						["Frostfire Bolt"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 148,
+									["min"] = 78,
+									["count"] = 20,
+									["amount"] = 2175,
+								},
+								["Hit"] = {
+									["max"] = 69,
+									["min"] = 43,
+									["count"] = 36,
+									["amount"] = 2030,
+								},
+							},
+							["count"] = 56,
+							["amount"] = 4205,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 29,
+									["min"] = 29,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29,
+						},
+						["Fire Blast"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 109,
+									["min"] = 95,
+									["count"] = 3,
+									["amount"] = 303,
+								},
+								["Hit"] = {
+									["max"] = 59,
+									["min"] = 53,
+									["count"] = 4,
+									["amount"] = 226,
+								},
+							},
+							["count"] = 7,
+							["amount"] = 529,
+						},
+					},
+					["WhoDamaged"] = {
+						["Blackrock Invader"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 37,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Frostfire"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 20,
+								},
+								["Hit"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 56,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 15854.895,
+			["LastActive"] = 17899.901,
+		},
+	},
+	["FightNum"] = 17,
+	["CombatTimes"] = {
+		{
+			15926.886, -- [1]
+			15930.889, -- [2]
+			"21:52:14", -- [3]
+			"21:52:18", -- [4]
+			"Blackrock Spy", -- [5]
+		}, -- [1]
+		{
+			15974.888, -- [1]
+			15977.913, -- [2]
+			"21:53:02", -- [3]
+			"21:53:05", -- [4]
+			"Blackrock Spy", -- [5]
+		}, -- [2]
+		{
+			16076.896, -- [1]
+			16083.887, -- [2]
+			"21:54:44", -- [3]
+			"21:54:51", -- [4]
+			"Training Dummy", -- [5]
+		}, -- [3]
+		{
+			16189.923, -- [1]
+			16192.93, -- [2]
+			"21:56:38", -- [3]
+			"21:56:40", -- [4]
+			"Goblin Assassin", -- [5]
+		}, -- [4]
+		{
+			16211.903, -- [1]
+			16215.906, -- [2]
+			"21:57:00", -- [3]
+			"21:57:03", -- [4]
+			"Goblin Assassin", -- [5]
+		}, -- [5]
+		{
+			16225.886, -- [1]
+			16228.894, -- [2]
+			"21:57:13", -- [3]
+			"21:57:16", -- [4]
+			"Goblin Assassin", -- [5]
+		}, -- [6]
+		{
+			16234.884, -- [1]
+			16237.916, -- [2]
+			"21:57:22", -- [3]
+			"21:57:25", -- [4]
+			"Goblin Assassin", -- [5]
+		}, -- [7]
+		{
+			16242.892, -- [1]
+			16245.899, -- [2]
+			"21:57:30", -- [3]
+			"21:57:33", -- [4]
+			"Goblin Assassin", -- [5]
+		}, -- [8]
+		{
+			16335.891, -- [1]
+			16349.887, -- [2]
+			"21:59:03", -- [3]
+			"21:59:17", -- [4]
+			"Blackrock Invader", -- [5]
+		}, -- [9]
+		{
+			16365.892, -- [1]
+			16369.89, -- [2]
+			"21:59:33", -- [3]
+			"21:59:37", -- [4]
+			"Blackrock Invader", -- [5]
+		}, -- [10]
+		{
+			16390.885, -- [1]
+			16399.892, -- [2]
+			"21:59:59", -- [3]
+			"22:00:07", -- [4]
+			"Blackrock Invader", -- [5]
+		}, -- [11]
+		{
+			16404.891, -- [1]
+			16412.891, -- [2]
+			"22:00:12", -- [3]
+			"22:00:20", -- [4]
+			"Blackrock Invader", -- [5]
+		}, -- [12]
+		{
+			16432.898, -- [1]
+			16435.914, -- [2]
+			"22:00:40", -- [3]
+			"22:00:43", -- [4]
+			"Blackrock Invader", -- [5]
+		}, -- [13]
+		{
+			17629.888, -- [1]
+			17633.915, -- [2]
+			"22:20:37", -- [3]
+			"22:20:41", -- [4]
+			"Kobold Tunneler", -- [5]
+		}, -- [14]
+		{
+			17698.906, -- [1]
+			17702.915, -- [2]
+			"22:21:46", -- [3]
+			"22:21:50", -- [4]
+			"Stonetusk Boar", -- [5]
+		}, -- [15]
+		{
+			17715.893, -- [1]
+			17719.891, -- [2]
+			"22:22:03", -- [3]
+			"22:22:07", -- [4]
+			"Stonetusk Boar", -- [5]
+		}, -- [16]
+		{
+			17873.909, -- [1]
+			17877.903, -- [2]
+			"22:24:41", -- [3]
+			"22:24:45", -- [4]
+			"Young Forest Bear", -- [5]
+		}, -- [17]
+	},
+	["FoughtWho"] = {
+		"Young Forest Bear 22:24:41-22:24:45", -- [1]
+		"Stonetusk Boar 22:22:03-22:22:07", -- [2]
+		"Stonetusk Boar 22:21:46-22:21:50", -- [3]
+		"Kobold Tunneler 22:20:37-22:20:41", -- [4]
+		"Blackrock Invader 22:00:40-22:00:43", -- [5]
+	},
+}

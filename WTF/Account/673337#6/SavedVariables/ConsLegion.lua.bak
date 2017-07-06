@@ -1,0 +1,58 @@
+
+ConsLegionSavedVar = {
+	["Cyclonelol-WyrmrestAccord"] = {
+		["Settings"] = {
+			["Textleft"] = 1801.28576660156,
+			["Scale"] = 0.755162239074707,
+			["TextScale"] = 0.76,
+			["SkipCutScene"] = 1,
+			["Newsleft"] = 1786.92297363281,
+			["Newsalpha"] = 1,
+			["Hide"] = 0,
+			["AutoChoice"] = 0,
+			["XPLock"] = 0,
+			["AutoHandin"] = 0,
+			["Textalpha"] = 1,
+			["Arrowy"] = -618.499908447266,
+			["XPScale"] = 0.755162239074707,
+			["NewsHide"] = 0,
+			["AutoPickup"] = 0,
+			["Newstop"] = -545,
+			["XPalpha"] = 1,
+			["NewsScale"] = 0.755162239074707,
+			["XPHide"] = 0,
+			["Arrowx"] = 1841.00085449219,
+			["XPleft"] = 1754.00024414063,
+			["Lock"] = 0,
+			["AutoShare"] = 0,
+			["TextHide"] = 0,
+			["Texttop"] = -720.307769775391,
+			["TextLock"] = 0,
+			["alpha"] = 1,
+			["top"] = -562.499877929688,
+			["XPInvert"] = 0,
+			["NewsLock"] = 0,
+			["left"] = 391.000457763672,
+			["TextInvert"] = 0,
+			["XPtop"] = -487.999877929688,
+		},
+	},
+}
+ConsLegionSteps = {
+	["Cyclonelol-WyrmrestAccord"] = {
+		[1015] = 315,
+		[1017] = 133,
+		[1018] = 44,
+	},
+}
+CL_NewsEpics = {
+	["Nr"] = 0,
+}
+CL_Temp_Import = nil
+CL_AddonUpdate = {
+	["Cyclonelol-WyrmrestAccord"] = {
+		[1015] = 1,
+		[1017] = 1,
+		[1018] = 1,
+	},
+}

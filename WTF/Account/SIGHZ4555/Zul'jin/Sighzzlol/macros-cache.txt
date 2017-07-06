@@ -1,0 +1,77 @@
+VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Smite
+END
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Holy Fire
+END
+VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Circle of Healing
+END
+VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] purify
+END
+VER 3 0100000000000019 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Shadow Word: Pain
+END
+VER 3 010000000000001A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfiend
+/use Dreadful Gladiator's Badge of Dominance
+/cast Shadowfiend
+END
+VER 3 0100000000000012 "Binding Heal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Binding Heal; [help] Binding Heal; Binding Heal
+END
+VER 3 010000000000000A "Chak" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence Chakra: Serenity, Chakra: Chastise
+/cancelaura Chakra: Chastise
+END
+VER 3 010000000000000E "DE" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover] Leap of Faith
+END
+VER 3 010000000000001C "Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Dispel Magic
+END
+VER 3 0100000000000003 "Flash Heal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Flash Heal; [help] Flash Heal; Flash Heal
+END
+VER 3 010000000000000B "GH" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Greater Heal; [help] Greater Heal; Greater Heal
+END
+VER 3 010000000000000F "GS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover] Guardian Spirit
+END
+VER 3 0100000000000005 "HW" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover] Holy Word: Serenity
+/cast [target=mouseover] Holy Word: Chastise
+END
+VER 3 0100000000000008 "pom" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Prayer of Mending; [help] Prayer of Mending; Prayer of Mending
+END
+VER 3 0100000000000001 "PW:S" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Power Word: Shield; [help] Power Word: Shield; Power Word: Shield
+END
+VER 3 0100000000000004 "Renew" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help] Renew; [help] Renew; Renew
+END
+VER 3 0100000000000010 "sf" "INV_Misc_QuestionMark"
+#showtooltip Shadowfiend
+/cast [target=mouseover] [nopet] Shadowfiend
+/petattack
+/cast [harm, pet] Shadowcrawl; [target=pettarget, pet] Shadowcrawl
+END

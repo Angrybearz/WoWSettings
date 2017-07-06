@@ -1,0 +1,19 @@
+tag ef44d5d85e178d03e765bf458781e1dec8e29582 2.4.7
+Author:	Benjamin Staneck <staneck@gmail.com>
+Date:	Mon Jul 3 22:59:49 2017 +0200
+
+commit b21b8624108d78ace929983d980d74e05f6dd56c
+Author: Infus <infus@squorn.de>
+Date:   Thu Jun 29 19:16:02 2017 +0200
+
+    Fix ReplacePlaceHolders for e.g. %sx %p
+    
+    After determining that %sx is not state.sx, we looked for %s, but
+    still replaced the whole %sx.
+
+commit 5fe840f33f7d33ae41c02593631ef72a9dd77c4c
+Author: Infus <infus@squorn.de>
+Date:   Thu Jun 29 19:15:08 2017 +0200
+
+    Templates: Add Monk's Chi Wave and Essence Font
+

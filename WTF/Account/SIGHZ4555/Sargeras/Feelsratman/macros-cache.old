@@ -1,0 +1,20 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover, exists] Rejuvenation; Rejuvenation
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover, exists] Swiftmend; Swiftmend
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover, exists] Nature's Cure; Nature's Cure
+END
+VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover, exists] Healing Touch; Healing Touch
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover, exists] Regrowth; Regrowth
+END

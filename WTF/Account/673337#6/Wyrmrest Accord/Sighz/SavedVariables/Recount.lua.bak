@@ -1,0 +1,1387 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Sighz"] = {
+			["GUID"] = "Player-1171-07B3D8F7",
+			["LastEventHealth"] = {
+				"27289 (73%)", -- [1]
+				"27289 (73%)", -- [2]
+				"27289 (73%)", -- [3]
+				"27289 (73%)", -- [4]
+				"27289 (73%)", -- [5]
+				"27393 (74%)", -- [6]
+				"28240 (76%)", -- [7]
+				"28240 (76%)", -- [8]
+				"28240 (76%)", -- [9]
+				"28240 (76%)", -- [10]
+				"28240 (76%)", -- [11]
+				"28240 (76%)", -- [12]
+				"28240 (76%)", -- [13]
+				"28240 (76%)", -- [14]
+				"28240 (76%)", -- [15]
+				"28240 (76%)", -- [16]
+				"28240 (76%)", -- [17]
+				"28240 (76%)", -- [18]
+				"28240 (76%)", -- [19]
+				"28240 (76%)", -- [20]
+				"28240 (76%)", -- [21]
+				"28720 (77%)", -- [22]
+				"29191 (78%)", -- [23]
+				"29671 (80%)", -- [24]
+				"30142 (81%)", -- [25]
+				"31364 (84%)", -- [26]
+				"32211 (87%)", -- [27]
+				"32903 (88%)", -- [28]
+				"25935 (70%)", -- [29]
+				"25935 (70%)", -- [30]
+				"25935 (70%)", -- [31]
+				"25935 (70%)", -- [32]
+				"25935 (70%)", -- [33]
+				"25935 (70%)", -- [34]
+				"25935 (70%)", -- [35]
+				"25935 (70%)", -- [36]
+				"25935 (70%)", -- [37]
+				"25935 (70%)", -- [38]
+				"25935 (70%)", -- [39]
+				"26443 (71%)", -- [40]
+				"26443 (71%)", -- [41]
+				"26443 (71%)", -- [42]
+				"26915 (72%)", -- [43]
+				"26915 (72%)", -- [44]
+				"27289 (73%)", -- [45]
+				"27289 (73%)", -- [46]
+				"27289 (73%)", -- [47]
+				"27289 (73%)", -- [48]
+				"27289 (73%)", -- [49]
+				"27289 (73%)", -- [50]
+			},
+			["LastAttackedBy"] = "Flamebringer Az'rothel",
+			["LastEventType"] = {
+				"HEAL", -- [1]
+				"HEAL", -- [2]
+				"HEAL", -- [3]
+				"HEAL", -- [4]
+				"HEAL", -- [5]
+				"HEAL", -- [6]
+				"HEAL", -- [7]
+				"HEAL", -- [8]
+				"HEAL", -- [9]
+				"HEAL", -- [10]
+				"HEAL", -- [11]
+				"HEAL", -- [12]
+				"HEAL", -- [13]
+				"HEAL", -- [14]
+				"HEAL", -- [15]
+				"HEAL", -- [16]
+				"HEAL", -- [17]
+				"HEAL", -- [18]
+				"HEAL", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"HEAL", -- [23]
+				"HEAL", -- [24]
+				"HEAL", -- [25]
+				"HEAL", -- [26]
+				"HEAL", -- [27]
+				"HEAL", -- [28]
+				"HEAL", -- [29]
+				"HEAL", -- [30]
+				"HEAL", -- [31]
+				"HEAL", -- [32]
+				"HEAL", -- [33]
+				"HEAL", -- [34]
+				"HEAL", -- [35]
+				"HEAL", -- [36]
+				"HEAL", -- [37]
+				"HEAL", -- [38]
+				"HEAL", -- [39]
+				"HEAL", -- [40]
+				"HEAL", -- [41]
+				"HEAL", -- [42]
+				"HEAL", -- [43]
+				"HEAL", -- [44]
+				"HEAL", -- [45]
+				"HEAL", -- [46]
+				"HEAL", -- [47]
+				"HEAL", -- [48]
+				"HEAL", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["DamageTaken"] = {
+					42401, -- [1]
+				},
+			},
+			["enClass"] = "PRIEST",
+			["unit"] = "Sighz",
+			["level"] = 90,
+			["LastDamageAbility"] = "Flame Breath (DoT)",
+			["LastFightIn"] = 3,
+			["LastEventNum"] = {
+				[6] = 0.281119070144614,
+				[7] = 1.27314501959724,
+				[22] = 0.281119070144614,
+				[23] = 1.27314501959724,
+				[24] = 0.283822138126774,
+				[25] = 1.27314501959724,
+				[26] = 1.27314501959724,
+				[27] = 1.2758480875794,
+				[28] = 0.859575618326801,
+				[43] = 1.2758480875794,
+				[40] = 0.354101905662927,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 3,
+			["LastDamageTaken"] = 1268,
+			["Owner"] = false,
+			["TimeLast"] = {
+				["DamageTaken"] = 83343.576,
+				["OVERALL"] = 83343.576,
+			},
+			["NextEventNum"] = 29,
+			["LastEventHealthNum"] = {
+				73.7640221651575, -- [1]
+				73.7640221651575, -- [2]
+				73.7640221651575, -- [3]
+				73.7640221651575, -- [4]
+				73.7640221651575, -- [5]
+				74.0451412353021, -- [6]
+				76.3346398161914, -- [7]
+				76.3346398161914, -- [8]
+				76.3346398161914, -- [9]
+				76.3346398161914, -- [10]
+				76.3346398161914, -- [11]
+				76.3346398161914, -- [12]
+				76.3346398161914, -- [13]
+				76.3346398161914, -- [14]
+				76.3346398161914, -- [15]
+				76.3346398161914, -- [16]
+				76.3346398161914, -- [17]
+				76.3346398161914, -- [18]
+				76.3346398161914, -- [19]
+				76.3346398161914, -- [20]
+				76.3346398161914, -- [21]
+				77.6321124476281, -- [22]
+				78.9052574672253, -- [23]
+				80.202730098662, -- [24]
+				81.4758751182592, -- [25]
+				84.7790241924584, -- [26]
+				87.0685227733478, -- [27]
+				88.9390458170023, -- [28]
+				70.1040681173132, -- [29]
+				70.1040681173132, -- [30]
+				70.1040681173132, -- [31]
+				70.1040681173132, -- [32]
+				70.1040681173132, -- [33]
+				70.1040681173132, -- [34]
+				70.1040681173132, -- [35]
+				70.1040681173132, -- [36]
+				70.1040681173132, -- [37]
+				70.1040681173132, -- [38]
+				70.1040681173132, -- [39]
+				71.4772266522503, -- [40]
+				71.4772266522503, -- [41]
+				71.4772266522503, -- [42]
+				72.7530747398297, -- [43]
+				72.7530747398297, -- [44]
+				73.7640221651575, -- [45]
+				73.7640221651575, -- [46]
+				73.7640221651575, -- [47]
+				73.7640221651575, -- [48]
+				73.7640221651575, -- [49]
+				73.7640221651575, -- [50]
+			},
+			["LastEvents"] = {
+				"Sighz Echo of Light Orgrimmar Grunt Tick +131 (131 overheal)", -- [1]
+				"Sighz Echo of Light Xervish Tick +113", -- [2]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +99 (99 overheal)", -- [3]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +132 (132 overheal)", -- [4]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +263 (263 overheal)", -- [5]
+				"Sighz Echo of Light Sighz Tick +104", -- [6]
+				"Sighz Renew Sighz Tick +471", -- [7]
+				"Sighz Echo of Light Mysttress Tick +113", -- [8]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +72 (72 overheal)", -- [9]
+				"Sighz Echo of Light Bilgewater Soldier Tick +131 (131 overheal)", -- [10]
+				"Sighz Echo of Light Bilgewater Soldier Tick +132 (132 overheal)", -- [11]
+				"Sighz Echo of Light Olize-CenarionCircle Tick +88 (88 overheal)", -- [12]
+				"Sighz Echo of Light Sibhoan-SistersofElune Tick +99 (99 overheal)", -- [13]
+				"Sighz Echo of Light Axakara Tick +98", -- [14]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +131 (131 overheal)", -- [15]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +79 (79 overheal)", -- [16]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +132 (132 overheal)", -- [17]
+				"Sighz Echo of Light Xervish Tick +113", -- [18]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +264 (264 overheal)", -- [19]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +99 (99 overheal)", -- [20]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +132 (132 overheal)", -- [21]
+				"Sighz Echo of Light Sighz Tick +104", -- [22]
+				"Sighz Renew Sighz Tick +471", -- [23]
+				"Sighz Echo of Light Sighz Tick +105", -- [24]
+				"Sighz Renew Sighz Tick +471", -- [25]
+				"Sighz Renew Sighz Tick +471", -- [26]
+				"Sighz Renew Sighz Tick +472", -- [27]
+				"Sighz Renew Sighz Tick +318", -- [28]
+				"Sighz Halo Olize-CenarionCircle Hit +1640 (1640 overheal)", -- [29]
+				"Sighz Halo Bilgewater Soldier Hit +2460 (2460 overheal)", -- [30]
+				"Sighz Halo Sibhoan-SistersofElune Hit +1845 (1845 overheal)", -- [31]
+				"Sighz Halo Axakara Hit +1845", -- [32]
+				"Sighz Halo Orgrimmar Grunt Hit +2460 (2460 overheal)", -- [33]
+				"Sighz Halo Xervish Hit +2109", -- [34]
+				"Sighz Halo Orgrimmar Grunt Hit +2460 (2460 overheal)", -- [35]
+				"Sighz Halo Orgrimmar Grunt Hit +1476 (1476 overheal)", -- [36]
+				"Sighz Halo Orgrimmar Grunt Hit +1845 (1845 overheal)", -- [37]
+				"Sighz Halo Orgrimmar Grunt Hit +2460 (2460 overheal)", -- [38]
+				"Sighz Halo Orgrimmar Grunt Crit +4920 (4920 overheal)", -- [39]
+				"Sighz Echo of Light Sighz Tick +131", -- [40]
+				"Sighz Echo of Light Mysttress Tick +113", -- [41]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +72 (72 overheal)", -- [42]
+				"Sighz Renew Sighz Hit +472", -- [43]
+				"Sighz Echo of Light Bilgewater Soldier Tick +132 (132 overheal)", -- [44]
+				"Sighz Echo of Light Olize-CenarionCircle Tick +88 (88 overheal)", -- [45]
+				"Sighz Echo of Light Bilgewater Soldier Tick +132 (132 overheal)", -- [46]
+				"Sighz Echo of Light Sibhoan-SistersofElune Tick +99 (99 overheal)", -- [47]
+				"Sighz Echo of Light Axakara Tick +99", -- [48]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +132 (132 overheal)", -- [49]
+				"Sighz Echo of Light Orgrimmar Grunt Tick +79 (79 overheal)", -- [50]
+			},
+			["Name"] = "Sighz",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				83399.164, -- [1]
+				83399.164, -- [2]
+				83399.274, -- [3]
+				83399.274, -- [4]
+				83399.274, -- [5]
+				83399.716, -- [6]
+				83400.964, -- [7]
+				83400.964, -- [8]
+				83401.304, -- [9]
+				83401.538, -- [10]
+				83401.703, -- [11]
+				83401.703, -- [12]
+				83401.812, -- [13]
+				83401.9, -- [14]
+				83402.011, -- [15]
+				83402.12, -- [16]
+				83402.12, -- [17]
+				83402.12, -- [18]
+				83402.237, -- [19]
+				83402.237, -- [20]
+				83402.237, -- [21]
+				83402.672, -- [22]
+				83403.596, -- [23]
+				83405.737, -- [24]
+				83406.262, -- [25]
+				83408.895, -- [26]
+				83411.572, -- [27]
+				83413.353, -- [28]
+				83395.675, -- [29]
+				83395.675, -- [30]
+				83395.83, -- [31]
+				83395.933, -- [32]
+				83396.034, -- [33]
+				83396.139, -- [34]
+				83396.139, -- [35]
+				83396.139, -- [36]
+				83396.246, -- [37]
+				83396.246, -- [38]
+				83396.246, -- [39]
+				83396.674, -- [40]
+				83397.983, -- [41]
+				83398.237, -- [42]
+				83398.36, -- [43]
+				83398.454, -- [44]
+				83398.69, -- [45]
+				83398.69, -- [46]
+				83398.801, -- [47]
+				83398.954, -- [48]
+				83399.066, -- [49]
+				83399.164, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 12434,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 12434,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Flamebringer Az'rothel"] = {
+							["Details"] = {
+								["Flame Breath (DoT)"] = {
+									["count"] = 6168,
+								},
+								["Flame Breath"] = {
+									["count"] = 6266,
+								},
+							},
+							["amount"] = 12434,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Flamebringer Az'rothel"] = {
+							["Details"] = {
+								["Flame Breath (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Rancor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Rancor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Fel Bat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2967,
+								},
+								["Rancor"] = {
+									["count"] = 1648,
+								},
+							},
+							["amount"] = 4615,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+						["Melee"] = 2967,
+						["Shadow"] = 1648,
+					},
+					["DamageTaken"] = 4615,
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 13343,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 13343,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Flamebringer Az'rothel"] = {
+							["Details"] = {
+								["Flame Breath"] = {
+									["count"] = 6008,
+								},
+								["Flame Breath (DoT)"] = {
+									["count"] = 7335,
+								},
+							},
+							["amount"] = 13343,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 13343,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Fire"] = 13343,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Flamebringer Az'rothel"] = {
+							["Details"] = {
+								["Flame Breath"] = {
+									["count"] = 6008,
+								},
+								["Flame Breath (DoT)"] = {
+									["count"] = 7335,
+								},
+							},
+							["amount"] = 13343,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 6,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 16,
+						},
+						["Rancor"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Flame Breath"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Flame Breath (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 16,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 0,
+						},
+						["Rancor"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Fel Bat"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2967,
+								},
+								["Rancor"] = {
+									["count"] = 1648,
+								},
+							},
+							["amount"] = 4615,
+						},
+						["Flamebringer Az'rothel"] = {
+							["Details"] = {
+								["Flame Breath (DoT)"] = {
+									["count"] = 19695,
+								},
+								["Flame Breath"] = {
+									["count"] = 12274,
+								},
+							},
+							["amount"] = 31969,
+						},
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 5817,
+								},
+							},
+							["amount"] = 5817,
+						},
+					},
+					["ElementTaken"] = {
+						["Fire"] = 31969,
+						["Physical"] = 5817,
+						["Melee"] = 2967,
+						["Shadow"] = 1648,
+					},
+					["DamageTaken"] = 42401,
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 16,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 82063.578,
+			["LastActive"] = 83412.582,
+		},
+	},
+	["FightNum"] = 3,
+	["CombatTimes"] = {
+		{
+			82956.579, -- [1]
+			82994.601, -- [2]
+			"23:32:53", -- [3]
+			"23:33:30", -- [4]
+			"Fel Bat", -- [5]
+		}, -- [1]
+		{
+			83295.585, -- [1]
+			83301.576, -- [2]
+			"23:38:32", -- [3]
+			"23:38:37", -- [4]
+			"Flamebringer Az'rothel", -- [5]
+		}, -- [2]
+		{
+			83335.586, -- [1]
+			83342.577, -- [2]
+			"23:39:12", -- [3]
+			"23:39:18", -- [4]
+			"Flamebringer Az'rothel", -- [5]
+		}, -- [3]
+	},
+	["FoughtWho"] = {
+		"Flamebringer Az'rothel 23:39:12-23:39:18", -- [1]
+		"Flamebringer Az'rothel 23:38:32-23:38:37", -- [2]
+		"Fel Bat 23:32:53-23:33:30", -- [3]
+	},
+}

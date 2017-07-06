@@ -1,0 +1,7 @@
+ConsLegion: disabled
+Recount: disabled
+Skada: disabled
+OmniBar: disabled
+OmniBar_Options: disabled
+MikScrollingBattleText: disabled
+MSBTOptions: disabled

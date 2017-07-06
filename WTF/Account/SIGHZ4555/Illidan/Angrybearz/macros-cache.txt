@@ -1,0 +1,54 @@
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Healing Surge
+END
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Riptide
+END
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Healing Wave
+END
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Earth Shield
+END
+VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Unleash Life
+END
+VER 3 0100000000000007 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] [help]Purify Spirit
+END
+VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Hex
+END
+VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover] Flame Shock
+END
+VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
+#showtooltip Ascendance
+/cast Blood Fury
+/cast Ascendance
+END
+VER 3 010000000000000B " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopcasting
+/cast [target=focus, harm,exists] []Wind Shear
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+/focus
+END
+VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
+/clearfocus
+END
+VER 3 010000000000000E " 1" "INV_MISC_QUESTIONMARK"
+/run UFP = "UnitFramePortrait_Update"; UICC = "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Classes"; CIT = CLASS_ICON_TCOORDS
+END
+VER 3 010000000000000F " 2" "INV_MISC_QUESTIONMARK"
+/run hooksecurefunc(UFP,function(self) if self.portrait then local t = CIT[select(2,UnitClass(self.unit))] if t then self.portrait:SetTexture(UICC) self.portrait:SetTexCoord(unpack(t)) end end end)
+END

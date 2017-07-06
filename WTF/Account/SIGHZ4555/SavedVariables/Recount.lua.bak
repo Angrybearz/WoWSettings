@@ -1,0 +1,31 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Beckyshmurda - Sargeras"] = "Beckyshmurda - Sargeras",
+	},
+	["profiles"] = {
+		["Beckyshmurda - Sargeras"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -431.499331203588,
+					["x"] = -722.000000843464,
+					["w"] = 234.00007394365,
+					["h"] = 185.000025163333,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowWidth"] = 234.00007394365,
+			["MainWindowHeight"] = 185.000025163333,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

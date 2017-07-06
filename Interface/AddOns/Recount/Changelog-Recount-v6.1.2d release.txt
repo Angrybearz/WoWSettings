@@ -1,0 +1,34 @@
+------------------------------------------------------------------------
+r1314 | resike | 2015-05-31 21:30:43 +0000 (Sun, 31 May 2015) | 1 line
+Changed paths:
+   A /tags/v6.1.2d release (from /trunk:1313)
+
+Tagging as v6.1.2d release
+------------------------------------------------------------------------
+r1313 | Resike | 2015-05-31 21:26:31 +0000 (Sun, 31 May 2015) | 4 lines
+Changed paths:
+   M /trunk/Tracker.lua
+   M /trunk/TrackerModules/TrackerModule_CCBreakers.lua
+
+- Modules updates.
+- Phasing error fix.
+- Fixed some other smaller issues.
+- Some clean up.
+------------------------------------------------------------------------
+r1311 | Resike | 2015-05-14 00:41:40 +0000 (Thu, 14 May 2015) | 3 lines
+Changed paths:
+   M /trunk/GUI_Config.lua
+   M /trunk/GUI_Main.lua
+   M /trunk/Recount.lua
+   M /trunk/Recount_Modes.lua
+   M /trunk/Tracker.lua
+   M /trunk/TrackerModules/TrackerModule_CCBreakers.lua
+   M /trunk/TrackerModules/TrackerModule_Dispels.lua
+   M /trunk/TrackerModules/TrackerModule_Interrupts.lua
+   M /trunk/TrackerModules/TrackerModule_PowerGains.lua
+   M /trunk/TrackerModules/TrackerModule_Resurrection.lua
+
+- Initial module updates.
+- Some code cleanup.
+- Some other smaller fixes.
+------------------------------------------------------------------------

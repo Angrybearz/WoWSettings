@@ -1,0 +1,10 @@
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Devour Magic
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "130"
+R1RM1RM1RM1MR2PM2PM2IH2RM3HR3IR3HR3HR2DH3WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x]0__[x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "130"
+NStaGidZepNorArnDevVelSneMisÄrSalShoMagTor[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ilo[x][x][x][x][x][x][x][x]Alw[x]HOLigo[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Bhe
+END
