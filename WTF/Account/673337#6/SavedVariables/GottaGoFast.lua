@@ -3,8 +3,8 @@ GottaGoFastDB = {
 	["profileKeys"] = {
 		["Cyclonelol - Wyrmrest Accord"] = "Default",
 		["Sighz - Wyrmrest Accord"] = "Default",
-		["Dewjr - Wyrmrest Accord"] = "Default",
 		["Angrybearz - Wyrmrest Accord"] = "Default",
+		["Dewjr - Wyrmrest Accord"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

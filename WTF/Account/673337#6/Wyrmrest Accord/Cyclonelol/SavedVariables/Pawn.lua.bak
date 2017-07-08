@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0103,
+	["LastVersion"] = 2.0209,
 	["LastPlayerFullName"] = "Cyclonelol-Wyrmrest Accord",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
