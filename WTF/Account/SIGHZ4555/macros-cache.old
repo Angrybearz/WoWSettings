@@ -1,5 +1,6 @@
-VER 3 0000000000000045 " " "SPELL_NATURE_SWIFTNESS"
-/run local f=TargetFrameToT; f:SetMovable(true); f:EnableMouse(true); f:SetUserPlaced(true); f:SetScript("onmousedown", f.StartMoving); f:SetScript("onmouseup", f.StopMovingOrSizing);
+VER 3 0000000000000045 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Remove Corruption;  [@mouseover,exists,mod:ctrl] Remove Corruption; [@mouseover,exists,mod:shift] Remove Corruption
 END
 VER 3 0000000000000044 "frames" "INV_MISC_QUESTIONMARK"
 /run LoadAddOn("Blizzard_CompactRaidFrames") CRFSort_Group=function(t1, t2) if UnitIsUnit(t1,"player") then return false elseif UnitIsUnit(t2,"player") then return true else return t1 < t2 end end CompactRaidFrameContainer.flowSortFunc=CRFSort_Group

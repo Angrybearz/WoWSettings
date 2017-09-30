@@ -1,18 +1,69 @@
 local E, L, V, P, G = unpack(ElvUI); --Inport: Engine, Locales, PrivateDB, ProfileDB, GlobalDB
 local UF = E:GetModule('UnitFrames');
 
+local type = type
+local pairs = pairs
+local tonumber = tonumber
+local tostring = tostring
+local gsub = string.gsub
+local match = string.match
+local format = string.format
+local tinsert = table.insert
+local COLOR = COLOR
+local UNKNOWN = UNKNOWN
+local NONE = NONE
+local GetSpellInfo = GetSpellInfo
+
+-- GLOBALS: MAX_PLAYER_LEVEL
+-- GLOBALS: selectedFolder
+--  what is selectedFolder?
+
 local selectedSpell;
 local selectedFilter;
-local filters;
-local tinsert = table.insert
-local tonumber = tonumber
-local format = string.format
-local UNKNOWN = UNKNOWN
+
+local function filterValue(value)
+	return gsub(value,'([%(%)%.%%%+%-%*%?%[%^%$])','%%%1')
+end
+
+local function filterMatch(s,v)
+	local m1, m2, m3, m4 = "^"..v.."$", "^"..v..",", ","..v.."$", ","..v..","
+	return (match(s, m1) and m1) or (match(s, m2) and m2) or (match(s, m3) and m3) or (match(s, m4) and v..",")
+end
+
+local function removePriority(value)
+	if not value then return end
+	local x,y,z=E.db.unitframe.units,E.db.nameplates.units;
+	for n, t in pairs(x) do
+		if t and t.buffs and t.buffs.priority and t.buffs.priority ~= "" then
+			z = filterMatch(t.buffs.priority, filterValue(value))
+			if z then E.db.unitframe.units[n].buffs.priority = gsub(t.buffs.priority, z, "") end
+		end
+		if t and t.debuffs and t.debuffs.priority and t.debuffs.priority ~= "" then
+			z = filterMatch(t.debuffs.priority, filterValue(value))
+			if z then E.db.unitframe.units[n].debuffs.priority = gsub(t.debuffs.priority, z, "") end
+		end
+		if t and t.aurabar and t.aurabar.priority and t.aurabar.priority ~= "" then
+			z = filterMatch(t.aurabar.priority, filterValue(value))
+			if z then E.db.unitframe.units[n].aurabar.priority = gsub(t.aurabar.priority, z, "") end
+		end
+	end
+	for n, t in pairs(y) do
+		if t and t.buffs and t.buffs.priority and t.buffs.priority ~= "" then
+			z = filterMatch(t.buffs.priority, filterValue(value))
+			if z then E.db.nameplates.units[n].buffs.priority = gsub(t.buffs.priority, z, "") end
+		end
+		if t and t.debuffs and t.debuffs.priority and t.debuffs.priority ~= "" then
+			z = filterMatch(t.debuffs.priority, filterValue(value))
+			if z then E.db.nameplates.units[n].debuffs.priority = gsub(t.debuffs.priority, z, "") end
+		end
+	end
+end
 
 local function UpdateFilterGroup()
 	--Prevent errors when choosing a new filter, by doing a reset of the groups
 	E.Options.args.filters.args.filterGroup = nil
 	E.Options.args.filters.args.spellGroup = nil
+	E.Options.args.filters.childGroups = nil
 
 	if selectedFilter == 'Debuff Highlight' then
 		if not selectedFilter then
@@ -41,7 +92,7 @@ local function UpdateFilterGroup()
 					end,
 				},
 				removeSpell = {
-					order = 1,
+					order = 2,
 					name = L["Remove Spell ID or Name"],
 					desc = L["Remove a spell from the filter. Use the spell ID if you see the ID as part of the spell name in the filter."],
 					type = 'input',
@@ -57,14 +108,17 @@ local function UpdateFilterGroup()
 				selectSpell = {
 					name = L["Select Spell"],
 					type = 'select',
-					order = -9,
+					order = 10,
+					width = "double",
 					guiInline = true,
 					get = function(info) return selectedSpell end,
 					set = function(info, value) selectedSpell = value; UpdateFilterGroup() end,
 					values = function()
 						local filters = {}
 						filters[''] = NONE
-						for filter in pairs(E.global.unitframe.DebuffHighlightColors) do
+						local list = E.global.unitframe.DebuffHighlightColors
+						if not list then return end
+						for filter in pairs(list) do
 							local spellString
 							if tonumber(filter) then
 								local spellName = GetSpellInfo(filter)
@@ -76,14 +130,25 @@ local function UpdateFilterGroup()
 							end
 							filters[filter] = filter
 						end
-
 						return filters
+					end,
+				},
+				resetFilter = {
+					order = 8,
+					type = "execute",
+					name = L["Reset Filter"],
+					desc = L["This will reset the contents of this filter back to default. Any spell you have added to this filter will be removed."],
+					func = function(info, value)
+						E.global.unitframe.DebuffHighlightColors = E:CopyTable({}, G.unitframe.DebuffHighlightColors)
+						selectedSpell = nil
+						UpdateFilterGroup()
+						UF:Update_AllFrames()
 					end,
 				},
 			},
 		}
-		
-		local spellID = selectedSpell and string.match(selectedSpell, "(%d+)")
+
+		local spellID = selectedSpell and match(selectedSpell, "(%d+)")
 		if spellID then spellID = tonumber(spellID) end
 
 		if not selectedSpell or E.global.unitframe.DebuffHighlightColors[(spellID or selectedSpell)] == nil then
@@ -126,7 +191,7 @@ local function UpdateFilterGroup()
 					end,
 				},
 				color = {
-					name = L["Color"],
+					name = COLOR,
 					type = 'color',
 					order = 1,
 					hasAlpha = true,
@@ -173,7 +238,7 @@ local function UpdateFilterGroup()
 					end,
 				},
 				removeSpell = {
-					order = 1,
+					order = 2,
 					name = L["Remove Spell ID or Name"],
 					desc = L["Remove a spell from the filter. Use the spell ID if you see the ID as part of the spell name in the filter."],
 					type = 'input',
@@ -196,7 +261,8 @@ local function UpdateFilterGroup()
 				selectSpell = {
 					name = L["Select Spell"],
 					type = 'select',
-					order = -9,
+					order = 10,
+					width = "double",
 					guiInline = true,
 					get = function(info) return selectedSpell end,
 					set = function(info, value)
@@ -206,7 +272,9 @@ local function UpdateFilterGroup()
 					values = function()
 						local filters = {}
 						filters[''] = NONE
-						for filter in pairs(E.global.unitframe.AuraBarColors) do
+						local list = E.global.unitframe.AuraBarColors
+						if not list then return end
+						for filter in pairs(list) do
 							local spellString
 							if tonumber(filter) then
 								local spellName = GetSpellInfo(filter)
@@ -218,14 +286,25 @@ local function UpdateFilterGroup()
 							end
 							filters[filter] = filter
 						end
-
 						return filters
+					end,
+				},
+				resetFilter = {
+					order = 8,
+					type = "execute",
+					name = L["Reset Filter"],
+					desc = L["This will reset the contents of this filter back to default. Any spell you have added to this filter will be removed."],
+					func = function(info, value)
+						E.global.unitframe.AuraBarColors = E:CopyTable({}, G.unitframe.AuraBarColors)
+						selectedSpell = nil
+						UpdateFilterGroup()
+						UF:Update_AllFrames()
 					end,
 				},
 			},
 		}
 
-		local spellID = selectedSpell and string.match(selectedSpell, "(%d+)")
+		local spellID = selectedSpell and match(selectedSpell, "(%d+)")
 		if spellID then spellID = tonumber(spellID) end
 
 		if not selectedSpell or E.global.unitframe.AuraBarColors[(spellID or selectedSpell)] == nil then
@@ -240,7 +319,7 @@ local function UpdateFilterGroup()
 			guiInline = true,
 			args = {
 				color = {
-					name = L["Color"],
+					name = COLOR,
 					type = 'color',
 					order = 1,
 					get = function(info)
@@ -336,11 +415,13 @@ local function UpdateFilterGroup()
 				selectSpell = {
 					name = L["Select Spell"],
 					type = "select",
-					order = 3,
+					order = 10,
+					width = "double",
 					values = function()
-						local values = {};
-
-						for _, spell in pairs(E.global.unitframe.buffwatch.PET) do
+						local values = {}
+						local list = E.global.unitframe.buffwatch.PET
+						if not list then return end
+						for _, spell in pairs(list) do
 							if spell.id then
 								local name = GetSpellInfo(spell.id)
 								values[spell.id] = name;
@@ -352,6 +433,18 @@ local function UpdateFilterGroup()
 					set = function(info, value)
 						selectedSpell = value;
 						UpdateFilterGroup()
+					end,
+				},
+				resetFilter = {
+					order = 8,
+					type = "execute",
+					name = L["Reset Filter"],
+					desc = L["This will reset the contents of this filter back to default. Any spell you have added to this filter will be removed."],
+					func = function(info, value)
+						E.global.unitframe.buffwatch.PET = E:CopyTable({}, G.unitframe.buffwatch.PET)
+						selectedSpell = nil
+						UpdateFilterGroup()
+						UF:Update_AllFrames()
 					end,
 				},
 			},
@@ -414,7 +507,7 @@ local function UpdateFilterGroup()
 						},
 					},
 					color = {
-						name = L["Color"],
+						name = COLOR,
 						type = 'color',
 						order = 6,
 						get = function(info)
@@ -542,10 +635,13 @@ local function UpdateFilterGroup()
 				selectSpell = {
 					name = L["Select Spell"],
 					type = "select",
-					order = 3,
+					order = 10,
+					width = "double",
 					values = function()
-						local values = {};
-						for _, spell in pairs(E.global.unitframe.buffwatch[E.myclass]) do
+						local values = {}
+						local list = E.global.unitframe.buffwatch[E.myclass]
+						if not list then return end
+						for _, spell in pairs(list) do
 							if spell.id then
 								local name = GetSpellInfo(spell.id)
 								values[spell.id] = name;
@@ -557,6 +653,18 @@ local function UpdateFilterGroup()
 					set = function(info, value)
 						selectedSpell = value;
 						UpdateFilterGroup()
+					end,
+				},
+				resetFilter = {
+					order = 8,
+					type = "execute",
+					name = L["Reset Filter"],
+					desc = L["This will reset the contents of this filter back to default. Any spell you have added to this filter will be removed."],
+					func = function(info, value)
+						E.global.unitframe.buffwatch[E.myclass] = E:CopyTable({}, G.unitframe.buffwatch[E.myclass])
+						selectedSpell = nil
+						UpdateFilterGroup()
+						UF:Update_AllFrames()
 					end,
 				},
 			},
@@ -627,7 +735,7 @@ local function UpdateFilterGroup()
 						},
 					},
 					color = {
-						name = L["Color"],
+						name = COLOR,
 						type = 'color',
 						order = 6,
 						get = function(info)
@@ -757,10 +865,13 @@ local function UpdateFilterGroup()
 				selectSpell = {
 					name = L["Select Spell"],
 					type = "select",
-					order = 3,
+					order = 10,
+					width = "double",
 					values = function()
-						local values = {};
-						for _, spell in pairs(E.db.unitframe.filters.buffwatch) do
+						local values = {}
+						local list = E.db.unitframe.filters.buffwatch
+						if not list then return end
+						for _, spell in pairs(list) do
 							if spell.id then
 								local name = GetSpellInfo(spell.id)
 								values[spell.id] = name;
@@ -772,6 +883,18 @@ local function UpdateFilterGroup()
 					set = function(info, value)
 						selectedSpell = value;
 						UpdateFilterGroup()
+					end,
+				},
+				resetFilter = {
+					order = 8,
+					type = "execute",
+					name = L["Reset Filter"],
+					desc = L["This will reset the contents of this filter back to default. Any spell you have added to this filter will be removed."],
+					func = function(info, value)
+						E.db.unitframe.filters.buffwatch = {}
+						selectedSpell = nil
+						UpdateFilterGroup()
+						UF:Update_AllFrames()
 					end,
 				},
 			},
@@ -846,7 +969,7 @@ local function UpdateFilterGroup()
 						},
 					},
 					color = {
-						name = L["Color"],
+						name = COLOR,
 						type = 'color',
 						order = 6,
 						get = function(info)
@@ -949,7 +1072,7 @@ local function UpdateFilterGroup()
 					end,
 				},
 				removeSpell = {
-					order = 1,
+					order = 2,
 					name = L["Remove Spell ID or Name"],
 					desc = L["Remove a spell from the filter. Use the spell ID if you see the ID as part of the spell name in the filter."],
 					type = 'input',
@@ -986,8 +1109,9 @@ local function UpdateFilterGroup()
 				selectSpell = {
 					name = L["Select Spell"],
 					type = 'select',
-					order = -9,
+					order = 10,
 					guiInline = true,
+					width = "double",
 					get = function(info) return selectedSpell end,
 					set = function(info, value)
 						selectedSpell = value;
@@ -996,7 +1120,9 @@ local function UpdateFilterGroup()
 					values = function()
 						local filters = {}
 						filters[''] = NONE
-						for filter in pairs(E.global.unitframe['aurafilters'][selectedFilter]['spells']) do
+						local list = E.global.unitframe['aurafilters'][selectedFilter]['spells']
+						if not list then return end
+						for filter in pairs(list) do
 							local spellString
 							if tonumber(filter) then
 								local spellName = GetSpellInfo(filter)
@@ -1008,14 +1134,33 @@ local function UpdateFilterGroup()
 							end
 							filters[filter] = filter
 						end
-
 						return filters
 					end,
 				},
 			},
 		}
 
-		local spellID = selectedSpell and string.match(selectedSpell, "(%d+)")
+		if (E.DEFAULT_FILTER[selectedFilter]) then
+			--Disable and hide filter type option for default filters
+			E.Options.args.filters.args.filterGroup.args.filterType.disabled = true
+			E.Options.args.filters.args.filterGroup.args.filterType.hidden = true
+			
+			--Add button to reset content of the filter back to default
+			E.Options.args.filters.args.filterGroup.args.resetFilter = {
+				order = 8,
+				type = "execute",
+				name = L["Reset Filter"],
+				desc = L["This will reset the contents of this filter back to default. Any spell you have added to this filter will be removed."],
+				func = function()
+					E.global.unitframe['aurafilters'][selectedFilter]['spells'] = E:CopyTable({}, G.unitframe['aurafilters'][selectedFilter]['spells'])
+					selectedSpell = nil
+					UpdateFilterGroup()
+					UF:Update_AllFrames()
+				end,
+			}
+		end
+
+		local spellID = selectedSpell and match(selectedSpell, "(%d+)")
 		if spellID then spellID = tonumber(spellID) end
 
 		if not selectedSpell or not E.global.unitframe['aurafilters'][selectedFilter]['spells'][(spellID or selectedSpell)] then
@@ -1083,7 +1228,7 @@ end
 
 E.Options.args.filters = {
 	type = 'group',
-	name = L["Filters"],
+	name = FILTERS,
 	order = -10, --Always Last Hehehe
 	args = {
 		createFilter = {
@@ -1093,6 +1238,20 @@ E.Options.args.filters = {
 			type = 'input',
 			get = function(info) return "" end,
 			set = function(info, value)
+				if match(value, "^[%s%p]-$") then
+					return
+				end
+				if match(value, ",") then
+					E:Print(L["Filters are not allowed to have commas in their name. Stripping commas from filter name."])
+					value = gsub(value, ",", "")
+				end
+				if match(value, "^Friendly:") or match(value, "^Enemy:") then
+					return --dont allow people to create Friendly: or Enemy: filters
+				end
+				if G.unitframe.specialFilters[value] or E.global.unitframe.aurafilters[value] then
+					E:Print(L["Filter already exists!"])
+					return
+				end
 				E.global.unitframe['aurafilters'][value] = {};
 				E.global.unitframe['aurafilters'][value]['spells'] = {};
 			end,
@@ -1104,10 +1263,14 @@ E.Options.args.filters = {
 			desc = L["Delete a created filter, you cannot delete pre-existing filters, only custom ones."],
 			get = function(info) return "" end,
 			set = function(info, value)
-				if G['unitframe']['aurafilters'][value] then
+				if match(value, "^[%s%p]-$") then
+					return
+				end
+				if G.unitframe.aurafilters[value] then
 					E:Print(L["You can't remove a pre-existing filter."])
 				else
 					E.global.unitframe['aurafilters'][value] = nil;
+					removePriority(value); --This will wipe a filter from the new aura system profile settings.
 					selectedFilter = nil;
 					selectedSpell = nil;
 					E.Options.args.filters.args.filterGroup = nil;
@@ -1121,9 +1284,11 @@ E.Options.args.filters = {
 			get = function(info) return selectedFilter end,
 			set = function(info, value) if value == '' then selectedFilter = nil; selectedSpell = nil; else selectedSpell = nil; selectedFilter = value end; UpdateFilterGroup() end,
 			values = function()
-				filters = {}
+				local filters = {}
 				filters[''] = NONE
-				for filter in pairs(E.global.unitframe['aurafilters']) do
+				local list = E.global.unitframe['aurafilters']
+				if not list then return end
+				for filter in pairs(list) do
 					filters[filter] = filter
 				end
 

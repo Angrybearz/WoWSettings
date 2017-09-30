@@ -52,14 +52,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 2,
+							["startTime"] = 374939.312,
 							["objectiveTimes"] = {
 								"02:59", -- [1]
 								"07:24", -- [2]
 								"16:00", -- [3]
 								"12:23", -- [4]
 							},
-							["startTime"] = 374939.312,
+							["level"] = 2,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -102,14 +102,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 2,
+							["startTime"] = 98646.189,
 							["objectiveTimes"] = {
 								"02:18", -- [1]
 								"06:09", -- [2]
 								"12:29", -- [3]
 								"09:37", -- [4]
 							},
-							["startTime"] = 98646.189,
+							["level"] = 2,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -156,14 +156,14 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 4,
+							["startTime"] = 465173.209,
 							["objectiveTimes"] = {
 								"03:35", -- [1]
 								"09:35", -- [2]
 								"18:17", -- [3]
 								"14:27", -- [4]
 							},
-							["startTime"] = 465173.209,
+							["level"] = 4,
 						}, -- [3]
 					},
 					["name"] = "Maw of Souls",
@@ -200,8 +200,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 50,
 							},
-							["level"] = 2,
 							["startTime"] = 34086.014,
+							["level"] = 2,
 							["objectiveTimes"] = {
 								"04:04", -- [1]
 								"11:58", -- [2]
@@ -255,8 +255,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 17,
 							},
-							["startTime"] = 36729.899,
 							["level"] = 4,
+							["startTime"] = 36729.899,
 							["objectiveTimes"] = {
 								"04:20", -- [1]
 								"11:57", -- [2]
@@ -337,7 +337,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "DAMAGER",
 								}, -- [5]
 							},
-							["level"] = 2,
+							["startTime"] = 461924.157,
 							["objectiveTimes"] = {
 								"05:21", -- [1]
 								"09:29", -- [2]
@@ -346,7 +346,7 @@ GottaGoFastHistoryDB = {
 								"22:10", -- [5]
 								"19:11", -- [6]
 							},
-							["startTime"] = 461924.157,
+							["level"] = 2,
 						}, -- [1]
 					},
 					["name"] = "Vault of the Wardens",
@@ -370,6 +370,192 @@ GottaGoFastHistoryDB = {
 						"Oakheart", -- [2]
 						"Dresaron", -- [3]
 						"Shade of Xavius", -- [4]
+						"Enemy Forces", -- [5]
+					},
+				},
+				[1477] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 34781.43,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 11,
+								["hours"] = 23,
+								["mins"] = 16,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Velious",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Monk",
+									["name"] = "Vykkï",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Plzhealmenow (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kwyjibo",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Druid",
+									["name"] = "Cyclonelol",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 33175.223,
+							["objectiveTimes"] = {
+								"02:31", -- [1]
+								"19:10", -- [2]
+								"12:05", -- [3]
+								"24:45", -- [4]
+								"26:45", -- [5]
+								"24:45", -- [6]
+							},
+							["level"] = 2,
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 6,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 98186.926,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 11,
+								["hours"] = 16,
+								["mins"] = 10,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Velious",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Orgrimmash",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kwyjibo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Hackdaplanet",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druid",
+									["name"] = "Cyclonelol",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 96604.155,
+							["objectiveTimes"] = {
+								"02:20", -- [1]
+								"18:57", -- [2]
+								"09:36", -- [3]
+								"24:45", -- [4]
+								"26:52", -- [5]
+								"24:45", -- [6]
+							},
+							["level"] = 3,
+						}, -- [2]
+					},
+					["name"] = "Halls of Valor",
+					["zoneID"] = 1477,
+					["objectives"] = {
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
+						"Enemy Forces", -- [6]
+					},
+				},
+				[1501] = {
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 15,
+							["affixes"] = {
+								[7] = {
+									["name"] = "Bolstering",
+									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
+								},
+							},
+							["active"] = false,
+							["endTime"] = 102544.492,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 11,
+								["hours"] = 17,
+								["mins"] = 22,
+								["year"] = 2016,
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Velious",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Orgrimmash",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kwyjibo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Hackdaplanet",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druid",
+									["name"] = "Cyclonelol",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+							["startTime"] = 100254.207,
+							["objectiveTimes"] = {
+								"05:55", -- [1]
+								"19:11", -- [2]
+								"34:25", -- [3]
+								"39:24", -- [4]
+								"36:58", -- [5]
+							},
+							["level"] = 6,
+						}, -- [1]
+					},
+					["name"] = "Black Rook Hold",
+					["zoneID"] = 1501,
+					["objectives"] = {
+						"Amalgam of Souls", -- [1]
+						"Illysanna Ravencrest", -- [2]
+						"Smashspite the Hateful", -- [3]
+						"Lord Kur'talos Ravencrest", -- [4]
 						"Enemy Forces", -- [5]
 					},
 				},
@@ -420,7 +606,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 5,
+							["startTime"] = 35186.263,
 							["objectiveTimes"] = {
 								"04:13", -- [1]
 								"15:06", -- [2]
@@ -429,7 +615,7 @@ GottaGoFastHistoryDB = {
 								"28:30", -- [5]
 								"24:49", -- [6]
 							},
-							["startTime"] = 35186.263,
+							["level"] = 5,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -449,8 +635,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 50,
 							},
-							["startTime"] = 38617.924,
 							["level"] = 4,
+							["startTime"] = 38617.924,
 							["objectiveTimes"] = {
 								"03:49", -- [1]
 								"07:10", -- [2]
@@ -505,8 +691,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 29,
 							},
-							["startTime"] = 40312.948,
 							["level"] = 6,
+							["startTime"] = 40312.948,
 							["objectiveTimes"] = {
 								"03:31", -- [1]
 								"07:52", -- [2]
@@ -552,192 +738,6 @@ GottaGoFastHistoryDB = {
 						"King Deepbeard", -- [3]
 						"Serpentrix", -- [4]
 						"Wrath of Azshara", -- [5]
-						"Enemy Forces", -- [6]
-					},
-				},
-				[1501] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 15,
-							["affixes"] = {
-								[7] = {
-									["name"] = "Bolstering",
-									["desc"] = "When any non-boss enemy dies, its death cry empowers nearby allies, increasing their maximum health and damage by 20%.",
-								},
-							},
-							["active"] = false,
-							["endTime"] = 102544.492,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 11,
-								["hours"] = 17,
-								["mins"] = 22,
-								["year"] = 2016,
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Velious",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Orgrimmash",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kwyjibo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Hackdaplanet",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Cyclonelol",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 6,
-							["objectiveTimes"] = {
-								"05:55", -- [1]
-								"19:11", -- [2]
-								"34:25", -- [3]
-								"39:24", -- [4]
-								"36:58", -- [5]
-							},
-							["startTime"] = 100254.207,
-						}, -- [1]
-					},
-					["name"] = "Black Rook Hold",
-					["zoneID"] = 1501,
-					["objectives"] = {
-						"Amalgam of Souls", -- [1]
-						"Illysanna Ravencrest", -- [2]
-						"Smashspite the Hateful", -- [3]
-						"Lord Kur'talos Ravencrest", -- [4]
-						"Enemy Forces", -- [5]
-					},
-				},
-				[1477] = {
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 34781.43,
-							["timeStamp"] = {
-								["day"] = 10,
-								["month"] = 11,
-								["hours"] = 23,
-								["mins"] = 16,
-								["year"] = 2016,
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Velious",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Monk",
-									["name"] = "Vykkï",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druid",
-									["name"] = "Plzhealmenow (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kwyjibo",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Cyclonelol",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"02:31", -- [1]
-								"19:10", -- [2]
-								"12:05", -- [3]
-								"24:45", -- [4]
-								"26:45", -- [5]
-								"24:45", -- [6]
-							},
-							["startTime"] = 33175.223,
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 6,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 98186.926,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 11,
-								["hours"] = 16,
-								["mins"] = 10,
-								["year"] = 2016,
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Velious",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Orgrimmash",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kwyjibo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Hackdaplanet",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Cyclonelol",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-							["level"] = 3,
-							["objectiveTimes"] = {
-								"02:20", -- [1]
-								"18:57", -- [2]
-								"09:36", -- [3]
-								"24:45", -- [4]
-								"26:52", -- [5]
-								"24:45", -- [6]
-							},
-							["startTime"] = 96604.155,
-						}, -- [2]
-					},
-					["name"] = "Halls of Valor",
-					["zoneID"] = 1477,
-					["objectives"] = {
-						"Hymdall", -- [1]
-						"Hyrja", -- [2]
-						"Fenryr", -- [3]
-						"God-King Skovald", -- [4]
-						"Odyn", -- [5]
 						"Enemy Forces", -- [6]
 					},
 				},

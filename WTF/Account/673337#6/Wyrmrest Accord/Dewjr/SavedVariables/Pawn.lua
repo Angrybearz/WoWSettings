@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Dewjr-Wyrmrest Accord",
 	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128911] = {
 			["Relics"] = {
@@ -23,7 +24,6 @@ PawnOptions = {
 			["Name"] = "Sharas'dal, Scepter of Tides",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "SHAMAN",

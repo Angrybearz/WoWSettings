@@ -1,91 +1,83 @@
 local mod	= DBM:NewMod(2010, "DBM-Argus", nil, 959)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 16381 $"):sub(12, -3))
---mod:SetCreatureID(109331)
---mod:SetEncounterID(1952)--Does not have one
+mod:SetRevision(("$Revision: 16712 $"):sub(12, -3))
+mod:SetCreatureID(124514)
+mod:SetEncounterID(2081)
 --mod:SetReCombatTime(20)
 mod:SetZone()
 --mod:SetMinSyncRevision(11969)
 
-mod:RegisterCombat("combat")
+mod:RegisterCombat("combat_yell", L.Pull)
 
---[[
 mod:RegisterEventsInCombat(
-	"SPELL_CAST_START",
-	"SPELL_CAST_SUCCESS",
-	"SPELL_AURA_APPLIED",
-	"SPELL_AURA_REMOVED",
-	"SPELL_PERIODIC_DAMAGE",
-	"SPELL_PERIODIC_MISSED",
-	"UNIT_SPELLCAST_SUCCEEDED"
+	"SPELL_CAST_START 247379 247443",
+	"SPELL_AURA_APPLIED 247361 247389",
+	"SPELL_AURA_APPLIED_DOSE 247361"
 )
 
---local warnAncientRageFire		= mod:NewSpellAnnounce(217563, 2)
+local warnInfectedClaws					= mod:NewStackAnnounce(247361, 2, nil, "Tank")
+local warnSlumberingGasp				= mod:NewTargetAnnounce(247389, 2, nil, false)
+local warnGrotesqueSpawn				= mod:NewSpellAnnounce(247443, 2)
 
---local specBurningBomb			= mod:NewSpecialWarningYou(217877, nil, nil, nil, 1, 2)
---local yellBurningBomb			= mod:NewFadesYell(217877)
---local specWarnGTFO					= mod:NewSpecialWarningGTFO(238028, nil, nil, nil, 1, 2)
+local specWarnInfectedClaws				= mod:NewSpecialWarningStack(247361, nil, 6, nil, nil, 1, 2)
+local specWarnInfectedClawsOther		= mod:NewSpecialWarningTaunt(247361, nil, nil, nil, 1, 2)
+local specWarnSlumberingGasp			= mod:NewSpecialWarningDodge(247379, nil, nil, nil, 2, 2)
 
---local timerBurningBombCD		= mod:NewAITimer(13.4, 217877, nil, nil, nil, 3)
+--local timerInfectedClawsCD				= mod:NewAITimer(13.4, 247361, nil, "Tank", nil, 5, nil, DBM_CORE_TANK_ICON)
+local timerSlumberingGaspCD				= mod:NewCDTimer(54.7, 247379, nil, nil, nil, 3, nil, DBM_CORE_IMPORTANT_ICON)
+local timerGrotesqueSpawnCD				= mod:NewCDTimer(32.8, 247443, nil, nil, nil, 1)
 
---local voiceBurningBomb			= mod:NewVoice(217877)--targetyou
---local voiceGTFO						= mod:NewVoice(238028, nil, DBM_CORE_AUTO_VOICE4_OPTION_TEXT)--runaway
+local voiceInfectedClaws				= mod:NewVoice(247361)--tauntboss/stackhigh
+local voiceSlumberingGasp				= mod:NewVoice(247379)--breathsoon
 
---mod:AddReadyCheckOption(43193, false)
---mod:AddRangeFrameOption(10, 217877)
+mod:AddReadyCheckOption(49199, false)
 
 function mod:OnCombatStart(delay, yellTriggered)
 	if yellTriggered then
-
+		timerGrotesqueSpawnCD:Start(9.5-delay)
+		timerSlumberingGaspCD:Start(58-delay)
 	end
-end
-
-function mod:OnCombatEnd()
---	if self.Options.RangeFrame then
---		DBM.RangeCheck:Hide()
---	end
 end
 
 function mod:SPELL_CAST_START(args)
 	local spellId = args.spellId
-	if spellId == 217966 then
-
-	end
-end
-
-function mod:SPELL_CAST_SUCCESS(args)
-	local spellId = args.spellId
-	if spellId == 217877 then
-
+	if spellId == 247379 then
+		specWarnSlumberingGasp:Show()
+		voiceSlumberingGasp:Play("breathsoon")
+		timerSlumberingGaspCD:Start()
+	elseif spellId == 247443 then
+		warnGrotesqueSpawn:Show()
+		timerGrotesqueSpawnCD:Start()
 	end
 end
 
 function mod:SPELL_AURA_APPLIED(args)
 	local spellId = args.spellId
-	if spellId == 217877 then
-
+	if spellId == 247361 then
+		local uId = DBM:GetRaidUnitId(args.destName)
+		if self:IsTanking(uId) then
+			local amount = args.amount or 1
+			if amount % 3 == 0 then 
+				if amount >= 6 then--Lasts 30 seconds, cast every 5 seconds, swapping will be at 6
+					if args:IsPlayer() then--At this point the other tank SHOULD be clear.
+						specWarnInfectedClaws:Show(amount)
+						voiceInfectedClaws:Play("stackhigh")
+					else--Taunt as soon as stacks are clear, regardless of stack count.
+						if not UnitIsDeadOrGhost("player") and not UnitDebuff("player", args.spellName) then
+							specWarnInfectedClawsOther:Show(args.destName)
+							voiceInfectedClaws:Play("tauntboss")
+						else
+							warnInfectedClaws:Show(args.destName, amount)
+						end
+					end
+				else
+					warnInfectedClaws:Show(args.destName, amount)
+				end
+			end
+		end
+	elseif spellId == 247389 then
+		warnSlumberingGasp:CombinedShow(1.5, args.destName)
 	end
 end
-
-function mod:SPELL_AURA_REMOVED(args)
-	local spellId = args.spellId
-	if spellId == 217877 then
-
-	end
-end
-
-function mod:SPELL_PERIODIC_DAMAGE(_, _, _, _, destGUID, _, _, _, spellId)
-	if spellId == 217907 and destGUID == UnitGUID("player") and self:AntiSpam(2, 5) then
-		specWarnGTFO:Show()
-		voiceGTFO:Play("runaway")
-	end
-end
-mod.SPELL_PERIODIC_MISSED = mod.SPELL_PERIODIC_DAMAGE
-
-function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, _, spellId)
-	if spellId == 217563 and self:AntiSpam(4, 1) then
-
-	end
-end
---]]
+mod.SPELL_AURA_APPLIED_DOSE = mod.SPELL_AURA_APPLIED

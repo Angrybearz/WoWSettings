@@ -56,7 +56,7 @@ function _detalhes:AbreJanelaInfo (jogador, from_att_change, refresh, ShiftKeyDo
 
 	--> _detalhes.info_jogador armazena o jogador que esta sendo mostrado na janela de detalhes
 	if (info.jogador and info.jogador == jogador and self and info.atributo and self.atributo == info.atributo and self.sub_atributo == info.sub_atributo and not refresh) then
-		_detalhes:FechaJanelaInfo() --> se clicou na mesma barra entï¿½o fecha a janela de detalhes
+		_detalhes:FechaJanelaInfo() --> se clicou na mesma barra então fecha a janela de detalhes
 		return
 	elseif (not jogador) then
 		_detalhes:FechaJanelaInfo()
@@ -76,13 +76,13 @@ function _detalhes:AbreJanelaInfo (jogador, from_att_change, refresh, ShiftKeyDo
 		end
 	end
 	
-	--> passar os parï¿½metros para dentro da tabela da janela.
+	--> passar os parâmetros para dentro da tabela da janela.
 
 	info.ativo = true --> sinaliza o addon que a janela esta aberta
 	info.atributo = self.atributo --> instancia.atributo -> grava o atributo (damage, heal, etc)
 	info.sub_atributo = self.sub_atributo --> instancia.sub_atributo -> grava o sub atributo (damage done, dps, damage taken, etc)
 	info.jogador = jogador --> de qual jogador (objeto classe_damage)
-	info.instancia = self --> salva a referï¿½ncia da instï¿½ncia que pediu o info
+	info.instancia = self --> salva a referência da instância que pediu o info
 	
 	info.target_text = Loc ["STRING_TARGETS"] .. ":"
 	info.target_member = "total"
@@ -320,9 +320,9 @@ function gump:TrocaBackgroundInfo()
 	end
 end
 
---> self ï¿½ qualquer coisa que chamar esta funï¿½ï¿½o
+--> self é qualquer coisa que chamar esta função
 ------------------------------------------------------------------------------------------------------------------------------
--- ï¿½ chamado pelo click no X e pelo reset do historico
+-- é chamado pelo click no X e pelo reset do historico
 function _detalhes:FechaJanelaInfo (fromEscape)
 	if (info.ativo) then --> se a janela tiver aberta
 		--janela_info:Hide()
@@ -379,7 +379,7 @@ function gump:HidaAllDetalheInfo()
 end
 
 
---> seta os scripts da janela de informaï¿½ï¿½es
+--> seta os scripts da janela de informações
 local mouse_down_func = function (self, button)
 	if (button == "LeftButton") then
 		info:StartMoving()
@@ -412,7 +412,7 @@ local function seta_scripts (este_gump)
 	este_gump.container_alvos.gump:SetScript ("OnMouseDown", mouse_down_func)
 	este_gump.container_alvos.gump:SetScript ("OnMouseUp", mouse_up_func)
 
-	--> botï¿½o fechar
+	--> botão fechar
 	este_gump.close_button:SetScript ("OnClick", function (self) 
 		_detalhes:FechaJanelaInfo()
 	end)
@@ -432,7 +432,7 @@ function gump:HidaDetalheInfo (index)
 	info.bg:Hide()
 end
 
---> cria a barra de detalhes a direita da janela de informaï¿½ï¿½es
+--> cria a barra de detalhes a direita da janela de informações
 ------------------------------------------------------------------------------------------------------------------------------
 
 local detalhe_infobg_onenter = function (self)
@@ -512,7 +512,7 @@ function info:SetDetailInfoConfigs (texture, color, x, y)
 	end
 end
 
---> determina qual a pocisï¿½o que a barra de detalhes vai ocupar
+--> determina qual a pocisão que a barra de detalhes vai ocupar
 ------------------------------------------------------------------------------------------------------------------------------
 function gump:SetaDetalheInfoAltura (index, xmod, ymod)
 	local info = _detalhes.janela_info.grupos_detalhes [index]
@@ -572,7 +572,7 @@ function gump:SetaDetalheInfoAltura (index, xmod, ymod)
 	info.bg:Hide()
 end
 
---> seta o conteï¿½do da barra de detalhes
+--> seta o conteúdo da barra de detalhes
 ------------------------------------------------------------------------------------------------------------------------------
 function gump:SetaDetalheInfoTexto (index, p, arg1, arg2, arg3, arg4, arg5, arg6)
 	local info = _detalhes.janela_info.grupos_detalhes [index]
@@ -637,7 +637,7 @@ function gump:SetaDetalheInfoTexto (index, p, arg1, arg2, arg3, arg4, arg5, arg6
 	
 end
 
---> cria as 5 caixas de detalhes infos que serï¿½o usados
+--> cria as 5 caixas de detalhes infos que serão usados
 ------------------------------------------------------------------------------------------------------------------------------
 local function cria_barras_detalhes()
 	_detalhes.janela_info.grupos_detalhes = {}
@@ -1437,7 +1437,7 @@ function gump:CriaJanelaInfo()
 	este_gump.bg1:SetPoint ("TOPLEFT", este_gump, "TOPLEFT", 0, 0)
 	este_gump.bg1:SetDrawLayer ("BORDER", 1)
 
-	--> botï¿½o de fechar
+	--> botão de fechar
 	este_gump.close_button = _CreateFrame ("Button", nil, este_gump, "UIPanelCloseButton")
 	este_gump.close_button:SetWidth (32)
 	este_gump.close_button:SetHeight (32)
@@ -1446,7 +1446,7 @@ function gump:CriaJanelaInfo()
 	este_gump.close_button:SetFrameLevel (este_gump:GetFrameLevel()+5)	
 	
 	
-	--> ï¿½cone da magia selecionada para mais detalhes
+	--> ícone da magia selecionada para mais detalhes
 	este_gump.bg_icone_bg = este_gump:CreateTexture (nil, "ARTWORK")
 	este_gump.bg_icone_bg:SetPoint ("TOPRIGHT", este_gump, "TOPRIGHT",  -15, -12)
 	este_gump.bg_icone_bg:SetTexture ("Interface\\AddOns\\Details\\images\\icone_bg_fundo")
@@ -1458,7 +1458,7 @@ function gump:CriaJanelaInfo()
 	este_gump.bg_icone:SetTexture ("Interface\\AddOns\\Details\\images\\icone_bg")
 	este_gump.bg_icone:Show()
 	
-	--> botï¿½o de opï¿½ï¿½es
+	--> botão de opções
 	local open_options = function()
 		_detalhes:OpenOptionsWindow (info.instancia, false, 6)
 		_detalhes:OpenOptionsWindow (info.instancia, false, 6)
@@ -1469,7 +1469,7 @@ function gump:CriaJanelaInfo()
 	este_gump.options_button.button:GetNormalTexture():SetDesaturated (true)
 	este_gump.options_button.tooltip = "Select Skin"
 	
-	--> desativando o botï¿½o de config
+	--> desativando o botão de config
 	este_gump.options_button:Hide()
 	
 	--> titulo
@@ -1503,6 +1503,42 @@ function gump:CriaJanelaInfo()
 	este_gump.apoio_icone_direito:SetWidth (64)
 	este_gump.apoio_icone_direito:SetHeight (13)
 	
+	
+	este_gump.topright_text1 = este_gump:CreateFontString (nil, "overlay", "GameFontNormal")
+	este_gump.topright_text1:SetPoint ("bottomright", este_gump, "topright",  -18 - (94 * (1-1)), -36)
+	este_gump.topright_text1:SetJustifyH ("right")
+	_detalhes.gump:SetFontSize (este_gump.topright_text1, 10)
+
+	este_gump.topright_text2 = este_gump:CreateFontString (nil, "overlay", "GameFontNormal")
+	este_gump.topright_text2:SetPoint ("bottomright", este_gump, "topright",  -18 - (94 * (1-1)), -48)
+	este_gump.topright_text2:SetJustifyH ("right")	
+	_detalhes.gump:SetFontSize (este_gump.topright_text2, 10)
+	
+	function este_gump:SetTopRightTexts (text1, text2, size, color, font)
+		if (text1) then
+			este_gump.topright_text1:SetText (text1)
+		else
+			este_gump.topright_text1:SetText ("")
+		end
+		if (text2) then
+			este_gump.topright_text2:SetText (text2)
+		else
+			este_gump.topright_text2:SetText ("")
+		end
+		
+		if (size and type (size) == "number") then
+			_detalhes.gump:SetFontSize (este_gump.topright_text1, size)
+			_detalhes.gump:SetFontSize (este_gump.topright_text2, size)
+		end
+		if (color) then
+			_detalhes.gump:SetFontColor (este_gump.topright_text1, color)
+			_detalhes.gump:SetFontColor (este_gump.topright_text2, color)
+		end
+		if (font) then
+			_detalhes.gump:SetFontFace (este_gump.topright_text1, font)
+			_detalhes.gump:SetFontFace (este_gump.topright_text2, font)
+		end
+	end
 	
 -------------------------------------------------
 
@@ -1628,7 +1664,7 @@ function gump:CriaJanelaInfo()
 
 	este_gump.SetClassIcon = default_icon_change
 
-	--> botï¿½o de reportar da caixa da esquerda, onde fica as barras principais
+	--> botão de reportar da caixa da esquerda, onde fica as barras principais
 	este_gump.report_esquerda = gump:NewDetailsButton (SWW, este_gump, nil, _detalhes.Reportar, este_gump, 1, 16, 16,
 	"Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", nil, "DetailsJanelaInfoReport2")
 	--este_gump.report_esquerda:SetPoint ("BOTTOMLEFT", este_gump.container_barras, "TOPLEFT",  281, 3)
@@ -1636,13 +1672,13 @@ function gump:CriaJanelaInfo()
 	este_gump.report_esquerda:SetFrameLevel (este_gump:GetFrameLevel()+2)
 	este_gump.topleft_report = este_gump.report_esquerda
 	
-	--> botï¿½o de reportar da caixa dos alvos
+	--> botão de reportar da caixa dos alvos
 	este_gump.report_alvos = gump:NewDetailsButton (SWW, este_gump, nil, _detalhes.Reportar, este_gump, 3, 16, 16,
 	"Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", nil, "DetailsJanelaInfoReport3")
 	este_gump.report_alvos:SetPoint ("BOTTOMRIGHT", este_gump.container_alvos, "TOPRIGHT",  -2, -1)
 	este_gump.report_alvos:SetFrameLevel (3) --> solved inactive problem
 
-	--> botï¿½o de reportar da caixa da direita, onde estï¿½o os 5 quadrados
+	--> botão de reportar da caixa da direita, onde estão os 5 quadrados
 	este_gump.report_direita = gump:NewDetailsButton (SWW, este_gump, nil, _detalhes.Reportar, este_gump, 2, 16, 16,
 	"Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", "Interface\\COMMON\\VOICECHAT-ON", nil, "DetailsJanelaInfoReport4")
 	este_gump.report_direita:SetPoint ("TOPRIGHT", este_gump, "TOPRIGHT",  -10, -70)	
@@ -1659,7 +1695,7 @@ function gump:CriaJanelaInfo()
 	
 	--> tabs:
 	--> tab default
-	_detalhes:CreatePlayerDetailsTab ("Summary", Loc ["STRING_INFO_TAB_SUMMARY"], --[1] tab name [2] localized name
+	_detalhes:CreatePlayerDetailsTab ("Summary", Loc ["STRING_SPELLS"], --[1] tab name [2] localized name
 			function (tabOBject, playerObject) --[2] condition
 				if (playerObject) then 
 					return true 
@@ -2332,8 +2368,252 @@ function gump:CriaJanelaInfo()
 			nil, --[4] onclick
 			
 			avoidance_create --[5] oncreate
-			)
+		)
 	
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--> ~auras
+
+	local auras_tab_create = function (tab, frame)
+		local DF = _detalhes.gump
+		local scroll_line_amount = 17
+		local scroll_line_height = 19
+		local scroll_width = 350
+		local scroll_line_height = 19
+		local text_size = 9
+		
+		local line_onenter = function (self)
+			GameTooltip:SetOwner (self, "ANCHOR_TOPRIGHT")
+			_detalhes:GameTooltipSetSpellByID (self.spellID)
+			GameTooltip:Show()
+			self:SetBackdropColor (1, 1, 1, .2)
+		end
+		
+		local line_onleave = function (self)
+			GameTooltip:Hide()
+			self:SetBackdropColor (unpack (self.BackgroundColor))
+		end
+		
+		local line_onclick = function (self)
+			
+		end
+		
+		--buff scroll
+		--icon - name - applications - refreshes - uptime
+		--
+		
+		local wa_button = function (self, mouseButton, spellID, auraType)
+			local spellName, _, spellIcon = GetSpellInfo (spellID)
+			_detalhes:OpenAuraPanel (spellID, spellName, spellIcon, nil, auraType == "BUFF" and 4 or 2, 1)
+		end
+		
+		local scroll_createline = function (self, index)
+			local line = CreateFrame ("button", "$parentLine" .. index, self)
+			line:SetPoint ("topleft", self, "topleft", 0, -((index-1)*(scroll_line_height+1)))
+			line:SetSize (scroll_width, scroll_line_height)
+			line:SetScript ("OnEnter", line_onenter)
+			line:SetScript ("OnLeave", line_onleave)
+			line:SetScript ("OnClick", line_onclick)
+			
+			line:SetBackdrop ({bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true})
+			line:SetBackdropColor (0, 0, 0, 0.2)
+			
+			local icon = line:CreateTexture ("$parentIcon", "overlay")
+			icon:SetSize (scroll_line_height, scroll_line_height)
+			local name = line:CreateFontString ("$parentName", "overlay", "GameFontNormal")
+			local uptime = line:CreateFontString ("$parentName", "overlay", "GameFontNormal")
+			local apply = line:CreateFontString ("$parentName", "overlay", "GameFontNormal")
+			local refresh = line:CreateFontString ("$parentName", "overlay", "GameFontNormal")
+			
+			local waButton = DF:CreateButton (line, wa_button, 18, 18)
+			waButton:SetIcon ([[Interface\AddOns\WeakAuras\Media\Textures\icon]])
+			
+			DF:SetFontSize (name, text_size)
+			DF:SetFontSize (uptime, text_size)
+			DF:SetFontSize (apply, text_size)
+			DF:SetFontSize (refresh, text_size)
+			
+			icon:SetPoint ("left", line, "left", 2, 0)
+			name:SetPoint ("left", icon, "right", 2, 0)
+			uptime:SetPoint ("left", line, "left", 186, 0)
+			apply:SetPoint ("left", line, "left", 260, 0)
+			refresh:SetPoint ("left", line, "left", 290, 0)
+			waButton:SetPoint ("left", line, "left", 322, 0)
+			
+			line.Icon = icon
+			line.Name = name
+			line.Uptime = uptime
+			line.Apply = apply
+			line.Refresh = refresh
+			line.WaButton = waButton
+
+			name:SetJustifyH ("left")
+			uptime:SetJustifyH ("left")
+			
+			apply:SetJustifyH ("center")
+			refresh:SetJustifyH ("center")
+			apply:SetWidth (20)
+			refresh:SetWidth (20)
+			
+			return line
+		end
+		
+		local line_bg_color = {{1, 1, 1, .1}, {1, 1, 1, 0}}
+		
+		local scroll_buff_refresh = function (self, data, offset, total_lines)
+		
+			local haveWA = _G.WeakAuras
+		
+			for i = 1, total_lines do
+				local index = i + offset
+				local aura = data [index]
+				
+				if (aura) then
+					local line = self:GetLine (i)
+					line.spellID = aura.spellID
+					line.Icon:SetTexture (aura [1])
+					line.Name:SetText (aura [2])
+					line.Uptime:SetText (DF:IntegerToTimer (aura [3]) .. " (|cFFBBAAAA" .. floor (aura [6]) .. "%|r)")
+					line.Apply:SetText (aura [4])
+					line.Refresh:SetText (aura [5])
+					
+					if (haveWA) then
+						line.WaButton:SetClickFunction (wa_button, aura.spellID, line.AuraType)
+					else
+						line.WaButton:Disable()
+					end
+					
+					if (i%2 == 0) then
+						line:SetBackdropColor (unpack (line_bg_color [1]))
+						line.BackgroundColor = line_bg_color [1]
+					else
+						line:SetBackdropColor (unpack (line_bg_color [2]))
+						line.BackgroundColor = line_bg_color [2]
+					end
+				end
+			end
+		end
+		
+		local create_titledesc_frame = function (anchorWidget, desc)
+			local f = CreateFrame ("frame", nil, frame)
+			f:SetSize (40, 20)
+			f:SetPoint ("center", anchorWidget, "center")
+			f:SetScript ("OnEnter", function()
+				GameTooltip:SetOwner (f, "ANCHOR_TOPRIGHT")
+				GameTooltip:AddLine (desc)
+				GameTooltip:Show()
+			end)
+			f:SetScript ("OnLeave", function()
+				GameTooltip:Hide()
+			end)
+			return f
+		end
+		
+		local buffLabel = DF:CreateLabel (frame, "Buff Name")
+		buffLabel:SetPoint (6, -10)
+		local uptimeLabel = DF:CreateLabel (frame, "Uptime")
+		uptimeLabel:SetPoint (200, -10)
+		
+		local appliedLabel = DF:CreateLabel (frame, "A")
+		appliedLabel:SetPoint (270, -10)
+		create_titledesc_frame (appliedLabel.widget, "applications")
+		
+		local refreshedLabel = DF:CreateLabel (frame, "R")
+		refreshedLabel:SetPoint (301, -10)
+		create_titledesc_frame (refreshedLabel.widget, "refreshes")
+		
+		local waLabel = DF:CreateLabel (frame, "WA")
+		waLabel:SetPoint (330, -10)
+		create_titledesc_frame (waLabel.widget, "create weak aura")
+		
+		local buffScroll = DF:CreateScrollBox (frame, "$parentBuffUptimeScroll", scroll_buff_refresh, {}, scroll_width, 340, scroll_line_amount, scroll_line_height)
+		buffScroll:SetPoint ("topleft", frame, "topleft", 5, -30)
+		for i = 1, scroll_line_amount do 
+			local line = buffScroll:CreateLine (scroll_createline)
+			line.AuraType = "BUFF"
+		end
+		buffScroll:SetBackdrop ({bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16})
+		buffScroll:SetBackdropColor (0, 0, 0, .4)		
+		
+		tab.BuffScroll = buffScroll
+		
+		--debuff scroll
+		--icon - name - applications - refreshes - uptime
+		--
+		local debuffLabel = DF:CreateLabel (frame, "Debuff Name")
+		debuffLabel:SetPoint (406, -10)
+		local uptimeLabel2 = DF:CreateLabel (frame, "Uptime")
+		uptimeLabel2:SetPoint (600, -10)
+		
+		local appliedLabel2 = DF:CreateLabel (frame, "A")
+		appliedLabel2:SetPoint (668, -10)
+		create_titledesc_frame (appliedLabel2.widget, "applications")
+		
+		local refreshedLabel2 = DF:CreateLabel (frame, "R")
+		refreshedLabel2:SetPoint (699, -10)
+		create_titledesc_frame (refreshedLabel2.widget, "refreshes")
+		
+		local waLabel2 = DF:CreateLabel (frame, "WA")
+		waLabel2:SetPoint (728, -10)
+		create_titledesc_frame (waLabel2.widget, "create weak aura")
+
+		
+		local debuffScroll = DF:CreateScrollBox (frame, "$parentDebuffUptimeScroll", scroll_buff_refresh, {}, scroll_width, 340, scroll_line_amount, scroll_line_height)
+		debuffScroll:SetPoint ("topleft", frame, "topleft", 405, -30)
+		for i = 1, scroll_line_amount do 
+			local line = debuffScroll:CreateLine (scroll_createline)
+			line.AuraType = "DEBUFF"
+		end
+		debuffScroll:SetBackdrop ({bgFile = "Interface\\Tooltips\\UI-Tooltip-Background", tile = true, tileSize = 16})
+		debuffScroll:SetBackdropColor (0, 0, 0, .4)		
+		
+		tab.DebuffScroll = debuffScroll
+	end
+	
+	local auras_tab_fill = function (tab, player, combat)
+		
+		local miscActor = combat:GetActor (4, player:name())
+		local combatTime = combat:GetCombatTime()
+		
+		do --buffs
+			local newAuraTable = {}
+			if (miscActor and miscActor.buff_uptime_spells) then
+				for spellID, spellObject in pairs (miscActor.buff_uptime_spells._ActorTable) do
+					local spellName, _, spellIcon = GetSpellInfo (spellID)
+					tinsert (newAuraTable, {spellIcon, spellName, spellObject.uptime, spellObject.appliedamt, spellObject.refreshamt, spellObject.uptime/combatTime*100, spellID = spellID})
+				end
+			end
+			table.sort (newAuraTable, _detalhes.Sort3)
+			tab.BuffScroll:SetData (newAuraTable)
+			tab.BuffScroll:Refresh()
+		end
+		
+		do --debuffs
+			local newAuraTable = {}
+			if (miscActor and miscActor.debuff_uptime_spells) then
+				for spellID, spellObject in pairs (miscActor.debuff_uptime_spells._ActorTable) do
+					local spellName, _, spellIcon = GetSpellInfo (spellID)
+					tinsert (newAuraTable, {spellIcon, spellName, spellObject.uptime, spellObject.appliedamt, spellObject.refreshamt, spellObject.uptime/combatTime*100, spellID = spellID})
+				end
+			end
+			table.sort (newAuraTable, _detalhes.Sort3)
+			tab.DebuffScroll:SetData (newAuraTable)
+			tab.DebuffScroll:Refresh()
+		end		
+	end
+
+	_detalhes:CreatePlayerDetailsTab ("Auras", "Auras", --[1] tab name [2] localized name
+		function (tabOBject, playerObject)  --[2] condition
+			return true
+		end, 
+		
+		auras_tab_fill, --[3] fill function
+		
+		nil, --[4] onclick
+		
+		auras_tab_create --[5] oncreate
+	)
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --> ~compare 
 
@@ -2342,7 +2622,7 @@ function gump:CriaJanelaInfo()
 		
 		local plus = red .. "-" 
 		local minor = green .. "+"
-
+		
 		local bar_color = {.5, .5, .5, .4} -- bar of the second and 3rd player
 		local bar_color_on_enter = {.9, .9, .9, .9}
 		
@@ -2379,6 +2659,7 @@ function gump:CriaJanelaInfo()
 					bar [2].righttext:SetText ("")
 					bar [2].righttext2:SetText ("")
 					bar [2]:SetValue (0)
+					bar [2]:SetBackdropColor (1, 1, 1, 0)
 					bar [3][4] = nil
 					bar_2 [1]:SetTexture (nil)
 					bar_2 [2].lefttext:SetText (empty_text)
@@ -2386,6 +2667,7 @@ function gump:CriaJanelaInfo()
 					bar_2 [2].righttext:SetText ("")
 					bar_2 [2].righttext2:SetText ("")
 					bar_2 [2]:SetValue (0)
+					bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 					bar_2 [3][4] = nil
 					bar_3 [1]:SetTexture (nil)
 					bar_3 [2].lefttext:SetText (empty_text)
@@ -2393,6 +2675,7 @@ function gump:CriaJanelaInfo()
 					bar_3 [2].righttext:SetText ("")
 					bar_3 [2].righttext2:SetText ("")
 					bar_3 [2]:SetValue (0)
+					bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 					bar_3 [3][4] = nil
 				end
 				
@@ -2522,6 +2805,7 @@ function gump:CriaJanelaInfo()
 							bar_2 [2].righttext:SetText ("")
 							bar_2 [2].righttext2:SetText ("")
 							bar_2 [2]:SetValue (0)
+							bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 							bar_2 [3][4] = nil
 						end
 					else
@@ -2531,6 +2815,7 @@ function gump:CriaJanelaInfo()
 						bar_2 [2].righttext:SetText ("")
 						bar_2 [2].righttext2:SetText ("")
 						bar_2 [2]:SetValue (0)
+						bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 						bar_2 [3][4] = nil
 					end
 					
@@ -2591,6 +2876,7 @@ function gump:CriaJanelaInfo()
 							bar_3 [2].righttext:SetText ("")
 							bar_3 [2].righttext2:SetText ("")
 							bar_3 [2]:SetValue (0)
+							bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 							bar_3 [3][4] = nil
 						end
 					else
@@ -2600,6 +2886,7 @@ function gump:CriaJanelaInfo()
 						bar_3 [2].righttext:SetText ("")
 						bar_3 [2].righttext2:SetText ("")
 						bar_3 [2]:SetValue (0)
+						bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 						bar_3 [3][4] = nil
 					end
 					
@@ -2610,6 +2897,7 @@ function gump:CriaJanelaInfo()
 					bar [2].righttext:SetText ("")
 					bar [2].righttext2:SetText ("")
 					bar [2]:SetValue (0)
+					bar [2]:SetBackdropColor (1, 1, 1, 0)
 					bar [3][4] = nil
 					bar_2 [1]:SetTexture (nil)
 					bar_2 [2].lefttext:SetText (empty_text)
@@ -2617,6 +2905,7 @@ function gump:CriaJanelaInfo()
 					bar_2 [2].righttext:SetText ("")
 					bar_2 [2].righttext2:SetText ("")
 					bar_2 [2]:SetValue (0)
+					bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 					bar_2 [3][4] = nil
 					bar_3 [1]:SetTexture (nil)
 					bar_3 [2].lefttext:SetText (empty_text)
@@ -2624,6 +2913,7 @@ function gump:CriaJanelaInfo()
 					bar_3 [2].righttext:SetText ("")
 					bar_3 [2].righttext2:SetText ("")
 					bar_3 [2]:SetValue (0)
+					bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 					bar_3 [3][4] = nil
 				end
 			end
@@ -2685,7 +2975,7 @@ function gump:CriaJanelaInfo()
 				
 				table.sort (player_2_spells_sorted, _detalhes.Sort2)
 				player_2_top = (player_2_spells_sorted [1] and player_2_spells_sorted [1] [2]) or 0
-				--se nï¿½o existir uma magia no jogador e o jogador tiver um pet, ele nï¿½o vai encontrar um valor em [1] e dar
+				--se não existir uma magia no jogador e o jogador tiver um pet, ele não vai encontrar um valor em [1] e dar
 				-- ~pet
 				player_2_spell_info = {}
 				for index, spelltable in _ipairs (player_2_spells_sorted) do 
@@ -2749,6 +3039,8 @@ function gump:CriaJanelaInfo()
 						
 						bar [1]:SetTexture (icon) --bar[1] = spellicon bar[2] = statusbar
 						bar [1]:SetTexCoord (unpack (IconTexCoord)) --bar[1] = spellicon bar[2] = statusbar
+
+						bar [2]:SetBackdropColor (1, 1, 1, 0.1)
 						
 						if (petName) then
 							bar [2].lefttext:SetText (index .. ". " .. name .. " (|cFFCCBBBB" .. petName:gsub (" <.*", "") .. "|r)")
@@ -2787,6 +3079,7 @@ function gump:CriaJanelaInfo()
 						bar_2 [2].lefttext:SetText (player_2_spell_info [spellid] .. ". " .. name)
 						bar_2 [2].lefttext:SetTextColor (1, 1, 1, 1)
 						bar_2 [2]:SetStatusBarColor (unpack (bar_color))
+						bar_2 [2]:SetBackdropColor (1, 1, 1, 0.1)
 						
 						if (spell.total == 0 and data [2] == 0) then
 							bar_2 [2].righttext2:SetText ("0")
@@ -2828,6 +3121,7 @@ function gump:CriaJanelaInfo()
 						bar_2 [3][1] = spell.counter --tooltip hits
 						bar_2 [3][2] = spell.total / spell.counter --tooltip average
 						bar_2 [3][3] = _math_floor (spell.c_amt / spell.counter * 100) --tooltip critical
+						bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 					else
 						bar_2 [1]:SetTexture (nil)
 						bar_2 [2].lefttext:SetText (empty_text)
@@ -2835,6 +3129,7 @@ function gump:CriaJanelaInfo()
 						bar_2 [2].righttext:SetText ("")
 						bar_2 [2].righttext2:SetText ("")
 						bar_2 [2]:SetValue (0)
+						bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 					end
 					
 					--player 3
@@ -2861,6 +3156,7 @@ function gump:CriaJanelaInfo()
 							bar_3 [2].lefttext:SetText (player_3_spell_info [spellid] .. ". " .. name)
 							bar_3 [2].lefttext:SetTextColor (1, 1, 1, 1)
 							bar_3 [2]:SetStatusBarColor (unpack (bar_color))
+							bar_3 [2]:SetBackdropColor (1, 1, 1, 0.1)
 							
 							if (spell.total == 0 and data [2] == 0) then
 								bar_3 [2].righttext2:SetText ("0")
@@ -2908,6 +3204,7 @@ function gump:CriaJanelaInfo()
 							bar_3 [2].righttext:SetText ("")
 							bar_3 [2].righttext2:SetText ("")
 							bar_3 [2]:SetValue (0)
+							bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 						end
 					else
 						bar_3 [1]:SetTexture (nil)
@@ -2916,6 +3213,7 @@ function gump:CriaJanelaInfo()
 						bar_3 [2].righttext:SetText ("")
 						bar_3 [2].righttext2:SetText ("")
 						bar_3 [2]:SetValue (0)
+						bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 					end
 				else
 					bar [1]:SetTexture (nil)
@@ -2923,6 +3221,7 @@ function gump:CriaJanelaInfo()
 					bar [2].lefttext:SetTextColor (.5, .5, .5, 1)
 					bar [2].righttext:SetText ("")
 					bar [2]:SetValue (0)
+					bar [2]:SetBackdropColor (1, 1, 1, 0)
 					local bar_2 = frame2.bars [i]
 					bar_2 [1]:SetTexture (nil)
 					bar_2 [2].lefttext:SetText (empty_text)
@@ -2930,6 +3229,7 @@ function gump:CriaJanelaInfo()
 					bar_2 [2].righttext:SetText ("")
 					bar_2 [2].righttext2:SetText ("")
 					bar_2 [2]:SetValue (0)
+					bar_2 [2]:SetBackdropColor (1, 1, 1, 0)
 					local bar_3 = frame3.bars [i]
 					bar_3 [1]:SetTexture (nil)
 					bar_3 [2].lefttext:SetText (empty_text)
@@ -2937,6 +3237,7 @@ function gump:CriaJanelaInfo()
 					bar_3 [2].righttext:SetText ("")
 					bar_3 [2].righttext2:SetText ("")
 					bar_3 [2]:SetValue (0)
+					bar_3 [2]:SetBackdropColor (1, 1, 1, 0)
 				end
 				
 			end
@@ -3765,6 +4066,10 @@ function gump:CriaJanelaInfo()
 				bar:SetPoint ("topright", parent, "topright", -4, y)
 				bar:SetStatusBarTexture ([[Interface\AddOns\Details\images\bar_serenity]])
 				bar:SetStatusBarColor (.5, .5, .5, 1)
+				
+				bar:SetBackdrop ({bgFile = [[Interface\Tooltips\UI-Tooltip-Background]], tileSize = 64, tile = true})
+				bar:SetBackdropColor (1, 1, 1, 0.1)
+				
 				bar:SetMinMaxValues (0, 100)
 				bar:SetValue (100)
 				bar:SetHeight (14)
@@ -4252,7 +4557,7 @@ function gump:CriaJanelaInfo()
 			compare_create --[5] oncreate
 		)
 	
-	-- ~tab
+	-- ~tab ~tabs
 		function este_gump:ShowTabs()
 			local amt_positive = 0
 
@@ -4290,7 +4595,12 @@ function gump:CriaJanelaInfo()
 				
 					tab:Show()
 					amt_positive = amt_positive + 1
-					tab:SetPoint ("BOTTOMLEFT", info.container_barras, "TOPLEFT",  490 - (94 * (amt_positive-1)), 1)
+					
+					--tab:SetPoint ("BOTTOMLEFT", info.container_barras, "TOPLEFT",  490 - (94 * (amt_positive-1)), 1) --left to right
+					tab:ClearAllPoints()
+					tab:SetPoint ("bottomright", info, "topright",  -17 - (94 * (amt_positive-1)), -74) --right to left
+					
+					tab:SetAlpha (0.8)
 				else
 					tab.frame:Hide()
 					tab:Hide()
@@ -4337,6 +4647,8 @@ function _detalhes:CreatePlayerDetailsTab (tabname, localized_name, condition, f
 	newtab:SetParent (info)
 	newtab:SetWidth (100)
 	newtab.middleTexture:SetWidth (70)
+	
+	
 	
 	newtab:SetText (localized_name)
 	_G ["DetailsInfoWindowTab" .. index .. "Text"]:SetWidth (70)
@@ -4393,7 +4705,7 @@ function _detalhes:CreatePlayerDetailsTab (tabname, localized_name, condition, f
 		--f:Set
 	
 	
-	newtab.frame:SetPoint ("TOPLEFT", info.container_barras, "TOPLEFT", 0, 0)
+	newtab.frame:SetPoint ("TOPLEFT", info.container_barras, "TOPLEFT", 0, 2)
 	newtab.frame:SetPoint ("bottomright", info, "bottomright", -3, 3)
 	--newtab.frame:SetPoint ("TOPLEFT", info, "TOPLEFT", 19, -76)
 	newtab.frame:SetSize (569, 274)
@@ -4474,7 +4786,7 @@ function _detalhes.janela_info:monta_relatorio (botao)
 	
 	local report_lines
 	
-	if (botao == 1) then --> botï¿½o da esquerda
+	if (botao == 1) then --> botão da esquerda
 		
 
 		if (atributo == 1 and sub_atributo == 4) then --> friendly fire
@@ -4510,7 +4822,7 @@ function _detalhes.janela_info:monta_relatorio (botao)
 			end
 		end
 		
-	elseif (botao == 3) then --> botï¿½o dos alvos
+	elseif (botao == 3) then --> botão dos alvos
 	
 		if (atributo == 1 and sub_atributo == 3) then
 			print (Loc ["STRING_ACTORFRAME_NOTHING"])
@@ -4528,7 +4840,7 @@ function _detalhes.janela_info:monta_relatorio (botao)
 			end
 		end
 		
-	elseif (botao == 2) then --> botï¿½o da direita
+	elseif (botao == 2) then --> botão da direita
 	
 			--> diferentes tipos de amostragem na caixa da direita
 		     --dano                       --damage done                 --dps                                 --heal
@@ -4669,7 +4981,7 @@ function _detalhes.janela_info:monta_relatorio (botao)
 	--local report_lines = {"Details! Relatorio para ".._detalhes.sub_atributos [self.atributo].lista [self.sub_atributo]}
 
 	
-	--> pega o conteï¿½do da janela da direita
+	--> pega o conteúdo da janela da direita
 	
 	return instancia:envia_relatorio (report_lines)
 end
@@ -4691,8 +5003,8 @@ local row_on_enter = function (self)
 	end
 	
 	--> aumenta o tamanho da barra
-	self:SetHeight (17) --> altura determinada pela instï¿½ncia
-	--> poe a barra com alfa 1 ao invï¿½s de 0.9
+	self:SetHeight (17) --> altura determinada pela instância
+	--> poe a barra com alfa 1 ao invés de 0.9
 	self:SetAlpha(1)
 
 	--> troca a cor da barra enquanto o mouse estiver em cima dela
@@ -4700,7 +5012,7 @@ local row_on_enter = function (self)
 	self:SetBackdropColor (0.8, 0.8, 0.8, 0.3)
 	
 	if (self.isAlvo) then --> monta o tooltip do alvo
-		--> talvez devesse escurecer a janela no fundo... pois o tooltip ï¿½ transparente e pode confundir
+		--> talvez devesse escurecer a janela no fundo... pois o tooltip é transparente e pode confundir
 		GameTooltip:SetOwner (self, "ANCHOR_TOPRIGHT")
 		
 		if (self.spellid == "enemies") then --> damage taken enemies
@@ -4736,9 +5048,9 @@ local row_on_enter = function (self)
 		self.icone:SetAlpha (1)
 		
 		--> mostrar temporariamente o conteudo da barra nas caixas de detalhes
-		if (not info.mostrando) then --> nï¿½o esta mostrando nada na direita
-			info.mostrando = self --> agora o mostrando ï¿½ igual a esta barra
-			info.mostrando_mouse_over = true --> o conteudo da direta esta sendo mostrado pq o mouse esta passando por cima do bagulho e nï¿½o pq foi clicado
+		if (not info.mostrando) then --> não esta mostrando nada na direita
+			info.mostrando = self --> agora o mostrando é igual a esta barra
+			info.mostrando_mouse_over = true --> o conteudo da direta esta sendo mostrado pq o mouse esta passando por cima do bagulho e não pq foi clicado
 			info.showing = self._index --> diz  o index da barra que esta sendo mostrado na direita
 
 			info.jogador.detalhes = self.show --> minha tabela = jogador = jogador.detales = spellid ou nome que esta sendo mostrado na direita
@@ -4775,7 +5087,7 @@ local row_on_leave = function (self)
 		--> volta com a alfa antiga da barra
 		self.icone:SetAlpha (1)
 		
-		--> remover o conteï¿½do que estava sendo mostrado na direita
+		--> remover o conteúdo que estava sendo mostrado na direita
 		if (info.mostrando_mouse_over) then
 			info.mostrando = nil
 			info.mostrando_mouse_over = false
@@ -4822,13 +5134,13 @@ local row_on_mouseup = function (self, button)
 	if ((self.mouse_down+0.4 > _GetTime() and (x == self.x and y == self.y)) or (x == self.x and y == self.y)) then
 		--> setar os textos
 		
-		if (self.isMain) then --> se nï¿½o for uma barra de alvo
+		if (self.isMain) then --> se não for uma barra de alvo
 		
 			local barra_antiga = info.mostrando			
 			if (barra_antiga and not info.mostrando_mouse_over) then
 			
 				barra_antiga.textura:SetStatusBarColor (1, 1, 1, 1) --> volta a textura normal
-				barra_antiga.on_focus = false --> nï¿½o esta mais no foco
+				barra_antiga.on_focus = false --> não esta mais no foco
 
 				--> clicou na mesma barra
 				if (barra_antiga == self) then --> 
@@ -5051,10 +5363,10 @@ function gump:CriaNovaBarraInfo1 (instancia, index)
 	local janela = info.container_barras.gump
 
 	local esta_barra = _CreateFrame ("Button", "Details_infobox1_bar_"..index, info.container_barras.gump)
-	esta_barra:SetHeight (16) --> altura determinada pela instï¿½ncia
+	esta_barra:SetHeight (16) --> altura determinada pela instância
 	esta_barra.index = index
 
-	local y = (index-1)*17 --> 17 ï¿½ a altura da barra
+	local y = (index-1)*17 --> 17 é a altura da barra
 	y = y*-1 --> baixo
 	
 	esta_barra:SetPoint ("LEFT", janela, "LEFT")
@@ -5101,8 +5413,8 @@ function gump:CriaNovaBarraInfo1 (instancia, index)
 	
 	info.barras1 [index] = esta_barra --> barra adicionada
 	
-	esta_barra.textura:SetStatusBarColor (1, 1, 1, 1) --> isso aqui ï¿½ a parte da seleï¿½ï¿½o e desceleï¿½ï¿½o
-	esta_barra.on_focus = false --> isso aqui ï¿½ a parte da seleï¿½ï¿½o e desceleï¿½ï¿½o
+	esta_barra.textura:SetStatusBarColor (1, 1, 1, 1) --> isso aqui é a parte da seleção e desceleção
+	esta_barra.on_focus = false --> isso aqui é a parte da seleção e desceleção
 	
 	return esta_barra
 end
@@ -5117,9 +5429,9 @@ function gump:CriaNovaBarraInfo2 (instancia, index)
 	local janela = info.container_alvos.gump
 
 	local esta_barra = _CreateFrame ("Button", "Details_infobox2_bar_"..index, info.container_alvos.gump)
-	esta_barra:SetHeight (16) --> altura determinada pela instï¿½ncia
+	esta_barra:SetHeight (16) --> altura determinada pela instância
 
-	local y = (index-1)*17 --> 17 ï¿½ a altura da barra
+	local y = (index-1)*17 --> 17 é a altura da barra
 	y = y*-1 --> baixo
 	
 	esta_barra:SetPoint ("LEFT", janela, "LEFT")

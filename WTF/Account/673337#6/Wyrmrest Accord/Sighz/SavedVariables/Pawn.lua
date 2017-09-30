@@ -4,6 +4,7 @@ PawnOptions = {
 	["LastPlayerFullName"] = "Sighz-Wyrmrest Accord",
 	["AutoSelectScales"] = false,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128825] = {
 			["Relics"] = {
@@ -30,7 +31,6 @@ PawnOptions = {
 			["Name"] = "Xal'atath, Blade of the Black Empire",
 		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "PRIEST",

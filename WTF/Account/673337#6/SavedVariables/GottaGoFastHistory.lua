@@ -33,8 +33,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 1,
 							},
-							["startTime"] = 374939.312,
 							["level"] = 2,
+							["startTime"] = 374939.312,
 							["objectiveTimes"] = {
 								"02:59", -- [1]
 								"07:24", -- [2]
@@ -83,8 +83,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 30,
 							},
-							["startTime"] = 98646.189,
 							["level"] = 2,
+							["startTime"] = 98646.189,
 							["objectiveTimes"] = {
 								"02:18", -- [1]
 								"06:09", -- [2]
@@ -137,8 +137,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 24,
 							},
-							["startTime"] = 465173.209,
 							["level"] = 4,
+							["startTime"] = 465173.209,
 							["objectiveTimes"] = {
 								"03:35", -- [1]
 								"09:35", -- [2]
@@ -218,7 +218,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["level"] = 2,
+							["startTime"] = 34086.014,
 							["objectiveTimes"] = {
 								"04:04", -- [1]
 								"11:58", -- [2]
@@ -226,7 +226,7 @@ GottaGoFastHistoryDB = {
 								"22:07", -- [4]
 								"20:30", -- [5]
 							},
-							["startTime"] = 34086.014,
+							["level"] = 2,
 						}, -- [1]
 						{
 							["corrupt"] = false,
@@ -273,7 +273,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 36729.899,
+							["level"] = 4,
 							["objectiveTimes"] = {
 								"04:20", -- [1]
 								"11:57", -- [2]
@@ -281,7 +281,7 @@ GottaGoFastHistoryDB = {
 								"20:40", -- [4]
 								"19:12", -- [5]
 							},
-							["level"] = 4,
+							["startTime"] = 36729.899,
 						}, -- [2]
 					},
 					["name"] = "Neltharion's Lair",
@@ -292,137 +292,6 @@ GottaGoFastHistoryDB = {
 						"Naraxas", -- [3]
 						"Dargrul", -- [4]
 						"Enemy Forces", -- [5]
-					},
-				},
-				[1477] = {
-					["objectives"] = {
-						"Hymdall", -- [1]
-						"Hyrja", -- [2]
-						"Fenryr", -- [3]
-						"God-King Skovald", -- [4]
-						"Odyn", -- [5]
-						"Enemy Forces", -- [6]
-					},
-					["zoneID"] = 1477,
-					["name"] = "Halls of Valor",
-					["runs"] = {
-						{
-							["corrupt"] = false,
-							["deaths"] = 0,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 34781.43,
-							["timeStamp"] = {
-								["day"] = 10,
-								["month"] = 11,
-								["hours"] = 23,
-								["year"] = 2016,
-								["mins"] = 16,
-							},
-							["startTime"] = 33175.223,
-							["level"] = 2,
-							["objectiveTimes"] = {
-								"02:31", -- [1]
-								"19:10", -- [2]
-								"12:05", -- [3]
-								"24:45", -- [4]
-								"26:45", -- [5]
-								"24:45", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Velious",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Monk",
-									["name"] = "Vykkï",
-									["role"] = "DAMAGER",
-								}, -- [2]
-								{
-									["class"] = "Druid",
-									["name"] = "Plzhealmenow (*)",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kwyjibo",
-									["role"] = "TANK",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Cyclonelol",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [1]
-						{
-							["corrupt"] = false,
-							["deaths"] = 6,
-							["affixes"] = {
-							},
-							["active"] = false,
-							["endTime"] = 98186.926,
-							["timeStamp"] = {
-								["day"] = 18,
-								["month"] = 11,
-								["hours"] = 16,
-								["year"] = 2016,
-								["mins"] = 10,
-							},
-							["startTime"] = 96604.155,
-							["level"] = 3,
-							["objectiveTimes"] = {
-								"02:20", -- [1]
-								"18:57", -- [2]
-								"09:36", -- [3]
-								"24:45", -- [4]
-								"26:52", -- [5]
-								"24:45", -- [6]
-							},
-							["players"] = {
-								{
-									["class"] = "Mage",
-									["name"] = "Velious",
-									["role"] = "DAMAGER",
-								}, -- [1]
-								{
-									["class"] = "Warrior",
-									["name"] = "Orgrimmash",
-									["role"] = "TANK",
-								}, -- [2]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Kwyjibo",
-									["role"] = "DAMAGER",
-								}, -- [3]
-								{
-									["class"] = "Death Knight",
-									["name"] = "Hackdaplanet",
-									["role"] = "DAMAGER",
-								}, -- [4]
-								{
-									["class"] = "Druid",
-									["name"] = "Cyclonelol",
-									["role"] = "HEALER",
-								}, -- [5]
-							},
-						}, -- [2]
-					},
-				},
-				[1466] = {
-					["objectives"] = {
-						"Archdruid Glaidalis", -- [1]
-						"Oakheart", -- [2]
-						"Dresaron", -- [3]
-						"Shade of Xavius", -- [4]
-						"Enemy Forces", -- [5]
-					},
-					["zoneID"] = 1466,
-					["name"] = "Darkheart Thicket",
-					["runs"] = {
 					},
 				},
 				[1456] = {
@@ -455,8 +324,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 50,
 							},
-							["startTime"] = 35186.263,
 							["level"] = 5,
+							["startTime"] = 35186.263,
 							["objectiveTimes"] = {
 								"04:13", -- [1]
 								"15:06", -- [2]
@@ -538,7 +407,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 38617.924,
+							["level"] = 4,
 							["objectiveTimes"] = {
 								"03:49", -- [1]
 								"07:10", -- [2]
@@ -547,7 +416,7 @@ GottaGoFastHistoryDB = {
 								"22:56", -- [5]
 								"19:19", -- [6]
 							},
-							["level"] = 4,
+							["startTime"] = 38617.924,
 						}, -- [2]
 						{
 							["corrupt"] = false,
@@ -594,7 +463,7 @@ GottaGoFastHistoryDB = {
 									["role"] = "HEALER",
 								}, -- [5]
 							},
-							["startTime"] = 40312.948,
+							["level"] = 6,
 							["objectiveTimes"] = {
 								"03:31", -- [1]
 								"07:52", -- [2]
@@ -603,8 +472,139 @@ GottaGoFastHistoryDB = {
 								"34:38", -- [5]
 								"22:19", -- [6]
 							},
-							["level"] = 6,
+							["startTime"] = 40312.948,
 						}, -- [3]
+					},
+				},
+				[1466] = {
+					["objectives"] = {
+						"Archdruid Glaidalis", -- [1]
+						"Oakheart", -- [2]
+						"Dresaron", -- [3]
+						"Shade of Xavius", -- [4]
+						"Enemy Forces", -- [5]
+					},
+					["zoneID"] = 1466,
+					["name"] = "Darkheart Thicket",
+					["runs"] = {
+					},
+				},
+				[1477] = {
+					["objectives"] = {
+						"Hymdall", -- [1]
+						"Hyrja", -- [2]
+						"Fenryr", -- [3]
+						"God-King Skovald", -- [4]
+						"Odyn", -- [5]
+						"Enemy Forces", -- [6]
+					},
+					["zoneID"] = 1477,
+					["name"] = "Halls of Valor",
+					["runs"] = {
+						{
+							["corrupt"] = false,
+							["deaths"] = 0,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 34781.43,
+							["timeStamp"] = {
+								["day"] = 10,
+								["month"] = 11,
+								["hours"] = 23,
+								["year"] = 2016,
+								["mins"] = 16,
+							},
+							["level"] = 2,
+							["startTime"] = 33175.223,
+							["objectiveTimes"] = {
+								"02:31", -- [1]
+								"19:10", -- [2]
+								"12:05", -- [3]
+								"24:45", -- [4]
+								"26:45", -- [5]
+								"24:45", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Velious",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Monk",
+									["name"] = "Vykkï",
+									["role"] = "DAMAGER",
+								}, -- [2]
+								{
+									["class"] = "Druid",
+									["name"] = "Plzhealmenow (*)",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kwyjibo",
+									["role"] = "TANK",
+								}, -- [4]
+								{
+									["class"] = "Druid",
+									["name"] = "Cyclonelol",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [1]
+						{
+							["corrupt"] = false,
+							["deaths"] = 6,
+							["affixes"] = {
+							},
+							["active"] = false,
+							["endTime"] = 98186.926,
+							["timeStamp"] = {
+								["day"] = 18,
+								["month"] = 11,
+								["hours"] = 16,
+								["year"] = 2016,
+								["mins"] = 10,
+							},
+							["level"] = 3,
+							["startTime"] = 96604.155,
+							["objectiveTimes"] = {
+								"02:20", -- [1]
+								"18:57", -- [2]
+								"09:36", -- [3]
+								"24:45", -- [4]
+								"26:52", -- [5]
+								"24:45", -- [6]
+							},
+							["players"] = {
+								{
+									["class"] = "Mage",
+									["name"] = "Velious",
+									["role"] = "DAMAGER",
+								}, -- [1]
+								{
+									["class"] = "Warrior",
+									["name"] = "Orgrimmash",
+									["role"] = "TANK",
+								}, -- [2]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Kwyjibo",
+									["role"] = "DAMAGER",
+								}, -- [3]
+								{
+									["class"] = "Death Knight",
+									["name"] = "Hackdaplanet",
+									["role"] = "DAMAGER",
+								}, -- [4]
+								{
+									["class"] = "Druid",
+									["name"] = "Cyclonelol",
+									["role"] = "HEALER",
+								}, -- [5]
+							},
+						}, -- [2]
 					},
 				},
 				[1501] = {
@@ -636,8 +636,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 22,
 							},
-							["startTime"] = 100254.207,
 							["level"] = 6,
+							["startTime"] = 100254.207,
 							["objectiveTimes"] = {
 								"05:55", -- [1]
 								"19:11", -- [2]
@@ -701,8 +701,8 @@ GottaGoFastHistoryDB = {
 								["year"] = 2016,
 								["mins"] = 34,
 							},
-							["startTime"] = 461924.157,
 							["level"] = 2,
+							["startTime"] = 461924.157,
 							["objectiveTimes"] = {
 								"05:21", -- [1]
 								"09:29", -- [2]

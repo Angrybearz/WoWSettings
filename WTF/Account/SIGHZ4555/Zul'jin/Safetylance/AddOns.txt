@@ -1,1 +1,3 @@
 Recount: disabled
+Decursive: disabled
+HealBot: disabled

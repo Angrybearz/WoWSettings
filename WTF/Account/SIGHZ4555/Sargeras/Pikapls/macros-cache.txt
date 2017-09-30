@@ -35,7 +35,6 @@ VER 3 0100000000000008 " " "INV_MISC_QUESTIONMARK"
 END
 VER 3 0100000000000009 " " "INV_MISC_QUESTIONMARK"
 #showtooltip shadow dance
-/use 13
 /cast Shadow Dance
 END
 VER 3 010000000000000A " " "INV_MISC_QUESTIONMARK"
@@ -59,13 +58,10 @@ VER 3 010000000000000D " " "INV_MISC_QUESTIONMARK"
 /targetenemyplayer
 /cast sap
 END
-VER 3 010000000000000E " " "SPELL_NATURE_SWIFTNESS"
-/run local f=TargetFrameToT; f:SetMovable(true); f:EnableMouse(true); f:SetUserPlaced(true); f:SetScript("onmousedown", f.StartMoving); f:SetScript("onmouseup", f.StopMovingOrSizing);
-END
 VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"
-#showtooltip gouge
-/cast gouge
-/stopattack
+#showtooltip Umbral Moonglaives
+/use 13
+/use 14
 END
 VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
 #showtooltip Mutilate
@@ -85,4 +81,7 @@ END
 VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
 #showtooltip Vendetta
 /cast Vendetta
+END
+VER 3 0100000000000014 "SPEAR" "236286"
+/say SPEARED HEAL ME!!!
 END

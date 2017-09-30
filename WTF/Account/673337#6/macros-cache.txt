@@ -2,3 +2,6 @@ VER 3 0000000000000001 " " "INV_MISC_QUESTIONMARK"
 /tar Aeon
 /tar Tho'gar Gorefist
 END
+VER 3 0000000000000002 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('No spell available')
+END

@@ -5,3 +5,6 @@ OmniBar: disabled
 OmniBar_Options: disabled
 MikScrollingBattleText: disabled
 MSBTOptions: disabled
+HealBot: disabled
+Decursive: disabled
+SimpleILevel: disabled

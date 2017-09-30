@@ -1,7 +1,3 @@
-VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast Blood Horror
-END
 VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast Clone Magic
@@ -15,13 +11,17 @@ VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
 /cast Dark Soul
 /use 13
 END
-VER 3 0100000000000006 " f" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000004 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
-/cast [target=focus] Clone Magic
+/cast Blood Horror
 END
 VER 3 0100000000000002 " f" "INV_MISC_QUESTIONMARK"
 #showtooltip Optical Blast
 /cast [target=focus] Command Demon
+END
+VER 3 0100000000000006 " f" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus] Clone Magic
 END
 VER 3 0100000000000001 "Shards" "ABILITY_SHOOTWAND"
 /script WarlockPowerFrame:ClearAllPoints(); WarlockPowerFrame:SetPoint("CENTER", UIParent, "CENTER", 0, -100)

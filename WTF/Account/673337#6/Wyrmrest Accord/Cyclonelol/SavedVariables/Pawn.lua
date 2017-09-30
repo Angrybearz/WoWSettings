@@ -1,9 +1,10 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0209,
+	["LastVersion"] = 2.0213,
 	["LastPlayerFullName"] = "Cyclonelol-Wyrmrest Accord",
-	["AutoSelectScales"] = false,
+	["AutoSelectScales"] = true,
 	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
 	["Artifacts"] = {
 		[128306] = {
 			["Relics"] = {
@@ -22,8 +23,24 @@ PawnOptions = {
 			},
 			["Name"] = "G'Hanir, the Mother Tree",
 		},
+		[128858] = {
+			["Relics"] = {
+				{
+					["ItemLevel"] = 40,
+					["Type"] = "Arcane",
+				}, -- [1]
+				{
+					["ItemLevel"] = 40,
+					["Type"] = "Life",
+				}, -- [2]
+				{
+					["ItemLevel"] = 37,
+					["Type"] = "Arcane",
+				}, -- [3]
+			},
+			["Name"] = "Scythe of Elune",
+		},
 	},
-	["LastKeybindingsSet"] = 1,
 }
 PawnMrRobotScaleProviderOptions = {
 	["LastClass"] = "DRUID",

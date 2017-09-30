@@ -27,3 +27,10 @@ X: 0
 Y: -2
 W: 700
 H: 450
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 60
+W: 370
+H: 110

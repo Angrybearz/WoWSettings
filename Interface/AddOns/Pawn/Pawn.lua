@@ -7,7 +7,7 @@
 -- Main non-UI code
 ------------------------------------------------------------
 
-PawnVersion = 2.0209
+PawnVersion = 2.0214
 
 -- Pawn requires this version of VgerCore:
 local PawnVgerCoreVersionRequired = 1.09
@@ -3703,6 +3703,9 @@ end
 
 -- Called whenever the artifact UI is used.
 function PawnOnArtifactUpdated(NewItem)
+	-- Compatibility fix with AethysRotation and any other addon that scans artifacts at startup
+	if not PawnOptions then return nil end
+
 	-- Get details about this artifact and then cache them.
 	local ArtifactItemID, _, ArtifactName = C_ArtifactUI.GetArtifactInfo()
 	if not ArtifactItemID then return end
@@ -3757,6 +3760,8 @@ end
 -- This function does the same as C_ArtifactUI.GetItemLevelIncreaseProvidedByRelic, but provides two fixes:
 -- (1) It works in WoW 7.2, which the in-game method doesn't
 -- (2) It works on level-scaled relics, which GetItemStats doesn't
+--
+-- Also, this method ignores bonus item levels imbued by the Netherlight Crucible.
 local PawnTempRelicTable = {}
 function PawnGetItemLevelIncreaseProvidedByRelic(ItemLink)
 	local Parts = PawnTempRelicTable

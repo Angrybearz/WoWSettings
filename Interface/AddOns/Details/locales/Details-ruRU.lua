@@ -498,6 +498,10 @@ L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Авто-скрытие:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Использовать на всех персонажах"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "Профиль, используемый всеми персонажами. Вы можете изменить это на любом персонаже, просто выбрав другой профиль."
 --Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_ALWAYSSHOWPLAYERS_DESC"] = ""
+--Translation missing 
 -- L["STRING_OPTIONS_ANCHOR"] = ""
 L["STRING_OPTIONS_ANIMATEBARS"] = "Анимация полос"
 L["STRING_OPTIONS_ANIMATEBARS_DESC"] = "Включить анимацию для всех полос."
@@ -727,6 +731,10 @@ L["STRING_OPTIONS_DEATHLIMIT"] = "Счетчик смертей"
 L["STRING_OPTIONS_DEATHLIMIT_DESC"] = [=[Установить количество событий, отображаемых в мониторе смертей.
 
 |cFFFFFF00Важно|r: относится только к новым смертям после применения.]=]
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_DEATHLOG_MINHEALING_DESC"] = ""
 L["STRING_OPTIONS_DESATURATE_MENU"] = "Ненасыщенный"
 L["STRING_OPTIONS_DESATURATE_MENU_DESC"] = "Включив данную опцию, все иконки меню на панели инструментов станут черно-белыми"
 L["STRING_OPTIONS_DISABLE_ALLDISPLAYSWINDOW"] = "Отключить меню 'Все Мониторы'"
@@ -918,14 +926,16 @@ L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Открыть редактор текс
 L["STRING_OPTIONS_OVERALL_ALL"] = "Все сегменты"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Все сегменты идут в зачет всеобщих данных"
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Всеобщие данные:"
-L["STRING_OPTIONS_OVERALL_CHALLENGE"] = "Сбрасывать в режиме испытаний (эпох+)"
-L["STRING_OPTIONS_OVERALL_CHALLENGE_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда начинается новый режим испытаний (эпох+)."
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS"] = "Боссы подземелий"
 L["STRING_OPTIONS_OVERALL_DUNGEONBOSS_DESC"] = "Сегменты с боссами подземелий идут в зачет всеобщих данных."
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN"] = "Треш подземелий"
 L["STRING_OPTIONS_OVERALL_DUNGEONCLEAN_DESC"] = "Сегменты с трешем подземелий идут в зачет всеобщих данных."
 L["STRING_OPTIONS_OVERALL_LOGOFF"] = "Сбрасывать при выходе"
 L["STRING_OPTIONS_OVERALL_LOGOFF_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда вы выходите из игрового мира."
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS"] = ""
+--Translation missing 
+-- L["STRING_OPTIONS_OVERALL_MYTHICPLUS_DESC"] = ""
 L["STRING_OPTIONS_OVERALL_NEWBOSS"] = "Сбрасывать на новом боссе"
 L["STRING_OPTIONS_OVERALL_NEWBOSS_DESC"] = "Когда включено, всеобщие данные сбрасываются автоматически, когда начинается бой с другим рейдовым боссом."
 L["STRING_OPTIONS_OVERALL_RAIDBOSS"] = "Рейдовые боссы"
@@ -1535,7 +1545,7 @@ L["STRING_PLUGINOPTIONS_TEXTSTYLE"] = "Стиль текста"
 --Translation missing 
 -- L["STRING_QUERY_INSPECT_FAIL1"] = ""
 --Translation missing 
--- L["STRING_QUERY_INSPECT_TALENTS"] = ""
+-- L["STRING_QUERY_INSPECT_REFRESH"] = ""
 --Translation missing 
 -- L["STRING_RAID_WIDE"] = ""
 --Translation missing 
@@ -1620,9 +1630,20 @@ L["STRING_SEGMENT_ENEMY"] = "Враг"
 L["STRING_SEGMENT_LOWER"] = "сегмент"
 L["STRING_SEGMENT_OVERALL"] = "Всеобщие данные"
 L["STRING_SEGMENT_START"] = "Начало"
-L["STRING_SEGMENT_TIME"] = "Время"
 L["STRING_SEGMENT_TRASH"] = "Зачистка треша"
 L["STRING_SEGMENTS"] = "Сегменты"
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_BOSS"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_COMBATTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_OVERALL"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TIMEINCOMBAT"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TOTALTIME"] = ""
+--Translation missing 
+-- L["STRING_SEGMENTS_LIST_TRASH"] = ""
 --Translation missing 
 -- L["STRING_SHIELD_HEAL"] = ""
 --Translation missing 
@@ -1732,10 +1753,10 @@ L["STRING_VERSION_UPDATE"] = "новая версия: что изменилос
 L["STRING_WAITPLUGIN"] = [=[ожидание
 плагинов]=]
 L["STRING_WAVE"] = "волна"
-L["STRING_WELCOME_1"] = [=[|cFFFFFFFFДобро пожаловать в Details! С Вами - Мастер быстрой настройки 
+L["STRING_WELCOME_1"] = [=[|cFFFFFFFFДобро пожаловать в Details! С Вами - Мастер быстрой установки
 
-|rДанный гайд поможет Вам в настройке некоторых важных элементов.
-Заходите пропустить? Просто кликните в любой момент по кнопке "Пропустить".]=]
+|rЭто руководство поможет вам с некоторыми важными конфигурациями.
+Вы можете пропустить это в любое время, просто нажав на кнопку 'пропустить'.]=]
 L["STRING_WELCOME_11"] = "передумали? всегда сможете всё изменить в панели настроек"
 L["STRING_WELCOME_12"] = "Выберите как быстро будет обновляться окно, Вы также можете включить анимации и обновление ИВС и УВС в реальном времени"
 --Translation missing 
@@ -1748,7 +1769,7 @@ L["STRING_WELCOME_16"] = "Включить анимации"
 L["STRING_WELCOME_17"] = [=[Если включено, все полосы плавно движутся влево и вправо.
 
 |cffffff00Важно|r: Ютуберам и Стримерам может потребоваться для развлечения зрителей.]=]
-L["STRING_WELCOME_2"] = "если Вы передумаете, то всегда сможете это изменить в панели настроек"
+L["STRING_WELCOME_2"] = "если вы передумали, то вы сможете всегда снова \\nизменить в панели настроек"
 L["STRING_WELCOME_26"] = "Фишки интерфейса: Растягиватель"
 L["STRING_WELCOME_27"] = [=[Подсвеченная кнопка это Растягиватель. |cFFFFFF00Кликните|r и |cFFFFFF00потяните вверх!|r 
 
