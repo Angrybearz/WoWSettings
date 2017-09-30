@@ -1,0 +1,51 @@
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Slam
+/cast Berserker Stance
+/cast Slam
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Thunder clap
+/cast Battle Stance
+/cast Thunder clap
+END
+VER 3 010000000000000C " " "INV_MISC_QUESTIONMARK"
+#showtooltip Mortal Strike
+/cast Berserker Stance
+/cast Mortal Strike
+END
+VER 3 010000000000000E " " "INV_MISC_QUESTIONMARK"
+#showtooltip Bladestorm
+/cast Bladestorm
+/cancelaura Bladestorm
+END
+VER 3 010000000000000F " " "INV_MISC_QUESTIONMARK"
+#showtooltip Rend
+/cast Battle Stance
+/cast Rend
+END
+VER 3 0100000000000015 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Deadly Calm
+/cast Blood Fury
+END
+VER 3 0100000000000011 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Overpower
+/cast Battle Stance
+/cast Overpower
+END
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Colossus Smash
+/cast Berserker Stance
+/cast Colossus Smash
+END
+VER 3 0100000000000016 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Recklessness
+/cast Blood Fury
+END
+VER 3 0100000000000009 "VuhDoDCShieldData" "130"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000A "VuhDoDCShieldNames" "130"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Sig[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

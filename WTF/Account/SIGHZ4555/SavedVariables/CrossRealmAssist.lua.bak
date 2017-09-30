@@ -1,0 +1,13 @@
+
+CrossRealmAssistDB = {
+	["profileKeys"] = {
+		["Sighz - Sargeras"] = "Sighz - Sargeras",
+		["Beckyshmurda - Sargeras"] = "Beckyshmurda - Sargeras",
+		["Sighzzorz - Illidan"] = "Sighzzorz - Illidan",
+		["Resighzed - Sargeras"] = "Resighzed - Sargeras",
+		["Timeismoneyz - Zul'jin"] = "Timeismoneyz - Zul'jin",
+		["Wedemboys - Illidan"] = "Wedemboys - Illidan",
+		["Sarahshmurda - Sargeras"] = "Sarahshmurda - Sargeras",
+		["Pikapls - Sargeras"] = "Pikapls - Sargeras",
+	},
+}

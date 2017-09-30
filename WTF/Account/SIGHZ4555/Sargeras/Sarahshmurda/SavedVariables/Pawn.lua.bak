@@ -1,0 +1,25 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0211,
+	["LastPlayerFullName"] = "Sarahshmurda-Sargeras",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["LastKeybindingsSet"] = 1,
+	["Artifacts"] = {
+		[128403] = {
+			["Relics"] = {
+				{
+					["Type"] = "Fire",
+				}, -- [1]
+				{
+					["Type"] = "Shadow",
+				}, -- [2]
+			},
+			["Name"] = "Apocalypse",
+		},
+	},
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "DEATHKNIGHT",
+	["LastAdded"] = 1,
+}

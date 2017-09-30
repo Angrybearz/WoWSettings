@@ -1,0 +1,7 @@
+ConsLegion: disabled
+Decursive: disabled
+HealBot: disabled
+MikScrollingBattleText: disabled
+SimpleILevel: disabled
+Simulationcraft: enabled
+Skada: disabled

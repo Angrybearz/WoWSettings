@@ -1,0 +1,8 @@
+VER 3 0100000000000001 " " "INV_MISC_QUESTIONMARK"
+END
+VER 3 0100000000000002 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Mortal Strike
+/cast Mortal Strike
+/use 13
+/use 14
+END
